@@ -2,7 +2,8 @@ param(
     [Parameter(Mandatory=$true)][string]$InstancePath,
     [ValidateSet('ad_astra','extended_drawers','phonos')][string[]]$Book,
     [switch]$CheckOnly,
-    [switch]$Restore
+    [switch]$Restore,
+    [switch]$RecoverMissing
 )
 $ErrorActionPreference='Stop'
 Add-Type -AssemblyName System.IO.Compression.FileSystem
@@ -37,19 +38,46 @@ function Read-ZipHashes([string]$file){
     }finally{$zip.Dispose()}
     return ,$map
 }
+# A launcher may add whitespace or rename a JAR. Identify its Fabric mod ID,
+# then still require the exact original/installed checksum before changing it.
+$jarInventory=@(Get-ChildItem -LiteralPath $modsRoot -File|Where-Object {$_.Extension -ieq '.jar'}|ForEach-Object {
+    $jarFile=$_;$modId=$null;$archive=$null;$reader=$null
+    try{
+        $archive=[IO.Compression.ZipFile]::OpenRead($jarFile.FullName)
+        $metadata=$archive.GetEntry('fabric.mod.json')
+        if($metadata){$reader=[IO.StreamReader]::new($metadata.Open(),[Text.Encoding]::UTF8);$modId=($reader.ReadToEnd()|ConvertFrom-Json).id}
+    }catch{
+        # An unreadable unrelated JAR must not stop discovery. Expected names
+        # remain candidates and will fail the checksum/ZIP checks below.
+    }finally{if($reader){$reader.Dispose()};if($archive){$archive.Dispose()}}
+    [pscustomobject]@{Name=$jarFile.Name;ModId=$modId}
+})
 $plan=@();$found=0
 foreach($item in $manifest.books){
     if($Book -and $item.mod -notin $Book){continue}
     if(-not $allowed.ContainsKey($item.mod) -or $allowed[$item.mod] -ne $item.jar){throw 'Unsupported JAR target.'}
     if($item.jarSha256 -notmatch '^[a-f0-9]{64}$'){throw 'Invalid original JAR fingerprint.'}
-    $jar=Safe-Child $modsRoot $item.jar
-    if(-not (Test-Path -LiteralPath $jar -PathType Leaf)){Write-Output ('SKIP not installed: '+$item.mod);continue}
-    $found++
     $originalBackup=Join-Path $backupRoot ($item.mod+'-'+$item.jarSha256+'.jar.bak')
-    $recordPath=Join-Path $backupRoot ($item.mod+'.json');$currentHash=Hash-File $jar;$record=$null
-    if(Test-Path -LiteralPath $recordPath){$record=Get-Content -LiteralPath $recordPath -Raw|ConvertFrom-Json}
-    $source=$jar
-    if($currentHash -ne $item.jarSha256){
+    $recordPath=Join-Path $backupRoot ($item.mod+'.json');$record=$null
+    if(Test-Path -LiteralPath $recordPath){$record=Get-Content -LiteralPath $recordPath -Raw -Encoding UTF8|ConvertFrom-Json}
+    $candidates=@($jarInventory|Where-Object {$_.Name.Trim() -ieq $item.jar -or $_.ModId -eq $item.mod})
+    if($candidates.Count -gt 1){throw ('Multiple JARs for '+$item.mod+'; no changes made: '+(($candidates|ForEach-Object {'['+$_.Name+']'}) -join ', '))}
+    $missing=$false;$source=$null;$currentHash=$null
+    if(-not $candidates.Count){
+        if($RecoverMissing -and $record){
+            if($record.originalHash -ne $item.jarSha256 -or -not (Test-Path -LiteralPath $originalBackup -PathType Leaf) -or (Hash-File $originalBackup) -ne $item.jarSha256){throw ('Missing JAR cannot be recovered: original backup checksum mismatch for '+$item.mod)}
+            $jar=Safe-Child $modsRoot $item.jar;$source=$originalBackup;$missing=$true
+            Write-Output ('RECOVERY planned from verified original backup: '+$item.mod)
+        }elseif($record -and -not $record.restored){
+            throw ('Previously installed JAR is now missing: '+$item.mod+'. No changes made. Check the launcher/mods folder; original backups remain in '+$backupRoot+'. To explicitly recover it, use -RecoverMissing.')
+        }else{Write-Output ('SKIP not installed: '+$item.mod);continue}
+    }else{
+        $jar=Safe-Child $modsRoot $candidates[0].Name
+        if($candidates[0].Name -cne $item.jar){Write-Output ('FOUND renamed JAR: '+$item.mod+' ['+$candidates[0].Name+']')}
+        $currentHash=Hash-File $jar;$source=$jar
+    }
+    $found++
+    if(-not $missing -and $currentHash -ne $item.jarSha256){
         if(-not $record -or $record.installedHash -ne $currentHash -or -not (Test-Path -LiteralPath $originalBackup) -or (Hash-File $originalBackup) -ne $item.jarSha256){throw ('Unexpected JAR checksum; no changes made: '+$item.mod)}
         $source=$originalBackup
     }
@@ -61,15 +89,15 @@ foreach($item in $manifest.books){
             $payload=Safe-Child (Join-Path $packageRoot ('payload/'+$item.mod)) $file.path
             if((Hash-File $payload) -ne $file.sha256){throw ('Translation payload hash mismatch: '+$file.path)}
         }
-        if($source -ne $jar){
+        if(-not $missing -and $source -ne $jar){
             $existing=Read-ZipHashes $jar;$identical=$true
             foreach($file in $item.files){if($existing[$file.path] -ne $file.sha256){$identical=$false}}
             if($identical){Write-Output ('ALREADY INSTALLED: '+$item.mod);continue}
         }
     }
     # Verify the game has released this exact JAR; unrelated Java servers are fine.
-    $lock=[IO.File]::Open($jar,[IO.FileMode]::Open,[IO.FileAccess]::Read,[IO.FileShare]::None);$lock.Dispose()
-    $plan+=@{item=$item;jar=$jar;source=$source;currentHash=$currentHash;backup=$originalBackup;record=$recordPath}
+    if(-not $missing){$lock=[IO.File]::Open($jar,[IO.FileMode]::Open,[IO.FileAccess]::Read,[IO.FileShare]::None);$lock.Dispose()}
+    $plan+=@{item=$item;jar=$jar;source=$source;currentHash=$currentHash;backup=$originalBackup;record=$recordPath;missing=$missing}
 }
 if(-not $found){throw 'No supported JARs found. Check the instance path and modpack version.'}
 if(-not $plan.Count){Write-Output 'No changes required.';return}
@@ -107,11 +135,16 @@ foreach($step in $plan){
             if(-not (Test-Path -LiteralPath $step.backup)){[IO.File]::Copy($step.source,$step.backup,$false)}
             if((Hash-File $step.backup) -ne $item.jarSha256){throw 'Original backup checksum mismatch.'}
         }elseif((Hash-File $temp) -ne $item.jarSha256){throw 'Restored file is not the original JAR.'}
-        if((Hash-File $step.jar) -ne $step.currentHash){throw 'JAR changed while preparing installation.'}
-        $transactionBackup=Join-Path $backupRoot ($item.mod+'-before-'+[guid]::NewGuid().ToString('N')+'.bak')
         $installedHash=Hash-File $temp
-        [IO.File]::Replace($temp,$step.jar,$transactionBackup)
-        @{mod=$item.mod;originalHash=$item.jarSha256;installedHash=$installedHash;restored=[bool]$Restore;updatedAt=(Get-Date).ToString('o')}|ConvertTo-Json|Set-Content -LiteralPath $step.record -Encoding UTF8
+        if($step.missing){
+            # Move fails if anything has appeared at the target in the meantime.
+            [IO.File]::Move($temp,$step.jar)
+        }else{
+            if((Hash-File $step.jar) -ne $step.currentHash){throw 'JAR changed while preparing installation.'}
+            $transactionBackup=Join-Path $backupRoot ($item.mod+'-before-'+[guid]::NewGuid().ToString('N')+'.bak')
+            [IO.File]::Replace($temp,$step.jar,$transactionBackup)
+        }
+        @{mod=$item.mod;jarName=[IO.Path]::GetFileName($step.jar);originalHash=$item.jarSha256;installedHash=$installedHash;restored=[bool]$Restore;updatedAt=(Get-Date).ToString('o')}|ConvertTo-Json|Set-Content -LiteralPath $step.record -Encoding UTF8
         Write-Output ((@{True='RESTORED';False='INSTALLED'}[[string][bool]$Restore])+': '+$item.mod)
     }finally{
         # This is a single, explicitly created .tmp file; backups are retained.

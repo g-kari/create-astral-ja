@@ -17,25 +17,39 @@ Create: Astral **2.1.5b / Minecraft 1.18.2**用です。通常版リソースパ
 3. そのフォルダーをPowerShellで開き、インスタンスの場所を指定して確認します。指定先は `mods` フォルダーの1つ上です。
 
 ```powershell
-.\Install-Japanese-Books.ps1 -InstancePath 'C:\Minecraft\CreateAstral' -CheckOnly
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\Install-Japanese-Books.ps1" -InstancePath 'C:\Minecraft\CreateAstral' -CheckOnly
 ```
 
 4. `CHECK OK` を確認して実行します。
 
 ```powershell
-.\Install-Japanese-Books.ps1 -InstancePath 'C:\Minecraft\CreateAstral'
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\Install-Japanese-Books.ps1" -InstancePath 'C:\Minecraft\CreateAstral'
 ```
 
 5. Minecraftを起動し、言語を日本語にして、本を開き直します。
 
-必要な本だけなら `-Book ad_astra`、`-Book extended_drawers`、`-Book phonos` を追加できます。存在しない対象MODはスキップします。異なる版・変更済みの不明なJARはハッシュ検査で拒否し、上書きしません。
+必要な本だけなら `-Book ad_astra`、`-Book extended_drawers`、`-Book phonos` を追加できます。未導入の対象MODはスキップします。先頭に空白がある名前や、別名のJARもMOD IDから検出し、名前は変更しません。異なる版・変更済みの不明なJARは引き続きハッシュ検査で拒否します。同じMODのJARが複数ある場合も停止します。
+
+上記の `-ExecutionPolicy Bypass` は、この実行で起動するPowerShellにだけ適用します。PCの実行ポリシーを恒久的に変更するものではありません。[Microsoft公式説明](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-5.1)
+
+## 以前導入したJARが見つからない場合
+
+v0.4.1から、導入記録があるのにJARが見つからない場合は、そのままスキップせず停止します。Minecraftとランチャーを終了し、まず `mods` 内で別名や無効化の有無を確認してください。消えた原因はこのツールでは特定できません。
+
+元に戻したい場合は、`-RecoverMissing` を明示して実行します。インスタンス内の既存バックアップを対象版のSHA-256と照合し、見つからないJARだけを原本から再構築して日本語JSONを追加します。バックアップが不正な場合や、復元先に別ファイルが出現した場合は停止し、上書きしません。
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\Install-Japanese-Books.ps1" -InstancePath 'C:\Minecraft\CreateAstral' -RecoverMissing
+```
+
+確認だけなら `-CheckOnly` も追加できます。v0.4.0で作成したバックアップと導入記録も利用できます。バックアップフォルダーは移動・削除せず、そのまま残してください。
 
 ## 元に戻す
 
 Minecraftを終了して、同じインスタンスに対して実行します。
 
 ```powershell
-.\Install-Japanese-Books.ps1 -InstancePath 'C:\Minecraft\CreateAstral' -Restore
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\Install-Japanese-Books.ps1" -InstancePath 'C:\Minecraft\CreateAstral' -Restore
 ```
 
 原本はインスタンス内の `.create-astral-ja-books-backups` に保存します。復元まで削除しないでください。導入後にランチャー等がMODを更新した場合、不明な変更を上書きしないよう復元を拒否します。バックアップと対象版を確認してください。

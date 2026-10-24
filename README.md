@@ -4,17 +4,19 @@ Minecraft Java 1.18.2 / Create: Astral **2.1.5b**向けの非公式日本語化�
 
 クエストの説明、独自アイテム名、ツールチップ、思案の説明、加工カテゴリを収録しています。MOD本体・レシピ・クエストの条件や報酬・ワールドには変更を加えません。各MOD自身が提供する日本語訳は、そのまま併用します。
 
-**v0.4.0では、26 MODの説明・ツールチップなど678項目を追加しました。** 通常配布分は6,806項目です。効果・操作方法・設定の説明を優先し、アイテム名は今回追加していません。さらに3冊・215項目の説明書パッチをクライアント用に別配布します。全配布物では7,021項目です。[対応範囲と残り](COVERAGE.md)を公開しています。
+**v0.4.1では、26 MODの説明・ツールチップなど678項目を追加しました。** 通常配布分は6,806項目です。効果・操作方法・設定の説明を優先し、アイテム名は今回追加していません。さらに3冊・215項目の説明書パッチをクライアント用に別配布します。全配布物では7,021項目です。[対応範囲と残り](COVERAGE.md)を公開しています。
+
+v0.4.1ではBooks版のJAR検出を修正し、先頭空白・別名ファイルへの対応と、確認済みバックアップからの明示的な復元を追加しました。翻訳内容はv0.4.0と同じです。通常版v0.4.0や既存のサーバー配信はそのまま使えます。
 
 ## ダウンロード
 
-[v0.4.0 リリース](https://github.com/g-kari/create-astral-ja/releases/tag/v0.4.0)
+[v0.4.1 リリース](https://github.com/g-kari/create-astral-ja/releases/tag/v0.4.1)
 
 | ファイル | 用途 |
 | --- | --- |
-| `Create-Astral-2.1.5b-Japanese-v0.4.0.zip` | クエスト・Hephaestusの本6冊・追加のMOD表示。サーバーから配信可能 |
-| `Create-Astral-2.1.5b-Japanese-Menu-v0.4.0.zip` | タイトルメニューの日本語化。クライアント用 |
-| `Create-Astral-2.1.5b-Japanese-Books-v0.4.0.zip` | Astrodux・Extended Drawers・Phonosの説明書。クライアント用の導入ツール付き |
+| `Create-Astral-2.1.5b-Japanese-v0.4.1.zip` | クエスト・Hephaestusの本6冊・追加のMOD表示。サーバーから配信可能 |
+| `Create-Astral-2.1.5b-Japanese-Menu-v0.4.1.zip` | タイトルメニューの日本語化。クライアント用 |
+| `Create-Astral-2.1.5b-Japanese-Books-v0.4.1.zip` | Astrodux・Extended Drawers・Phonosの説明書。クライアント用の導入ツール付き |
 | `server-resource-pack.properties` | サーバー配信用のURL・SHA-1設定例 |
 | `*.sha1` / `*.sha256` | 配布ZIPのハッシュ |
 
@@ -37,7 +39,7 @@ Minecraft Java 1.18.2 / Create: Astral **2.1.5b**向けの非公式日本語化�
 リリースにある `server-resource-pack.properties` の各項目を、サーバーの `server.properties` に反映し、都合のよいときに再起動してください。この設定例を `server.properties` 全体に上書きしないでください。
 
 ```properties
-resource-pack=https://github.com/g-kari/create-astral-ja/releases/download/v0.4.0/Create-Astral-2.1.5b-Japanese-v0.4.0.zip
+resource-pack=https://github.com/g-kari/create-astral-ja/releases/download/v0.4.1/Create-Astral-2.1.5b-Japanese-v0.4.1.zip
 resource-pack-sha1=配布したZIPのSHA-1
 require-resource-pack=false
 ```
