@@ -145,6 +145,7 @@ foreach($step in $plan){
             [IO.File]::Replace($temp,$step.jar,$transactionBackup)
         }
         @{mod=$item.mod;jarName=[IO.Path]::GetFileName($step.jar);originalHash=$item.jarSha256;installedHash=$installedHash;restored=[bool]$Restore;updatedAt=(Get-Date).ToString('o')}|ConvertTo-Json|Set-Content -LiteralPath $step.record -Encoding UTF8
+        if(-not (Test-Path -LiteralPath $step.jar -PathType Leaf) -or (Hash-File $step.jar) -ne $installedHash){throw ('JAR changed or disappeared after writing: '+$item.mod+'. Close the launcher and inspect the mods folder. Original backups remain in '+$backupRoot)}
         Write-Output ((@{True='RESTORED';False='INSTALLED'}[[string][bool]$Restore])+': '+$item.mod)
     }finally{
         # This is a single, explicitly created .tmp file; backups are retained.
