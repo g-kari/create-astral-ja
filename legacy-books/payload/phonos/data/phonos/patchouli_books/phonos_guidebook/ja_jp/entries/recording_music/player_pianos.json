@@ -1,0 +1,32 @@
+{
+  "name": "自動演奏ピアノ",
+  "category": "phonos:recording_music",
+  "icon": "phonos:player_piano",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "phonos:player_piano",
+      "title": "自動演奏ピアノ",
+      "link_recipe": false,
+      "text": "曲を作ったら、自動演奏ピアノを作りましょう。ピアノロールを入れて信号を与えると、曲を演奏します。無線版なら、スピーカーへ放送できます。自分でピアノを弾いてみることもできます。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "phonos:textures/gui/gallery/radio_player_piano.png"
+      ],
+      "title": "写真",
+      "border": true,
+      "text": "曲を演奏する、無線自動演奏ピアノです。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "phonos:player_piano"
+    },
+    {
+      "type": "crafting",
+      "recipe": "phonos:radio_player_piano"
+    }
+  ]
+}

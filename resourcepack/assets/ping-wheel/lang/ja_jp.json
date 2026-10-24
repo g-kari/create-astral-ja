@@ -1,0 +1,6 @@
+{
+  "ping-wheel.settings.channel.tooltip": "同じチャンネルのプレイヤーとの間だけで、目印を送受信します。",
+  "ping-wheel.command.config.description": "目印メニューの設定を管理します",
+  "ping-wheel.command.channel.get.description": "現在のチャンネルを表示します",
+  "ping-wheel.command.channel.set.description": "チャンネルを設定します。全体用にするには \"\" を指定してください"
+}

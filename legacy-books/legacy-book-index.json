@@ -1,0 +1,1741 @@
+{
+  "schema": 1,
+  "minecraft": "1.18.2",
+  "patchouli": "1.18.x legacy classpath books",
+  "loaderSource": "https://github.com/VazkiiMods/Patchouli/tree/3e00fbce0d46642c122ad569158b6ac1871c2522",
+  "books": [
+    {
+      "id": "ad_astra:astrodux",
+      "mod": "ad_astra",
+      "version": "1.0.9",
+      "jar": "ad_astra-fabric-1.18.2-1.0.9.jar",
+      "jarSha256": "c1aa1784f329cb267beb20442e2cc2663fdf9a9b9b282bffc74f66a2893fd0ae",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/categories/surviving_mars.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/categories/surviving_mars.json",
+          "sourceHash": "b4149c290c2775f337bf16b14ce7e5596c80a63a25be2b098a4b2295e9696dc0",
+          "structureHash": "cb239b4b745b2c844b1fec93bb6ff676becc737aac64edfc7cf815b3e9df4156",
+          "sha256": "b5c9e7edbb3d662be974f5bd5d8b17b088303378720262def774704eb1fc487f",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "89f657192d20afd703983d7dbc2bdd425f5d6803abdbd971ce4212096bc26423",
+              "macros": []
+            },
+            {
+              "pointer": "/description",
+              "sourceHash": "920daee7b7fe92139521ec954f25fb63408dc407daed054eff9dc77f96bfd99e",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/categories/the_first_launch.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/categories/the_first_launch.json",
+          "sourceHash": "67513809797d77baa0e0e9d7cf4d9bdbc5988dc9dcfa0cd6c0bc33989e28ccce",
+          "structureHash": "b5f4af83b38ad776346eb88abf328fdc3dea91176d969a2f19e347a604047a3f",
+          "sha256": "eabdc9e45e7df85d9d17cb26a642d1b0760cc73d714cd341e0b52a08cf8f6d86",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "d6eca83763da052f6624d691e35898383fbcbedc2ac455000aa2c5d6e5169a76",
+              "macros": []
+            },
+            {
+              "pointer": "/description",
+              "sourceHash": "9d05a32ff3d392fd6b3d404d20f13ebb45153c60342ae174343500303e8378da",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/categories/the_hot_planets.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/categories/the_hot_planets.json",
+          "sourceHash": "236fac86c4a8dc9363471fbee670d446c3f3b1bce99c50c4e00ffc6ca597144d",
+          "structureHash": "51d9de7640bd7d43a1e81f4641a69431e507f90f16752b3b46e4e7b519314cbc",
+          "sha256": "d632afd6e2f4aabc14f8d68504560cb401985b607a27a5e2fd249d4cbec2b5f0",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "d1c5652af272f263470ceebd474251fc9862d15e9d8466f88029df5b1014d4f1",
+              "macros": []
+            },
+            {
+              "pointer": "/description",
+              "sourceHash": "1dfaab383c17d8515d1f7ed8fecaf1722d915efb8677fb383f109e9c70698e25",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/categories/the_moon.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/categories/the_moon.json",
+          "sourceHash": "872c1af52352b59a7ef405f7e2aeb5949c7377dec24ff85270f28e93bcc3d1d5",
+          "structureHash": "04291e02f4a12c4f23cef5c3322f114d22747525fc3c0c3c1161ec0626eb104c",
+          "sha256": "84ac7a0996777a366781b17fe215b372766dcb9b8e1d99d6e794a9194f15150b",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "6c5979adcf7a0e51cae20f960b62bef851aaa94d5961396f9f857505cbe150f7",
+              "macros": []
+            },
+            {
+              "pointer": "/description",
+              "sourceHash": "a45669cefd480bb0415e970bf23ada750009a5f3219947fd89c669a17dd10275",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/surviving_mars/better_fuel.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/surviving_mars/better_fuel.json",
+          "sourceHash": "2284ffedb081668ea04c4852d113ce2b74f0e1741e7ac3784380b53217ae6cfe",
+          "structureHash": "65fd6db8d6dd10437f5c60298ed3663bbb04ff9cde3da19ec76ae15630a50c8d",
+          "sha256": "bb72cfeacd991b3b57477cbe4c4db202ffc183a439a57e343a0a63a593409d36",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "753eb4e1c4e1c3d37c138a60959eda5cc86ebe2288d40a0492534f4f91cbf4bb",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "ffdbf4f2a1c8bf5709ac45c917e75b5242d1f11396245f1f2bc5a95f2b84afbc",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "26077e7ad14cc5e5248007a3b5c3c71131e4940864168bd3de2434cc5f2e29f8",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "eb146a3b92de3b2f2a9c66e00e41d6637fd12c9a13edf402a953eff06df38bc4",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/3/title",
+              "sourceHash": "031a8891fd8fd4841ce77c16d8742cf6f93258105b454c3a7109f2ac67b37b28",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/3/text",
+              "sourceHash": "040feb48226c956f796721f81d0eae1159df5149c7632cf929a949b54e290c78",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/surviving_mars/energizer.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/surviving_mars/energizer.json",
+          "sourceHash": "23ed6e4d3b6e8e6d82d274d553c9df7cbc21800ce679ed39ad929b55be893ae7",
+          "structureHash": "e1db4fda0c072ce0a9f1116e93c704500ede95c4151815ded8d35fba88dad275",
+          "sha256": "663b6c796ca8664f3caa739d9326b4ec8d19240dfdbd99f4df83fd74cd61225b",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "fa052ebab05f3550a8ed77c931847f1d9cbe3c99a91ed0e6d484c0c92ed8ab69",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "fa052ebab05f3550a8ed77c931847f1d9cbe3c99a91ed0e6d484c0c92ed8ab69",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "6a5a356bbf9492010112248011be577ad6f940a9c1081c293b5d30fef1c9719c",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/surviving_mars/fluid_pipes.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/surviving_mars/fluid_pipes.json",
+          "sourceHash": "892047901cad4196d26c8a46acf99da8711583ede7cb04bf58196be1abadc1ad",
+          "structureHash": "af48ecc1b30429eb3d07778e65d9de0ea916f7274c74a55e8998c3905ce1c934",
+          "sha256": "7f1d4d42d5bc23835a5a034f27a1c80ca292d2e871b718a171d1b4e891fe0256",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "0a670cf30eba665c38390bf8d0eaaf82d6776a32455a568f18dc765fa1b73edc",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "0a670cf30eba665c38390bf8d0eaaf82d6776a32455a568f18dc765fa1b73edc",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "c97dd1d1838208a20b21a217de7d22fa773dbbb1077261073d059977163d710d",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "4df4cef24106a1ef97ff14bc343089287fdf7f78c78edb44b561862f51cd2707",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/surviving_mars/netherite_space_suit.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/surviving_mars/netherite_space_suit.json",
+          "sourceHash": "9397902852560793aa07a240a1f439b1b4775b4d987f59cf17b981bd29d58e13",
+          "structureHash": "920483ba136fa407e7982b08885ebc6c4e03d5e97e2925a24d4fd4dfff1be5ff",
+          "sha256": "309c9a683a73cfbe930f88b5e011fa13875a6225de275008675bee34c47af797",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "85565230ea79308576d5b67e64cbef0a54d167cded933136b039f09aca036079",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "85565230ea79308576d5b67e64cbef0a54d167cded933136b039f09aca036079",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "bf463e0ca43f44d8ee7938e6f30bf0a930955618af14d59f29627decc1ade9bc",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/surviving_mars/trophies.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/surviving_mars/trophies.json",
+          "sourceHash": "e3db4555dbc334ced401aa02c31c5d78393f763ff23f9b29ddf1bb1d44bc0824",
+          "structureHash": "130ef4de1958b1cf654fb8eb1d9092aebf311a6dda110ec845e5baa09c66dce7",
+          "sha256": "8eacdc51bca010ecc5a81aaf5bc41982e9e138a04a5269d2cbaffb26af3304ba",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "8a925df9f049ff4ed5d839d6b4e7386d0ff628c945907c4d6241ae5a5bb7a8f4",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "9ab1ee6dce97d25472e6f9fe5070027b7782b84a10e9878b6dd6bce39f0d8401",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "9ee4b6576952c8689667320c045296721f715e37e511309e46d68c5abc1deee5",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "0c7f152e96e4e71262c6e2c77cdd71f7b0b269f8bc79c62286ed5db7a3c81eb3",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "95004315bd8398700e384df21ac4dd83aad5620fa942ba9a25c08c7407892f18",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/surviving_mars/venus_and_mercury.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/surviving_mars/venus_and_mercury.json",
+          "sourceHash": "ddffb6df1e7394d1c0c3199c652ed88e3b11a81a0f577e12be52e515cffe0b3d",
+          "structureHash": "82c487fb5cce77f87e6bc9ed6d2710992171240b662a00fc7298076ef486afcc",
+          "sha256": "da16430526dde57d32a617a09d79754c3e02b967d4dac2b3b417243c2933e6ca",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "342586d61a1d46163ad82dae3dc5b29691910fc48a89de34d6125bbf2dea6008",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "30d6a045423f19c04389699cc8cf938ca1612f882d040dad513163cd2570f570",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "0ca8502fbe6aaebe98ac9234a4eaa31ed22369ef944107b5f5832a95688a86dd",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "2b7ee4b92385bc1cad914346f53f5063ff343a2fd5437139ab2dada2efae1473",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/the_first_launch/basic_materials.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/the_first_launch/basic_materials.json",
+          "sourceHash": "38b1de10520cc2bbc9f25b15e2d6791c827651911caba76b3fc3ce821a337c81",
+          "structureHash": "f9068c384045d47276b30de12c32fc4ebdbf4b25209ab57c5ee4496ad6e6c153",
+          "sha256": "3212b613e560f820f6c1dad6100f53a4aa2300a37efc2d5d495c11d312927aeb",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "f380d30f8481b984621452835584792ce119bc8c4fd19bc2bff61812052f6f83",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "c1ccbe05ee7c7a6b8e6fcec36266cd108586b89200790643b0d69311b142e8ca",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "3d5145dd147519bec0e2c023b8e2b205e1296064d8e15a3790e7b436e6fa43f2",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "3b30609728f85a9d57cb31c29a9cfac65177f47b03e59bb2a286f0cbe2a15326",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/2/title",
+              "sourceHash": "32705a2b0055a9cde2cdfb34173b386f42ec47542770aad68f3a0b09684503b2",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/2/text",
+              "sourceHash": "2b8d2dd0ccdb0e1fe50546c972506a4b47c5c2839a06ed461385f15f48bcd80d",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/3/title",
+              "sourceHash": "99e44f232d0e3b5d113465392d6e9f9cff3214211c5bac626f4158ac9761d677",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/the_first_launch/fuel.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/the_first_launch/fuel.json",
+          "sourceHash": "4e5fe67e0c6cd960927e1bf70268febacd00865ca3de24c7ed03bb0d3360b9f5",
+          "structureHash": "c6d20f4cd227bc6d66867b29debd43f82240bc2de17844f88ac69662963c6145",
+          "sha256": "ed465ff36e30c0c6b8f2000d97aee08e851539ffcabb7eb4d949e4d9b3c1c6fe",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "a80f942f4112036dfc2da86daf6d2ef6ede3164dd56d1000eb82fa87c992450f",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "f30cf3c21b20f86bc399eee65ed954588b2a60d3326fbf33499963c9ac5104b3",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "77c243c72a79f9ebb1b827feaf584224fd1b876b682fcdb8de549b543ace9e1e",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "cac835415df9af45eeb2ba293684d5ced72cd75aedc1f886b73c0ecb8c2c9920",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/2/title",
+              "sourceHash": "77c243c72a79f9ebb1b827feaf584224fd1b876b682fcdb8de549b543ace9e1e",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/2/text",
+              "sourceHash": "f3c83cde31dc4d35fc9f68428270f62a6926b7c0c5cdc4d8f5b649a7f891f1a5",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/3/title",
+              "sourceHash": "536d178cc4c6b1eb2d156570cff2bf4dc6639eb98dcf637f2d64cfbc107c5391",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/3/text",
+              "sourceHash": "1b51f1faf527c8c5d4e2936c1bd9a6f9632bf26c6209adc5869e67c82542a6db",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/the_first_launch/oxygen.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/the_first_launch/oxygen.json",
+          "sourceHash": "f9d83d608092508aa0485e31dc695bff2154d58abf718447b45c89e44200df09",
+          "structureHash": "6666c9ae2ce40436e395580b1b104880e69bf0959f6a6dd4f4d2f76e6f19261c",
+          "sha256": "ccbb75b806e5be8f6e89c28e37d45f68be53d7784707f9b46137554a75322393",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "943077f0507ddf71e79a6b07cdc9a1f452bab07502be36ba125a6f5250038012",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "4fa9a100e0b58535816e2ef66c194c61aa56663d9fb9bbfee71c83532a199f9b",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/3/title",
+              "sourceHash": "943077f0507ddf71e79a6b07cdc9a1f452bab07502be36ba125a6f5250038012",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/3/text",
+              "sourceHash": "5fa97416ad0afe7bfacd9895e7f66f157fef2bec3d56e5ff53e770682b1ced22",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/4/title",
+              "sourceHash": "254051eb6475f8500f60d638e3810d49669ca2cc02e82bbb4db89811f71fc89d",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/4/text",
+              "sourceHash": "1cf3baaa3a71bf50320cedf936a425843090fb21219b8060eae6efde7be54ed0",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/the_first_launch/preparing_to_launch.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/the_first_launch/preparing_to_launch.json",
+          "sourceHash": "82576d785fd1c8cbfe75ecac3214b0b39db87694bfb72056409fb2fd2a570f00",
+          "structureHash": "d4fa8b15913631335b073088d1d51ca27e9ae9f3d14d1a8aff83b551ffc9bc1b",
+          "sha256": "649780108600570ca545e373c3fe6dcbe821e7a7633a8b8377676a4e9ac2ec2c",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "759222078c7f3b212070024408a3dad02a70924929f788b6844607f15c2bf844",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "703c82f4b0a2e1323c6507e721ffc087eb23e7fd926c93e0223c50bd4bf1f036",
+              "macros": [
+                "$(#ff0000)",
+                "$()",
+                "$(br2)"
+              ]
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "cc022b22dacc093d5f52e7969a7dd9d6aa8e8ddb6e7b8a83f455788158b6c29e",
+              "macros": [
+                "$(k:jump)"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/the_first_launch/the_moon.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/the_first_launch/the_moon.json",
+          "sourceHash": "8c3ae157f73a393a83d168c0af4b891781102dfcdbd9ec898edd797bf9053cde",
+          "structureHash": "0b44314704033c3232f7f0c017fed67159e124071b87a73bae3b942e223678b2",
+          "sha256": "e82623b6b87dba1ea785a8a4b0f7fb54652b7aa09bc3f83b7316d12ce3b2c90a",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "6c5979adcf7a0e51cae20f960b62bef851aaa94d5961396f9f857505cbe150f7",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "6c5979adcf7a0e51cae20f960b62bef851aaa94d5961396f9f857505cbe150f7",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "09744b2ad4d003fad84f8a86b13178ee70ca36d3a435d811f5842052ac7f194b",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "b66fa9930ef6eb293cb9ae2026dbdfce64ade3acf9b6b208a68a3386ba09fb94",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "15ad696ecbe69fdec25b22e0bfd02794b157e118506f54adf2d0f53324b740b0",
+              "macros": [
+                "$(k:jump)"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/the_first_launch/your_first_rocket.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/the_first_launch/your_first_rocket.json",
+          "sourceHash": "2aff5035ac74ecbac63dffb8a714049f32f613a160dbc30b3677c1501adafd61",
+          "structureHash": "ea8f99c6631360c2c5add10cd2f9da05fa06b72f4e98f8091da981ae17a720d3",
+          "sha256": "552a112f82ade0220b091226e3d82386b59917a3e558dc7d852d7c8719660915",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "0ce25d10b4a5c7b1ee0e5048a9a01f404b3e7882f95f294b33403adcf237987f",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "26689f88af14440847087400ae8d3d219ccfa126b03b6f1840f65eb4f4fa42da",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "f82ddbaeb07c3718cb6bc0dd8c45ba2a011283212eb992ad7a7cfca388cf1029",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "26689f88af14440847087400ae8d3d219ccfa126b03b6f1840f65eb4f4fa42da",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/2/text",
+              "sourceHash": "85240ac97e209166291701e52d6d659af5484cc9533fde91d41fd0ae1918934d",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/3/title",
+              "sourceHash": "08c9188c5d641e944ca3c674f027a1c0186d00f69d1079c8ba1417aa6bfa2d51",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/3/text",
+              "sourceHash": "61a9057757f73e7d0eb1b21f0037338710f2cc5363aa5389d526b60b7f1c98fd",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/the_hot_planets/jet_suit.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/the_hot_planets/jet_suit.json",
+          "sourceHash": "fa29cf6db82e591033e8cb30a0b4c32a06b4daae10662f0de4a337d55c9bb996",
+          "structureHash": "a2773e0350952be1ff156e488e5f6a97cd5fdbab9bf10075e08a5acc67cfaa4d",
+          "sha256": "ad64485c14a8d7c81a1e93ce36fd03ab26f6ace8328efdb7db028f0c3f1c1399",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "82f992ba424787dc2d2585259a47114c06983fb04ecf738256f41bd445396b2d",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "82f992ba424787dc2d2585259a47114c06983fb04ecf738256f41bd445396b2d",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "c19e3c81e33e42eed4953c724075f660ffb42c98181d2d600cafa5d648bcafda",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "6912ced14d30c156c20104570169d424d9bb7fee48338013dcb001716892a479",
+              "macros": [
+                "$(k:jump)",
+                "$(k:jump)",
+                "$(k:sprint)"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/the_hot_planets/proxima_centauri.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/the_hot_planets/proxima_centauri.json",
+          "sourceHash": "766e70bd8f60350378ae3aa91bf3eca826b870b2a2ff91224d95d34340c826ed",
+          "structureHash": "20affd76930324b219b8b27044bb9cdf567335160db5d03d8dc9290bfe231c6d",
+          "sha256": "1e3cd9257cd3ffe2338f2a52aa8cfb8f3920c5b47f6e4d08a13d42e648adde9e",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "07ddace0bcc6908123747edebd7d0d5cac6700dd2df274e9351cac29beebcbe8",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "07ddace0bcc6908123747edebd7d0d5cac6700dd2df274e9351cac29beebcbe8",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "b581038a4d50e613bdf12bd5935c4d281ce697732746cf9ec4219a5cdcf2ac94",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "e85d6dccb2429e53eb5582672c743ba38e9d5f77c971d35f7c8d6b1564352e29",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/the_moon/cables.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/the_moon/cables.json",
+          "sourceHash": "88c3dc20df85aac7a21dc27222893e15ced4f00e00f2bfac51c0300e8503700b",
+          "structureHash": "49e6b64fad54730769789d6fb8481f1f81a7c7d0386c140115c89700c5a11395",
+          "sha256": "2f4f04c3b2a6f4af4f1a3c15ccade806c5f2013dbd0cae238571e92e1e78cf2c",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "2f75d2e1c15cf7eae71fc3e3032d0ca1b802adf33e9d6dbaf173cbcb384c6e3e",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "2f75d2e1c15cf7eae71fc3e3032d0ca1b802adf33e9d6dbaf173cbcb384c6e3e",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "17b3a19d5ed727250472c2f014f7e8e72e02e185d60822fe8beff76c76da4d7d",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/the_moon/lunarians.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/the_moon/lunarians.json",
+          "sourceHash": "bf0684d81f8e0d9bf4f1f3cf6459b7d08c34250e1c8031a327d544673df8d859",
+          "structureHash": "7ba213dbc7980cd40123f9bf851a7a16e04feba5850e617ad3bf3c5819f77978",
+          "sha256": "5b9d45a17d04d80981efea30d2eb1f654ef9496f20c6c891b8ad4967ab6105ca",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "c6b39589abf7a9b7b8b429843e20f8669b26d5e4edca76abfea75429a359e60b",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "0b681623391a7ba01f5e4f32168ec49bc6f3ea3e66c79b39034b3908686ad4bc",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "e837cf94b87f380a5b662e597949bb3b58fe0305284436ffc617799e4988cbd6",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/2/text",
+              "sourceHash": "ff0e078fb21c2f6d34e9f26487b27a6acae1d1293d4844057caa0cadfd92845d",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/3/title",
+              "sourceHash": "256eef2ba28442da2fb9a4552df2a4cb48b2c0f36bf049ae8ad8cc2a850f51fb",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/3/text",
+              "sourceHash": "ef8adcab90df2997a82503f89757d2b7703a3769a20065696731b560b9da9154",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/4/name",
+              "sourceHash": "256eef2ba28442da2fb9a4552df2a4cb48b2c0f36bf049ae8ad8cc2a850f51fb",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/the_moon/mars.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/the_moon/mars.json",
+          "sourceHash": "fe64a2d5043450b706f251621a419c378f3c0fd8c7f0b4558ca533fa82280b2a",
+          "structureHash": "9fd9d1c8904cd1dadf65f38e5a3f16680050a156049361db389c9c2e14895697",
+          "sha256": "b9446973f530a7a8cf8fc61d076e70fe615f6417af957fef9cfa2e3141ce9da6",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "a0a6ca091c70a95296d9c1bd308ae70eb64bc2ac8a35b2713045510db3d8eddb",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "a0a6ca091c70a95296d9c1bd308ae70eb64bc2ac8a35b2713045510db3d8eddb",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "0f622a9e6e2771f9e8f1c220d5fa1d22219fcc618d7a38bafed4bb9e755483a6",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "f2a2d306ac3dead3696ab00f05c2fe1ad0b3019d3d4b325e9a3a6b821c079f29",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "dd59104615a0520ba6473fc2a1884f7c371d4b9054bfd19161ad98153b61029f",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/the_moon/oxygen_distributor.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/the_moon/oxygen_distributor.json",
+          "sourceHash": "747cde90d85fa80e87474138dc5a51561630962b73851139c550e688d34fd1d1",
+          "structureHash": "4c2e7f6f3d5b0d652194a77a6056f4fcd1d578532aa7bb3c97998b678a1ce103",
+          "sha256": "80974c06d37ccb5e363d720bc4388b0b15a08b8c0de49a7aa93bfdb87e0c4ab9",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "79453d1172431f35c89ddb2b57e1b3d7b5cbac6f246c7664f3b60d63997ceae6",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "79453d1172431f35c89ddb2b57e1b3d7b5cbac6f246c7664f3b60d63997ceae6",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "b031732e1be50dea4cbc7beaaa98cf158a9bc44026f5f7b2a1b286737742b3ad",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "de8aebcbe666f887532108f9d59c75779305f98c75fc5988728d2dddaa32e95b",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "342e4c80c57970ee9cb25b779799038485fe2866c7e1d5416dbc8b659b6404e9",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/2/title",
+              "sourceHash": "56b953741a4c57856f6273d3257ae20581718d4efd033d8861b4163f08ba2f15",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/3/title",
+              "sourceHash": "36b82e172805203ed91d4260bed3f6bef896b803ecf301372c8e313ee660e20c",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/3/text",
+              "sourceHash": "7a44aab8051ade1d1e64d7094aa2814f79842286236d44d5c08a940a8fc249d0",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/4/text",
+              "sourceHash": "23f10a86bf3c5f032a4b0ba8c4e0e2f661fa34834af2ddbb042056f0505bb67d",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/5/title",
+              "sourceHash": "3961803cc495fee3e6b62c2a484f381d9abcbfe17c352298efd1404718b42c61",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/5/text",
+              "sourceHash": "558f0087ebcaeb30933bf563345a894effd5916f330ce6382fa862e5b048293c",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/the_moon/rover.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/the_moon/rover.json",
+          "sourceHash": "56bb84c4581df82077b58f45eb86df558f747fe64d48f9340a1349e0158eafa2",
+          "structureHash": "bdfcaa6fc1ea8509cb350d26ce6a08dc3c7b19e18f073ca2dbda79d03e39f16c",
+          "sha256": "2dc2e6af229f263f17e3868603980c887760a4b5de779ceae0149fa292d7d630",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "898b45dfae879fe06bebf4b8a685bd88f09f7a9b3f5d42ab4919de9f4070b562",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "898b45dfae879fe06bebf4b8a685bd88f09f7a9b3f5d42ab4919de9f4070b562",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "894098c8a59117c6961338d106965c2a07c90c2152da44fd359e0f593c90e38e",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/the_moon/solar_panel.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/the_moon/solar_panel.json",
+          "sourceHash": "65d129be7cff12111ad5411f78de9371b8bc04241b862ee7ab9637d6685d022e",
+          "structureHash": "2cde9f4167eb2a08ea07699d12ce55ec2fa10c114676b76f512fcf3a5632ca97",
+          "sha256": "b7cf9105879ee813d978ce259d16844a27852a9fc9cf59be7262ee9564480392",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "83e0098795815ea07ddc9da897b0c141392efdbd6c1c5ebb53d254d9763a7749",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "83e0098795815ea07ddc9da897b0c141392efdbd6c1c5ebb53d254d9763a7749",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "d76853d2afeb7d250920acabc29c950870be125c8f47b6d6de15823c4158dd4b",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "83e0098795815ea07ddc9da897b0c141392efdbd6c1c5ebb53d254d9763a7749",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "94e91ed463ea5403eff06af094c1a29211b77cd1c60ed9253ad499cd8a101a59",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/ad_astra/patchouli_books/astrodux/ja_jp/entries/the_moon/space_station.json",
+          "sourceFile": "ad_astra-fabric-1.18.2-1.0.9/data/ad_astra/patchouli_books/astrodux/en_us/entries/the_moon/space_station.json",
+          "sourceHash": "d141566967ce69433e560f1f981929441ddbd92e855982715ca823f110410830",
+          "structureHash": "a459397d4a2d3c8f2d41d45b18ed0309acd26322a5c29ed6c8ecc0ddf9f88da3",
+          "sha256": "5e5976dd80d425e97c6be46dbba6d219044bb948a7032b3d2171dee276d3e3c4",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "f2cf619c04dcaaa3eedab087f1e291bfdb9d6a26dacba7b52bde819abec90f84",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "f2cf619c04dcaaa3eedab087f1e291bfdb9d6a26dacba7b52bde819abec90f84",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "251314119b7307d05027cf76ea66b3edb1fcbb07d929297fbb6fca7caa5e4644",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "f2cf619c04dcaaa3eedab087f1e291bfdb9d6a26dacba7b52bde819abec90f84",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "829f5ef124818979c67a127f1a17ec6d0b0c67318392e48a4a9350f78ba6fd76",
+              "macros": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extended_drawers:guide",
+      "mod": "extended_drawers",
+      "version": "1.3.7+mc.1.18.2",
+      "jar": "ExtendedDrawers-1.3.7+mc.1.18.2.jar",
+      "jarSha256": "64a1a0e73289d2ea5918c2229f75601e1dfa129d43d0b2931e6a719e629e9292",
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "path": "data/extended_drawers/patchouli_books/guide/ja_jp/categories/blocks.json",
+          "sourceFile": "ExtendedDrawers-1.3.7+mc.1.18.2/data/extended_drawers/patchouli_books/guide/en_us/categories/blocks.json",
+          "sourceHash": "65dd3e1d1d04817bd61c5f9500bfe679f125809e602696afa8817987b3d8e0b8",
+          "structureHash": "7922d4dd83941866c66e257c6dceba98783ca700cd6eba5643937b61bd8011c7",
+          "sha256": "0f22e7ad0ae9b165687b0467c3872f0882abb0357bc065e73542ca941f09780b",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "1cd5a6687bb76e3926f8c89a9fb290cd17d893ca944899952322d3fb5c9896d3",
+              "macros": []
+            },
+            {
+              "pointer": "/description",
+              "sourceHash": "d7960982d6cee82a9ac7afded9e38fe088a056bc8569b39c4815948eaf8dc73f",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/extended_drawers/patchouli_books/guide/ja_jp/categories/modifiers.json",
+          "sourceFile": "ExtendedDrawers-1.3.7+mc.1.18.2/data/extended_drawers/patchouli_books/guide/en_us/categories/modifiers.json",
+          "sourceHash": "fcef028faf100942917a0444e6c4f2f28d70135665b300c4f9eea11aabee9134",
+          "structureHash": "bb00fe2298c39f0ee91b51d693e6e53b0915e3c09e8358912c3fb5fecd779975",
+          "sha256": "b5cf2aaf0417f784ee0e0aaa789ab124a445546b7ee4707a74cd8f504c37fd97",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "072da57facdcc631f41c5d886717e71197314fb5518d7c4b51033dbe11f7ffff",
+              "macros": []
+            },
+            {
+              "pointer": "/description",
+              "sourceHash": "8f0e86f463b6358474b1b03cc9b4ec8e8f6bf5448dbaca1d6330250b13d16912",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/extended_drawers/patchouli_books/guide/ja_jp/categories/networks.json",
+          "sourceFile": "ExtendedDrawers-1.3.7+mc.1.18.2/data/extended_drawers/patchouli_books/guide/en_us/categories/networks.json",
+          "sourceHash": "cc4b4804fcb4d0201e253938fb3475a025175d94df473dbc7668baa77b37c0fd",
+          "structureHash": "1baa19214142a69903a2149bbd042527e13a621f405e05447f86abb3d2bef8cb",
+          "sha256": "9e6caea1c5df1b4d2ad96033441f49f40c86bcf588ebd31524248bba3f9ed070",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "3d41cd7e965a8f1967c05f560e83544091f0a89cf563c23e0839b514a6e80772",
+              "macros": []
+            },
+            {
+              "pointer": "/description",
+              "sourceHash": "298440b83242c7a31e3aa25ad93ed4718a5d44644c0dfb36ed89caf6972796bf",
+              "macros": [
+                "$(br2)"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/extended_drawers/patchouli_books/guide/ja_jp/entries/access_points.json",
+          "sourceFile": "ExtendedDrawers-1.3.7+mc.1.18.2/data/extended_drawers/patchouli_books/guide/en_us/entries/access_points.json",
+          "sourceHash": "bac655e4524fbc4f7789e0a71b56bfc4ef96da5e0ebcfc1ed97814a32f1e5df6",
+          "structureHash": "36e6e0d22fdf4b1e39cbf75f818b20ec513ff9266e045fab6a402bb12d68a69b",
+          "sha256": "8c05cbc3874de107905b8bf816446e8ee16f9f1495babf328a7e55931c744129",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "ef1b90fba342e4665e3883deb449271fb6039a31db2bf5ce5f0d5b864236a1d6",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0",
+              "sourceHash": "5c5ce5eb38740d1fdd3947b1661343021ba9c3c6ea4d80f114053916e6683161",
+              "macros": [
+                "@item@",
+                "@!",
+                "$(l:simple_networks)",
+                "@!",
+                "$(l:insertion_order)",
+                "@!",
+                "@p@",
+                "$(l:mod_interoperability)",
+                "@!"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/extended_drawers/patchouli_books/guide/ja_jp/entries/connectors.json",
+          "sourceFile": "ExtendedDrawers-1.3.7+mc.1.18.2/data/extended_drawers/patchouli_books/guide/en_us/entries/connectors.json",
+          "sourceHash": "b2d05e988beb2d2b3021b183532057feec0b0ee030a6771927148eaa6480d505",
+          "structureHash": "2ff0a6d84b49d70f622e3b123a44a6d3f3a9d24ea5f5f0d45d8c6c24ede2bba7",
+          "sha256": "e09852ecc578f1307852323a0680c731d78d928ca974a920702e7df5e4e5e22b",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "c3d2e79ebdd046c6b7363de7b69dc9fb5b38235f0d328fdff0b2f9ccf2854b07",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0",
+              "sourceHash": "dd92c63677ae438190471f7a060e028294c8e6917f6d7b6038571a65f4512924",
+              "macros": [
+                "@item@",
+                "@!",
+                "$(l:simple_networks)",
+                "@!",
+                "$(l:drawers)",
+                "@!",
+                "@p@"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/extended_drawers/patchouli_books/guide/ja_jp/entries/downgrade.json",
+          "sourceFile": "ExtendedDrawers-1.3.7+mc.1.18.2/data/extended_drawers/patchouli_books/guide/en_us/entries/downgrade.json",
+          "sourceHash": "9087528446548d3a59acd0ec44d4e8c7e0af20881fb1f46cc16cae3dd174165b",
+          "structureHash": "1bb374d7832577ca999c8cfe70e6ebe6a9803614ba915ca5264ea562025f9f4d",
+          "sha256": "57cd926293947ff5d66e2058df2ae0f1b8b1bd5908daa7d0bb972a3c99a749de",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "0498d45faf41c7e4a53a021d17dd1b87bc22fe06a5a5715154313c053fdfbec9",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0",
+              "sourceHash": "5ad0fe2c2b1f897e4c126dec160e1ddc4d8511fc40ee7728547fb783cf6ce90e",
+              "macros": [
+                "@item@",
+                "@!",
+                "$(l:upgrades)",
+                "@!",
+                "$(l:drawers)",
+                "@!",
+                "@p@"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/extended_drawers/patchouli_books/guide/ja_jp/entries/drawers.json",
+          "sourceFile": "ExtendedDrawers-1.3.7+mc.1.18.2/data/extended_drawers/patchouli_books/guide/en_us/entries/drawers.json",
+          "sourceHash": "b62ea241aa3921a289efb0ad105c1a77534a6ce9413eea06892561ab617c9016",
+          "structureHash": "ed98f2357b81a97d929c12e27f5fc006b8ff83a9e5e9ac240ad5ef89fa6197c0",
+          "sha256": "c13969648070d73b24238ffcea735dd3e3d6b6b093674ed8b7c0fe00e84aabb3",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "3f978529314f373a9ffcd78c7dcf2ae053e597fd1fce43ec92137ac044cfcd0f",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0",
+              "sourceHash": "e46aa8d42a833cd72c63a985db69f817122242aab8426949399ce1a1fa22c9a2",
+              "macros": [
+                "@item@",
+                "@!",
+                "$(l:simple_networks)",
+                "@!",
+                "$(l:modifiers)",
+                "@!",
+                "@p@"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/extended_drawers/patchouli_books/guide/ja_jp/entries/hiding.json",
+          "sourceFile": "ExtendedDrawers-1.3.7+mc.1.18.2/data/extended_drawers/patchouli_books/guide/en_us/entries/hiding.json",
+          "sourceHash": "63e9942645ba305a2eff194cb32883b335285f96238f17af35d5aab419942578",
+          "structureHash": "dc4c5be6424dbd3ece2ff5b5c98a051ca75084021d3b77c4984d21d21e2c4e0b",
+          "sha256": "9b477207326c0fda9b3abed5fffe20337d73f8fb978919cfda89a3bd0feb67b6",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "cb05abe39975a26e6d0fc85fbc2a66602be2d5ac587f8a02681c997c9494b828",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0",
+              "sourceHash": "d1e546a4bf4a11e5768ffb57de88653670dab866f7bf54d070500e8f82456c29",
+              "macros": [
+                "$(item)",
+                "/$",
+                "$(l:drawers)",
+                "@!",
+                "@p@"
+              ]
+            },
+            {
+              "pointer": "/pages/1",
+              "sourceHash": "eaabafcded7ad7b300cbd7f0aaa99551c1e18e3127dbe00733f9c69abf01fe93",
+              "macros": [
+                "$(l:lock)",
+                "@!",
+                "@p@",
+                "$(l:shadow_drawers)",
+                "@!"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/extended_drawers/patchouli_books/guide/ja_jp/entries/insertion_order.json",
+          "sourceFile": "ExtendedDrawers-1.3.7+mc.1.18.2/data/extended_drawers/patchouli_books/guide/en_us/entries/insertion_order.json",
+          "sourceHash": "b39c38b5c50d6071ff25c287c41e25cefb76b40d2cfff6ecfc60cca2dd089650",
+          "structureHash": "25a52e037cde6869f8be91ace6075463a697c11e826f016787ff77661cd06e8e",
+          "sha256": "0a88cbb7c3ce11988c43d4f2a4ca889768bdec2db491640665e5440a088b99a1",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "feea2aa30de7a4d0b2d3fee8e8e09bddc0dd94121654813c93ada831f81603c1",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0",
+              "sourceHash": "2d3d1a2a6fa1b191ed20f6d5d3769070d3266c167d8476e91c68bffe03c77b5d",
+              "macros": [
+                "$(l:networks)",
+                "@!",
+                "@p@"
+              ]
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "6fba5e23010256c8d27039913d3978396cb4a4e6b4dd2d91e9becfe586fe7992",
+              "macros": [
+                "$(l:lock)",
+                "@!",
+                "$(l:voiding)",
+                "@!",
+                "$(br2)"
+              ]
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "4228aeb07c410ffc9d15b458bf7c2bf8d9dfa7af632f2c339e69f8cb54654da3",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/2",
+              "sourceHash": "dcc23903b062363a3adc2095ad0e3df8f9d2dbd9ee95e215ed4fc3d05f12df2e",
+              "macros": [
+                "$(l)",
+                "/$",
+                "$(br)",
+                "@p@",
+                "$(l)",
+                "/$",
+                "$(br)"
+              ]
+            },
+            {
+              "pointer": "/pages/3",
+              "sourceHash": "2dc5dcca4f4c0e805800e4de58e1a4b11ff21940ca1b258463f822bcdcdb25f5",
+              "macros": [
+                "$(l)",
+                "/$",
+                "$(br)",
+                "@p@",
+                "$(l)",
+                "/$",
+                "$(br)"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/extended_drawers/patchouli_books/guide/ja_jp/entries/lock.json",
+          "sourceFile": "ExtendedDrawers-1.3.7+mc.1.18.2/data/extended_drawers/patchouli_books/guide/en_us/entries/lock.json",
+          "sourceHash": "266a5e0c809a568fd60e516af292404c9ea8cc9625dfd9435e6e7649120ba437",
+          "structureHash": "8889045e9868655de675d5f05767caf2d265f09c8a087219b3811b499fdfbce7",
+          "sha256": "6e9e579e6e716ac7dd812d44489e1347f10646c363db32aba9ffb248c7ce0dfe",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "5598cd29dc22498488e29b1bd756633879442dd10a920cf639dfeec7779bfc5f",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0",
+              "sourceHash": "3a6102e35ee53d29944a2098e5fe8b4b107e5c0f7975741114b77f9fc7a19b0c",
+              "macros": [
+                "$(item)",
+                "/$",
+                "$(l:drawers)",
+                "@!",
+                "@p@",
+                "$(l:mod_interoperability)",
+                "@!"
+              ]
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "2425c0fcdabd917849a79711cb982222727e6fb1cbeabe23e5b705fe3f601ebf",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/extended_drawers/patchouli_books/guide/ja_jp/entries/mod_interoperability.json",
+          "sourceFile": "ExtendedDrawers-1.3.7+mc.1.18.2/data/extended_drawers/patchouli_books/guide/en_us/entries/mod_interoperability.json",
+          "sourceHash": "8b3896d11d0f209cc21b66af0d564d7b3946bbd6e678bac91589dd0ac9e7e7c3",
+          "structureHash": "a60b42b349800ebe56ded62ca93083e08a4fbdc6f9a63ee6cb24bb648c47a115",
+          "sha256": "ab6946c6258ca132d0d5f88860e2f7d79b85875735fb3215f3eaf8c0a29585b5",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "1add2b0c651b74cd74e443a57ae4e5c4586e7d61efce1a57d2e07525f7599bc9",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0",
+              "sourceHash": "8f8a8e690b0bd7adb534e61118429a8959843fcc65702c28c5c96ff177ad77d5",
+              "macros": [
+                "$(l:simple_networks)",
+                "@!",
+                "@thing@",
+                "@!",
+                "@p@",
+                "$(l:drawers)",
+                "@!",
+                "@p@",
+                "$(l:access_points)",
+                "@!",
+                "$(l:shadow_drawers)",
+                "@!"
+              ]
+            },
+            {
+              "pointer": "/pages/1",
+              "sourceHash": "31dbfbdf3de482b760e4fdf1b3bed0cd82b60647f4300661e638f33bde103f35",
+              "macros": [
+                "$(br2)",
+                "$(br)",
+                "$(li)",
+                "$(li)"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/extended_drawers/patchouli_books/guide/ja_jp/entries/shadow_drawers.json",
+          "sourceFile": "ExtendedDrawers-1.3.7+mc.1.18.2/data/extended_drawers/patchouli_books/guide/en_us/entries/shadow_drawers.json",
+          "sourceHash": "59251b0e46a19a6034e929b734029d7487277f3907696c7382a9f2cbf12968c2",
+          "structureHash": "9bc6144e0020cce647043bfaa4cf3bb6c28c08f754219d0e05e35f041bdad2dd",
+          "sha256": "5846c43c86af22c8450df90e84392bd89e24f44acdaba5f3917461312e01a2d1",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "e5b4987b838f7be1c2bce9bddb6cc8c5d1bcd02ca316a672fe903a6014a54402",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0",
+              "sourceHash": "93920964897bb8c5e6d6fc5ed34ef4ddbb22bfa38cbab77136b45f9bf554c7a6",
+              "macros": [
+                "$(item)",
+                "/$",
+                "$(l:access_points)",
+                "/$",
+                "$(br2)",
+                "$(l:lock)",
+                "@!"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/extended_drawers/patchouli_books/guide/ja_jp/entries/simple_networks.json",
+          "sourceFile": "ExtendedDrawers-1.3.7+mc.1.18.2/data/extended_drawers/patchouli_books/guide/en_us/entries/simple_networks.json",
+          "sourceHash": "fce03e17380d498ff9e1a623cd62f666bb615d7c2b7f1024d4e6903b5e9efb81",
+          "structureHash": "10b1a0383577eab4c846cae0bc1d0715616d44ea3e38b624653f6a681ff154ee",
+          "sha256": "35c8825527c0ddb9d9803b679c3a9cb51cdd3a69bd34aa6311ad2272ef2b7cf8",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "ad0d7857f6df996fd7fa12e95233cdedeac20eb4184d974b46dbbd6ffa5c3297",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0",
+              "sourceHash": "562d7f8924fb39a201403cf16ea09f8200439436f3aeb75917c1a2b5724b2ce3",
+              "macros": [
+                "$(l:drawers)",
+                "@!",
+                "$(br2)",
+                "$(l:access_points)",
+                "@!"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/extended_drawers/patchouli_books/guide/ja_jp/entries/upgrades.json",
+          "sourceFile": "ExtendedDrawers-1.3.7+mc.1.18.2/data/extended_drawers/patchouli_books/guide/en_us/entries/upgrades.json",
+          "sourceHash": "b7ef0e12eac201951e6e77ddb9132e2baee22aa026ae533e09333152eaf37840",
+          "structureHash": "3d5d8550eb7fb450e9daa9803cd40cca58e38d8360e6eb089a1b2fdcb68a10c0",
+          "sha256": "d53162f53dd66e552309a006b0cb35c78ae007da02282f0f7bc8302639260e63",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "12a92596966c5faa01274a100e25aaf60bfa330d6e85c81fce7958f6c18c08b7",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0",
+              "sourceHash": "c01b001b942b5f356f0f73eb3d966fd9d5c692b2a9362909c31675730e3be6e9",
+              "macros": [
+                "@item@",
+                "@!",
+                "$(l:drawers)",
+                "@!",
+                "@p@",
+                "@item@",
+                "@!",
+                "@p@"
+              ]
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "b951762f24c863c37c7bb5b4c36bacf768df9885661797aebc14e3f0d5728ebb",
+              "macros": [
+                "$(item)",
+                "/$"
+              ]
+            },
+            {
+              "pointer": "/pages/2/text",
+              "sourceHash": "b34d80fdaaa1adf5aff647d8a51265cd65f5e2cc5fa64478f2063ca95ae024df",
+              "macros": [
+                "$(item)",
+                "/$"
+              ]
+            },
+            {
+              "pointer": "/pages/3/text",
+              "sourceHash": "ef678a039fec9f6928aa771c3d6ba23e404159dbab458f99125faf399eb7f370",
+              "macros": [
+                "$(item)",
+                "/$"
+              ]
+            },
+            {
+              "pointer": "/pages/4/text",
+              "sourceHash": "3053b60dc89ec43be10683d8b9420a989684d652796b0f8301e3ca48cfc41119",
+              "macros": [
+                "$(item)",
+                "/$"
+              ]
+            },
+            {
+              "pointer": "/pages/5/text",
+              "sourceHash": "a0a0ff533bf8790c33a971d7eaf561c4c6ae8decf7eb632df7d4f849196d320e",
+              "macros": [
+                "$(item)",
+                "/$"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/extended_drawers/patchouli_books/guide/ja_jp/entries/voiding.json",
+          "sourceFile": "ExtendedDrawers-1.3.7+mc.1.18.2/data/extended_drawers/patchouli_books/guide/en_us/entries/voiding.json",
+          "sourceHash": "73a35ff53343cce317418012be4682c40c879656e07815ad8ee590b99c77d230",
+          "structureHash": "e0ec5c74dfb0a064f459e65483124eeaf22997448248ac625b782834e8f45b5b",
+          "sha256": "38e7eb8a03992bbe15c348a82aef171ea469fdf42f616d70f440e975483d67f7",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "fdf31d9261f7ec0314d7346fb284fa48179b760a36f36303a3f62afbfb5763ec",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0",
+              "sourceHash": "b06ba49f9927779f61c5d434113d5872c4352e4fa332401a1f13d75f4dc98e48",
+              "macros": [
+                "$(item)",
+                "/$",
+                "$(l:drawers)",
+                "@!",
+                "@p@"
+              ]
+            },
+            {
+              "pointer": "/pages/1",
+              "sourceHash": "0ab148320d6fb641523acf714f67b7c0bed8bc587ad4c9572ae9014574fc9efb",
+              "macros": [
+                "$(l:lock)",
+                "@!",
+                "@p@"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phonos:phonos_guidebook",
+      "mod": "phonos",
+      "version": "0.3+1.18.2",
+      "jar": "phonos-0.3+1.18.2.jar",
+      "jarSha256": "3ee90cc59719839ee0f958b53481942c2a7192ffeab7ea2efd63e80e8a698269",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "data/phonos/patchouli_books/phonos_guidebook/ja_jp/categories/loudspeakers.json",
+          "sourceFile": "phonos-0.3+1.18.2/data/phonos/patchouli_books/phonos_guidebook/en_us/categories/loudspeakers.json",
+          "sourceHash": "090fb46fd58781ed587150b0e3d2d2f47f58b5d74965a5b42f73b5d273c39829",
+          "structureHash": "b95f15fc6bd691a61423739fed8a6c8635f9d1feaf6a9091383d0049021d3e21",
+          "sha256": "f6801ab973edbf16bc2b6c3d2e52af4566a2135c4a4f1f46bab606a70c8c3fb6",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "c92a7237efe670ff9662c053dac56e1242c50c4b7b11040223dc83c778d4c25d",
+              "macros": []
+            },
+            {
+              "pointer": "/description",
+              "sourceHash": "f9a94cf76b1e953cefa5a2cbcc3cb70bb9ca406612195041cdb42923dd5cb8a6",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/phonos/patchouli_books/phonos_guidebook/ja_jp/categories/playing_music.json",
+          "sourceFile": "phonos-0.3+1.18.2/data/phonos/patchouli_books/phonos_guidebook/en_us/categories/playing_music.json",
+          "sourceHash": "84f86bdc2969ca370d0e9c2efa10b0c824080d754f9b8010b582e7e7b52cf13b",
+          "structureHash": "96b5147b7cf6e24588d705baa6d95b063684d46e1293ea600dff3b7fd6ffa0f0",
+          "sha256": "2f213f9364f0bda08063ae23a8ad247d0e5171f14560df78141677de97c45fff",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "bf80b734f4237c979bcbf3cbab9fe988dd49cdb061db9f5c9f927d6ddb45aad5",
+              "macros": []
+            },
+            {
+              "pointer": "/description",
+              "sourceHash": "e6c3bca594368c6b58dd675300d0c112b1efc0f37dbc76608e71f9458e272d69",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/phonos/patchouli_books/phonos_guidebook/ja_jp/categories/recording_music.json",
+          "sourceFile": "phonos-0.3+1.18.2/data/phonos/patchouli_books/phonos_guidebook/en_us/categories/recording_music.json",
+          "sourceHash": "d78bb27e693a39ac83ede47a5cd67054682215e5c599b0cc02c25b56b95cb4c3",
+          "structureHash": "0177bcf83df97f760db8ae1660a3ddd56d9c1501b77e9917e2dc0eb8c34b841b",
+          "sha256": "cfe57d16852468b5c621a53568d675ddde6503b260f5bd1a13f20789cd919b3f",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "11c8c508804d2fd7a81b1a7d79d0f92796df3c7a87c9e6447219ceb27b0f1974",
+              "macros": []
+            },
+            {
+              "pointer": "/description",
+              "sourceHash": "ccb45fb2c5f2967d42109eea62cf154a57624c63c92434570ef61e1794744e58",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/phonos/patchouli_books/phonos_guidebook/ja_jp/categories/tuning_tools.json",
+          "sourceFile": "phonos-0.3+1.18.2/data/phonos/patchouli_books/phonos_guidebook/en_us/categories/tuning_tools.json",
+          "sourceHash": "9ca63aadd580e4e481154e1011c096778219bfac32cce7e4d11fd1d5e1580eae",
+          "structureHash": "4238df0229766d32f0c65910071b46915f70e5e8c607cbb5c6e1ea43d1c7ca8e",
+          "sha256": "a8dc113a28bfe2f0544833d1ea670109c72c3db7553ce3adc9207cd193aba5e6",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "5b45e94173c99398c4d0a303ef1ed75077bf2906a05a7e6de5db4edec004abea",
+              "macros": []
+            },
+            {
+              "pointer": "/description",
+              "sourceHash": "13b2765d2fea08e1ff48f99431cb8e718afe203d098ae2a7b9d052452c7f03c9",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/phonos/patchouli_books/phonos_guidebook/ja_jp/entries/loudspeakers/decorative_loudspeakers.json",
+          "sourceFile": "phonos-0.3+1.18.2/data/phonos/patchouli_books/phonos_guidebook/en_us/entries/loudspeakers/decorative_loudspeakers.json",
+          "sourceHash": "cebdb12d1c49bdfd1f739bcb584b1b062147465e6f5ac54d32caad7969e38772",
+          "structureHash": "eae06a514129f9e02aa31b2db5fad365bbeea1d5b6b3b7fa8bd07d394035367b",
+          "sha256": "a917eb42f9ba3eb28778348af09789a051257793c699f6adc25b3f3db71236ed",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "15bc2730ac3771c43c5138a8bb905d5e98f2b4a71ed1e4fe8ae2c9443c59dbb4",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "15bc2730ac3771c43c5138a8bb905d5e98f2b4a71ed1e4fe8ae2c9443c59dbb4",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "66a83c6498dde067e93bcdee93cff273fe06bfe980771929f6ea72757b26c364",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "352cfc749e55222e135ee48e67631ba33f834d936c137560fd39063d2e57e5cb",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "5615ea638eff4149fc7bf7a01253b4f9bfb2add41c9b19a196e10884d04310b1",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/phonos/patchouli_books/phonos_guidebook/ja_jp/entries/loudspeakers/operating_loudspeakers.json",
+          "sourceFile": "phonos-0.3+1.18.2/data/phonos/patchouli_books/phonos_guidebook/en_us/entries/loudspeakers/operating_loudspeakers.json",
+          "sourceHash": "e7a06d9a0cb53cd540c250f31e9100e98370faef0d1a04aaee738777abba5a99",
+          "structureHash": "c5c66c0fd255a52e2bc89e02e87782c06454c6b1b7063048a9544d6320d9420d",
+          "sha256": "75815598b49357b5b6949ab8053d9ff2f97cf3bc85b18208230686e01a6f7beb",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "29e1954ab2e2add68b83c400108e5c2c65bc02cf731ef6b82364c1826f3b456a",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "562c4e49a835e594d3ebccf72cd8404b25b1f93c292b149a1d684f48cb751dd5",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "013c577c0308f8e6c3afdf1f75aff7594a857c0621972303c1c5901a90e8bfad",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "352cfc749e55222e135ee48e67631ba33f834d936c137560fd39063d2e57e5cb",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "0a5dea9cff72506db295d51c33012e919c88742f049661daa76a75adaa221f7d",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/2/title",
+              "sourceHash": "dece7885f33fc5cf8c9473148d7b4030983be02b39a25226fd5e6a1263251e36",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/2/text",
+              "sourceHash": "58ae5ced30e9625cb78ab71c128217581f348de6b54dd7148d3be0a8dd686277",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/3/title",
+              "sourceHash": "352cfc749e55222e135ee48e67631ba33f834d936c137560fd39063d2e57e5cb",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/3/text",
+              "sourceHash": "bf582b761fb7bd7490611d38f55bc01ac2cf14851d33b7a5fab879cf2441cbc5",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/phonos/patchouli_books/phonos_guidebook/ja_jp/entries/playing_music/radio_jukeboxes.json",
+          "sourceFile": "phonos-0.3+1.18.2/data/phonos/patchouli_books/phonos_guidebook/en_us/entries/playing_music/radio_jukeboxes.json",
+          "sourceHash": "06e00bd79ba988777bf587762886198290fb0202354aef27013f2a69c2837bb5",
+          "structureHash": "73c1e6b363d16304c6497ef13e0482b10ebfa4b18276cb55fab747efedae06d3",
+          "sha256": "6c46352d7933e3ee8db7e6701ca7bcf31afee95e3dd7a3cf98456d2a9d3b255f",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "99eb6639af3bdc0a48e1974e062647ee3fa76ae229bc6e413545d61bf9db1524",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "99eb6639af3bdc0a48e1974e062647ee3fa76ae229bc6e413545d61bf9db1524",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "3a0593f7db5f58594ce4abce43615a3772da53ea14c3fd347f2472d97d4c662b",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "352cfc749e55222e135ee48e67631ba33f834d936c137560fd39063d2e57e5cb",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "4813fdc72984767bdb15fcc902ace68aa714fe45c2e9af67696bf9047a2c8a4b",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/2/title",
+              "sourceHash": "c6b971701a8a3f10e346dfefa3630ca696e15df7b509e3c94e1ff8a8e6d8108d",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/2/text",
+              "sourceHash": "d1f5563f96ea9602f487afb437ae2b9f98722f703c81b3a11530c8fb88eba551",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/3/title",
+              "sourceHash": "352cfc749e55222e135ee48e67631ba33f834d936c137560fd39063d2e57e5cb",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/3/text",
+              "sourceHash": "d2d5ccf19ae4b60b6995257c7884f08d123a7278bbe1248d23411274bbac4c37",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/phonos/patchouli_books/phonos_guidebook/ja_jp/entries/playing_music/radio_note_blocks.json",
+          "sourceFile": "phonos-0.3+1.18.2/data/phonos/patchouli_books/phonos_guidebook/en_us/entries/playing_music/radio_note_blocks.json",
+          "sourceHash": "67ebe3794812ca5ec1d8e29db20315212441e7c0f0a7b103825c8fc3659db946",
+          "structureHash": "f77e4ac42bc2c44045d3d5de60de4aa0c07ca54c9ccc90ac68f2c463b8b7eac6",
+          "sha256": "f2d5cfb628f1a23cacf4f260b61b6368c57638ae91b9ef83f961186273324d33",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "33f5fa368e94e75898ef95dc685fbcc80b19f7302cc67dd55e8328f0e5fa61fb",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "33f5fa368e94e75898ef95dc685fbcc80b19f7302cc67dd55e8328f0e5fa61fb",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "00d02e6410a46efe6861ce538976f47a4df4106765c81b5ee94bc041e7726f03",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "352cfc749e55222e135ee48e67631ba33f834d936c137560fd39063d2e57e5cb",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "9022675ace4201ef59c4b4327898252de845655c3c59cbbc8669b6276e7a4d4e",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/phonos/patchouli_books/phonos_guidebook/ja_jp/entries/recording_music/piano_rolls.json",
+          "sourceFile": "phonos-0.3+1.18.2/data/phonos/patchouli_books/phonos_guidebook/en_us/entries/recording_music/piano_rolls.json",
+          "sourceHash": "a163a2e01202f603133249bdc90bd6943d0f3f16fc73cd7996263a0efc041a61",
+          "structureHash": "84a162de39befd5749ef48f3dc001d945e124fc485379f427ed4da1c9f372c2f",
+          "sha256": "63d401619f5c2c48e732e1fed558235abd1cd04d6db2c6f575212f327012e86c",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "302fa08a23169d477ebae39e902ce6dbf19a1291846ae1ccd873c58e0e82c6bd",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "302fa08a23169d477ebae39e902ce6dbf19a1291846ae1ccd873c58e0e82c6bd",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "e79811b478909e0ea89f6aaed23d4c938464fba19b055edc68be9a00deb7d98e",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "352cfc749e55222e135ee48e67631ba33f834d936c137560fd39063d2e57e5cb",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "7bcc64d2db8477b4e8dffa42162b355c0365bac4572d362e694512d6e0a2069d",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/phonos/patchouli_books/phonos_guidebook/ja_jp/entries/recording_music/player_pianos.json",
+          "sourceFile": "phonos-0.3+1.18.2/data/phonos/patchouli_books/phonos_guidebook/en_us/entries/recording_music/player_pianos.json",
+          "sourceHash": "6ff8ce84cc8250220c594aba583540e04ca5fbdf2b9877bca49f70e8997b7e6f",
+          "structureHash": "648f7aba2ef6de5efde435b61e4d6069d256b85c5da7d2c0da26194529edd5a3",
+          "sha256": "0c35f8d1c8a39d2ad4b57eacd6212b44d7564c69b3bc8f2bfdf83d9348f79b31",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "593503db399679505a419f09acc31bbdadd8d8b0b0cc8c96d6b6b1196243dc7d",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "593503db399679505a419f09acc31bbdadd8d8b0b0cc8c96d6b6b1196243dc7d",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "2d8cfd203c04290e050f9f94c300d4ee66e86ac58309cfb2eb2e64102dd55a96",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "352cfc749e55222e135ee48e67631ba33f834d936c137560fd39063d2e57e5cb",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "fbcce6a66e609c2c97f7cf14522eb0f40e394f3348e8ae753b001ed7dbf1e2a4",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/phonos/patchouli_books/phonos_guidebook/ja_jp/entries/tuning_tools/channel_tuners.json",
+          "sourceFile": "phonos-0.3+1.18.2/data/phonos/patchouli_books/phonos_guidebook/en_us/entries/tuning_tools/channel_tuners.json",
+          "sourceHash": "6da72d695b1b60c4ad49e00ae522624f290ffa706df349555f471ed2f50658a4",
+          "structureHash": "effd31aa629f6bd1cb6ad97887245310788ca88cf3adf206ba01a55ead7c611a",
+          "sha256": "0ce41787e13fd49ff3fbec7bf255babd8ee0bce131aa56bba5d604b7e9948288",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "8482e213623ef1a9843bba90471127ce96d05361ab9bdbe792290949df1bd58d",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "8482e213623ef1a9843bba90471127ce96d05361ab9bdbe792290949df1bd58d",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "83ddc87c3a1e71260830ffbc3e89fd6caf5d0aff7d4b38953eb5050c61dd6b2f",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "352cfc749e55222e135ee48e67631ba33f834d936c137560fd39063d2e57e5cb",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "9c49db6a77200357f79943f1beb26ac8c98fa35c596913aa4c4998d8b40fec22",
+              "macros": []
+            }
+          ]
+        },
+        {
+          "path": "data/phonos/patchouli_books/phonos_guidebook/ja_jp/entries/tuning_tools/note_block_tuners.json",
+          "sourceFile": "phonos-0.3+1.18.2/data/phonos/patchouli_books/phonos_guidebook/en_us/entries/tuning_tools/note_block_tuners.json",
+          "sourceHash": "acb697a6c87d0ee662cb83462ecee99cfe3d93015bed4493978e777ed6851231",
+          "structureHash": "d77c98f683751c860e79591f48618a8ff6bf255af51c7538567a5f1f47cdefe1",
+          "sha256": "d25271e23dd45606d6bb59ecc10ff38fe1805dc58b8e1994829ef9b9a7146cc4",
+          "fields": [
+            {
+              "pointer": "/name",
+              "sourceHash": "d0701169cd0408ba294a79036bfbed3934a59a34d2e5d3e5e2de69b6bf8ee3a2",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/title",
+              "sourceHash": "d0701169cd0408ba294a79036bfbed3934a59a34d2e5d3e5e2de69b6bf8ee3a2",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/0/text",
+              "sourceHash": "760d894c8b78ff0f8695cee76152f311403622d3b9580b1af4ebc867cbfb3d45",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/title",
+              "sourceHash": "352cfc749e55222e135ee48e67631ba33f834d936c137560fd39063d2e57e5cb",
+              "macros": []
+            },
+            {
+              "pointer": "/pages/1/text",
+              "sourceHash": "b70faf4d0cbb59adc4382a7492139b05d7d651c6e47390878a9c9200140b852a",
+              "macros": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

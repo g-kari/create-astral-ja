@@ -1,0 +1,24 @@
+{
+  "name": "ネザライト宇宙服",
+  "icon": "ad_astra:netherite_space_helmet",
+  "sortnum": 4,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "ネザライト宇宙服",
+      "item": "ad_astra:netherite_space_helmet",
+      "text": "通常の宇宙服を強化したもので、常時の火炎耐性と高い防御力を備え、金星や水星でも生き延びられます。これらの惑星へ行く前に一式を作らなければ、焼け死んでしまいます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:recipes/netherite_space_helmet",
+      "recipe2": "ad_astra:recipes/netherite_space_suit"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:recipes/netherite_space_pants",
+      "recipe2": "ad_astra:recipes/netherite_space_boots"
+    }
+  ]
+}

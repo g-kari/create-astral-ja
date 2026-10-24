@@ -1,0 +1,42 @@
+{
+  "name": "無線ジュークボックス",
+  "category": "phonos:playing_music",
+  "icon": "phonos:radio_jukebox",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "phonos:radio_jukebox",
+      "title": "無線ジュークボックス",
+      "link_recipe": true,
+      "text": "Minecraftのすばらしいレコードを、無線で配信してみませんか？設置したら、通常どおりチャンネルを設定します。普通のジュークボックスと違い、操作画面があります。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "phonos:textures/gui/gallery/jukebox.png"
+      ],
+      "title": "写真",
+      "border": true,
+      "text": "隣のスピーカーへ音楽を配信する、無線ジュークボックスです。"
+    },
+    {
+      "type": "text",
+      "title": "ジュークボックスの画面",
+      "text": "レコード用スロットへレコードを入れます。その下の数値欄をスクロールして、各レコードの長さを調整できます。左の音程欄も同様です。右のチェック欄でシャッフルを切り替えます。再生とスキップのボタンは、見たとおりに動きます。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "phonos:textures/gui/gallery/jukebox_ui.png"
+      ],
+      "title": "写真",
+      "border": true,
+      "text": "「C418 - cat」を入れた、無線ジュークボックスの画面です。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "phonos:radio_jukebox"
+    }
+  ]
+}

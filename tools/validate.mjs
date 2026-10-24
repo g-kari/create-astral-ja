@@ -4,6 +4,7 @@ import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {validateBook} from './validate-book.mjs';
 import {validateModLanguages} from './validate-mod-languages.mjs';
+import {validateLegacyBooks} from './validate-legacy-books.mjs';
 export const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const stable=a=>JSON.stringify([...a].sort());
@@ -13,6 +14,7 @@ export function signature(s){return {
   urls:s.match(/https?:\/\/[^\s&]+/g)||[],
   references:s.match(/\$[a-z_]+(?::[a-z_]+)?(?:\/[a-z_]+)*|#[a-z_]+:[a-z_]+/g)||[],
   braces:s.match(/\{[a-z_]+\}/g)||[],
+  variables:s.match(/\$\{[^}]+\}/g)||[],
 };}
 export function validate(sourceRoot,bookSourceRoot,modSourceRoot){
  const index=read(path.join(root,'translation-index.json')),meta=read(path.join(root,'pack-source.json'));
@@ -20,7 +22,7 @@ export function validate(sourceRoot,bookSourceRoot,modSourceRoot){
  const modMeta=read(path.join(root,'mod-language-index.json'));
  const assets=path.join(root,'resourcepack/assets'),values=new Map();
  for(const ns of fs.readdirSync(assets)){
-  if(!/^[a-z0-9_]+$/.test(ns))throw Error('Invalid namespace '+ns);
+  if(!/^[a-z0-9_.-]+$/.test(ns)||ns==='.'||ns==='..')throw Error('Invalid namespace '+ns);
   const file=path.join(assets,ns,'lang/ja_jp.json'),raw=fs.readFileSync(file,'utf8');if(raw.charCodeAt(0)===0xfeff)throw Error('BOM: '+ns);
   const keyLines=[...raw.matchAll(/^\s*"([^"\\]+)":/gm)].map(m=>m[1]);if(new Set(keyLines).size!==keyLines.length)throw Error('Duplicate JSON key: '+ns);
   const obj=JSON.parse(raw);for(const [k,v] of Object.entries(obj)){if(typeof v!=='string'||v.includes('\ufffd')||/[\u0000-\u0008]/.test(v))throw Error('Invalid text: '+k);values.set(ns+':'+k,v);}
@@ -44,7 +46,8 @@ export function validate(sourceRoot,bookSourceRoot,modSourceRoot){
  if(read(path.join(root,'resourcepack/pack.mcmeta')).pack.pack_format!==8)throw Error('Expected 1.18 resource format 8');
  const book=validateBook(root,values,bookSourceRoot);
  const modLanguages=validateModLanguages(root,values,signature,modSourceRoot);
- const result={status:'PASS',total:values.size+book.strings,resourceStrings:meta.resourceEntries,menuStrings:meta.menuEntries,book,modLanguages,namespaces:fs.readdirSync(assets).length,checks:['UTF-8 JSON/menu syntax','complete source-index coverage','format arguments','formatting codes','URLs and tag/search references','book recipe/item/NBT/layout structure','complete book JSON and section labels','additional MOD language coverage and fingerprints','source fingerprints'+(sourceRoot?' checked against local upstream files':' retained in index')],inGameVerified:false};
+ const legacyBooks=validateLegacyBooks(root,modSourceRoot);
+ const result={status:'PASS',total:values.size+book.strings,allArtifactsTotal:values.size+book.strings+legacyBooks.strings,resourceStrings:meta.resourceEntries,menuStrings:meta.menuEntries,book,modLanguages,legacyBooks,namespaces:fs.readdirSync(assets).length,checks:['UTF-8 JSON/menu syntax','complete source-index coverage','format arguments','formatting codes','URLs and tag/search references','book recipe/item/NBT/layout structure','complete book JSON and section labels','additional MOD language coverage and fingerprints','legacy book structure and Patchouli macros','source fingerprints'+(sourceRoot?' checked against local upstream files':' retained in index')],inGameVerified:false};
  return result;
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))console.log(JSON.stringify(validate(process.argv[2],process.argv[3],process.argv[4]),null,2));

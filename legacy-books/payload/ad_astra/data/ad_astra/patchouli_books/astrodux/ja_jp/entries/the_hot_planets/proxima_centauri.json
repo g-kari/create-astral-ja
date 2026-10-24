@@ -1,0 +1,17 @@
+{
+  "name": "プロキシマ・ケンタウリ",
+  "icon": "ad_astra:/textures/painting/alpha_centauri.png",
+  "sortnum": 1,
+  "category": "ad_astra:the_hot_planets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "プロキシマ・ケンタウリ",
+      "text": "カロライトを集めてティア4ロケットを作ると、この太陽系を出て新しい恒星系へ向かえます。最初の目的地はグラシオです。非常に寒いものの酸素があるため、宇宙服なしでも生き延びられます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "今のところ、Ad Astraの進行はここまでです。新しい内容が増えれば、この説明書も拡充されます。Ad Astraを遊んでくれて、ありがとう！"
+    }
+  ]
+}

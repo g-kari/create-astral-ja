@@ -1,0 +1,12 @@
+{
+  "name": "容量を小さくする",
+  "icon": "extended_drawers:downgrade",
+  "category": "extended_drawers:modifiers",
+  "pages": [
+    "@item@ダウングレード@!は、$(l:drawers)引き出し@!の容量をちょうど64個に制限する、特殊な$(l:upgrades)アップグレード@!です。@p@自動化設備を作るときに便利です。",
+    {
+      "type": "patchouli:crafting",
+      "recipe": "extended_drawers:downgrade"
+    }
+  ]
+}

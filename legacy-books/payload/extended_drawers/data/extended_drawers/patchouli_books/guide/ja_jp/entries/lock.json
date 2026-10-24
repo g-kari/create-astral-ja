@@ -1,0 +1,13 @@
+{
+  "name": "ロック",
+  "icon": "extended_drawers:lock",
+  "category": "extended_drawers:modifiers",
+  "pages": [
+    "$(item)ロック/$を使って切り替えます。$(l:drawers)引き出し@!の中身の種類を固定し、個数だけを変えられるようにします。@p@整理された仕分け設備や、$(l:mod_interoperability)ほかのMODとの接続@!に便利です。",
+    {
+      "type": "patchouli:crafting",
+      "recipe": "extended_drawers:lock",
+      "text": "使用してもロックは消費されないので、引き出しごとに作る必要はありません。アクセスポイントに使うと、ネットワーク全体のロックを切り替えられます。"
+    }
+  ]
+}

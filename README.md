@@ -4,16 +4,17 @@ Minecraft Java 1.18.2 / Create: Astral **2.1.5b**向けの非公式日本語化�
 
 クエストの説明、独自アイテム名、ツールチップ、思案の説明、加工カテゴリを収録しています。MOD本体・レシピ・クエストの条件や報酬・ワールドには変更を加えません。各MOD自身が提供する日本語訳は、そのまま併用します。
 
-**v0.3.0では、Hephaestusの全6冊と、Create・REI・Tech Rebornなどの残っていた表示を追加しました。** 2,103項目増え、全体は6,128項目です。表紙の英字は画像なので残ります。[対応範囲と残り](COVERAGE.md)を公開しています。
+**v0.4.0では、26 MODの説明・ツールチップなど678項目を追加しました。** 通常配布分は6,806項目です。効果・操作方法・設定の説明を優先し、アイテム名は今回追加していません。さらに3冊・215項目の説明書パッチをクライアント用に別配布します。全配布物では7,021項目です。[対応範囲と残り](COVERAGE.md)を公開しています。
 
 ## ダウンロード
 
-[v0.3.0 リリース](https://github.com/g-kari/create-astral-ja/releases/tag/v0.3.0)
+[v0.4.0 リリース](https://github.com/g-kari/create-astral-ja/releases/tag/v0.4.0)
 
 | ファイル | 用途 |
 | --- | --- |
-| `Create-Astral-2.1.5b-Japanese-v0.3.0.zip` | クエスト・Hephaestusの本6冊・追加のMOD表示。サーバーから配信可能 |
-| `Create-Astral-2.1.5b-Japanese-Menu-v0.3.0.zip` | タイトルメニューの日本語化。クライアント用 |
+| `Create-Astral-2.1.5b-Japanese-v0.4.0.zip` | クエスト・Hephaestusの本6冊・追加のMOD表示。サーバーから配信可能 |
+| `Create-Astral-2.1.5b-Japanese-Menu-v0.4.0.zip` | タイトルメニューの日本語化。クライアント用 |
+| `Create-Astral-2.1.5b-Japanese-Books-v0.4.0.zip` | Astrodux・Extended Drawers・Phonosの説明書。クライアント用の導入ツール付き |
 | `server-resource-pack.properties` | サーバー配信用のURL・SHA-1設定例 |
 | `*.sha1` / `*.sha256` | 配布ZIPのハッシュ |
 
@@ -27,6 +28,8 @@ Minecraft Java 1.18.2 / Create: Astral **2.1.5b**向けの非公式日本語化�
 
 メニューも日本語化する場合は、ゲームを終了してからMenu版ZIPを展開し、中の `config` をそのインスタンスのフォルダーへコピーします。追加するのは `ja_jp.local` だけです。既存のワールドや設定一式を置き換える必要はありません。戻す場合は追加したファイルだけを削除します。
 
+追加の3冊は、この版では通常のリソースパックで本文を変更できないため、Books版を別途導入してください。[導入・バックアップ・復元の手順](legacy-books/BOOKS-README.md)を用意しています。通常版と併用します。サーバーだけにBooks版を入れても参加者の本は変わりません。
+
 ## サーバーから配信する
 
 **通常版は、参加時のサーバーリソースパックとして配信できます。** 参加者はダウンロードを許可し、言語設定を日本語にするだけです。ZIPを手動で入れる必要はありません。表示処理自体はクライアントで行います。
@@ -34,7 +37,7 @@ Minecraft Java 1.18.2 / Create: Astral **2.1.5b**向けの非公式日本語化�
 リリースにある `server-resource-pack.properties` の各項目を、サーバーの `server.properties` に反映し、都合のよいときに再起動してください。この設定例を `server.properties` 全体に上書きしないでください。
 
 ```properties
-resource-pack=https://github.com/g-kari/create-astral-ja/releases/download/v0.3.0/Create-Astral-2.1.5b-Japanese-v0.3.0.zip
+resource-pack=https://github.com/g-kari/create-astral-ja/releases/download/v0.4.0/Create-Astral-2.1.5b-Japanese-v0.4.0.zip
 resource-pack-sha1=配布したZIPのSHA-1
 require-resource-pack=false
 ```
@@ -53,9 +56,10 @@ Hephaestusの本6冊の翻訳も通常版ZIPに含まれ、同じ配信で受け
 - 上流の英語テキストは、公開インデックスに保存したSHA-256と照合できます。英語コーパス全体は同梱しません。
 - クエスト定義の2,662種類の翻訳参照を調べ、英語ファイルにも欠けていた燃料タスクの表示キーを補いました。
 - Hephaestusの全6冊・416ファイルで、翻訳以外の構造・レシピ参照・アイテムID・NBT・図の参照・数値を保持しているか検査します。Mantle 1.9.156が選択言語の本をリソースマネージャーから読むことも確認しました。
-- **v0.3.0の追加画面・説明書のゲーム内表示は未検証です。** 日本語が長くなることによる見切れや、MOD間のリソース優先順位は、実プレイで確認が必要です。
+- Books版は翻訳箇所以外の構造を照合します。導入ツールは対象JARと追加ファイルのハッシュを検査し、原本をバックアップします。対象の実JARのコピーとWindowsの回帰テストで、追加・再実行・復元を確認しています。
+- **追加画面・説明書のゲーム内表示は未検証です。** 日本語が長くなることによる見切れや、MOD間のリソース優先順位は、実プレイで確認が必要です。
 - 原作のクエスト定義に英語で直接固定されている少数の見出し・確認ボタン（例：`Got it!`、`Wow thanks!`）は、言語ファイルだけでは変更できません。クエスト定義の上書きや進行データの変更は行っていません。
-- パック独自の言語ファイルに加え、5 MODの未翻訳表示とHephaestusの本に対応します。すべてのMODの全UI・全アイテムを翻訳するものではありません。[残りの一覧](COVERAGE.md)を確認してください。
+- パック独自の言語ファイル、MODの説明、Hephaestusの本に対応します。すべてのMODの全UI・全アイテムを翻訳するものではありません。[残りの一覧](COVERAGE.md)を確認してください。
 
 表記上、原文の引き出し容量の括弧内にあった計算不整合は省き、記載された個数を保持しています。架空の装置・物質・効果や、作者からのメッセージは原作の内容です。
 
@@ -88,6 +92,6 @@ node tools/validate.mjs /path/to/overrides /path/to/hephaestus-extracted /path/t
 
 ## ライセンス・クレジット
 
-[自作ツールはMIT](LICENSE)。Create: Astral由来の翻訳データには原作の権利留保・条件を保持し、**MITは適用しません**。Hephaestusの本と関連する8個の言語キー、および `mod-language-index.json` の追加言語キーは、それぞれのMODのMITに従い、権利表示を同梱します。[追加分の権利表示](third-party-licenses/)も確認してください。[詳しい適用範囲](LICENSING.md)、[原作ライセンス](UPSTREAM-LICENSE.md)、[Hephaestusの権利表示](HEPHAESTUS-LICENSE.txt)を確認してください。
+[自作ツールはMIT](LICENSE)。Create: Astral由来の翻訳データには原作の権利留保・条件を保持し、**MITは適用しません**。Hephaestusの本と関連する8個の言語キーはMITに従います。その他の追加翻訳は、各対象版のMIT・CC0-1.0・Unlicense・Apache-2.0・LGPL-3.0-onlyに従います。一律にMITとして再許諾しません。権利表示を同梱します。[追加分の権利表示](third-party-licenses/)も確認してください。[詳しい適用範囲](LICENSING.md)、[原作ライセンス](UPSTREAM-LICENSE.md)、[Hephaestusの権利表示](HEPHAESTUS-LICENSE.txt)を確認してください。
 
 原作はLaskyyyおよびCreate: Astralの各貢献者によるものです。公式配布：<https://github.com/Laskyyy/Create-Astral/releases/tag/v2.1.5b>。本プロジェクトは非公式で、原作者からの公認を表すものではありません。

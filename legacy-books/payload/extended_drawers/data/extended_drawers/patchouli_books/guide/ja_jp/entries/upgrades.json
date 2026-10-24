@@ -1,0 +1,33 @@
+{
+  "name": "容量の拡張",
+  "icon": "extended_drawers:t2_upgrade",
+  "category": "extended_drawers:modifiers",
+  "pages": [
+    "@item@アップグレード@!を取り付けると、$(l:drawers)引き出し@!のスロット容量が増えます。@p@手に@item@アップグレード@!を持ち、スニークしながら対象のスロットをクリックしてください。@p@大量のアイテムをしまう場合に便利です。",
+    {
+      "type": "patchouli:crafting",
+      "recipe": "extended_drawers:upgrade_frame",
+      "text": "$(item)Upgrade Frame/$は、すべてのアップグレードの土台です。単体では効果がありません。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "extended_drawers:t1_upgrade",
+      "text": "$(item)Drawer Upgrade I/$は第1段階で、容量を2倍にします。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "extended_drawers:t2_upgrade",
+      "text": "$(item)Drawer Upgrade II/$は第2段階で、容量を4倍にします。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "extended_drawers:t3_upgrade",
+      "text": "$(item)Drawer Upgrade III/$は第3段階で、容量を8倍にします。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "extended_drawers:t4_upgrade",
+      "text": "$(item)Drawer Upgrade IV/$は第4段階で、容量を16倍にします。"
+    }
+  ]
+}

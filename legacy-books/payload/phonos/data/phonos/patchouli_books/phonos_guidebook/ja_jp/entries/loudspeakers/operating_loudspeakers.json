@@ -1,0 +1,46 @@
+{
+  "name": "スピーカーの使い方",
+  "category": "phonos:loudspeakers",
+  "icon": "phonos:loudspeaker",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "phonos:loudspeaker",
+      "title": "据え置きスピーカーの使い方",
+      "link_recipe": true,
+      "text": "無線放送された音を再生します。一か所に複数置けば、その場所を音で満たせます。設置したら、上の表示部分を操作してチャンネルを変えましょう。他人に変更されたくなければ、上面を塞げます。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "phonos:textures/gui/gallery/loudspeakers.png"
+      ],
+      "title": "写真",
+      "border": true,
+      "text": "チャンネル7に合わせ、音楽を流しているスピーカーです。"
+    },
+    {
+      "type": "spotlight",
+      "item": "phonos:boombox",
+      "title": "ラジカセの使い方",
+      "link_recipe": true,
+      "text": "設置したときは、据え置きスピーカーと同じように動きます。背後に空間があれば、背面を操作してチャンネルを変更できます。一方、持ち運べる点が特徴で、手に持っていても再生し続け、チャンネルも変えられます。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "phonos:textures/gui/gallery/boomboxes.png",
+        "phonos:textures/gui/gallery/boombox_held.png"
+      ],
+      "title": "写真",
+      "border": true,
+      "text": "設置した状態と、手に持った状態で音楽を流すラジカセです。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "phonos:loudspeaker",
+      "recipe2": "phonos:boombox"
+    }
+  ]
+}

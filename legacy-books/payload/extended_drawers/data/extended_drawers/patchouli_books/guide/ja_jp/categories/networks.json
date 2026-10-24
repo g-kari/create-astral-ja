@@ -1,0 +1,6 @@
+{
+  "name": "引き出しのネットワーク",
+  "description": "ネットワークの仕組みと、作り方を説明します。$(br2)ほかのMODと組み合わせるためのヒントも紹介します。",
+  "icon": "extended_drawers:controller",
+  "sortnum": 1
+}

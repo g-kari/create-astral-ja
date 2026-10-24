@@ -1,0 +1,40 @@
+{
+  "name": "装飾用スピーカー",
+  "category": "phonos:loudspeakers",
+  "icon": "phonos:gourd_speaker",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "phonos:gourd_speaker",
+      "title": "装飾用スピーカー",
+      "link_recipe": false,
+      "text": "スピーカーが1種類だけでは物足りませんか？建物を飾るための、さまざまな見た目を用意しています。右の写真で確認できます。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "phonos:textures/gui/gallery/fallfest_speakers.png",
+        "phonos:textures/gui/gallery/festive_boomboxes.png",
+        "phonos:textures/gui/gallery/copper_speakers.png"
+      ],
+      "title": "写真",
+      "border": true,
+      "text": "建物に使える、さまざまな見た目のスピーカーです。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "phonos:gourd_speaker",
+      "recipe2": "phonos:speak_o_lantern"
+    },
+    {
+      "type": "crafting",
+      "recipe": "phonos:festive_boombox",
+      "recipe2": "phonos:copper_speaker"
+    },
+    {
+      "type": "crafting",
+      "recipe": "phonos:tiny_potato_speaker"
+    }
+  ]
+}

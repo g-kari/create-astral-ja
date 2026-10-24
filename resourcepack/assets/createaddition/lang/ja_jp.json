@@ -62,5 +62,19 @@
   "createaddition.schedule.condition.energy_threshold": "エネルギー貨物の状態",
   "createaddition.schedule.condition.threshold.energy": "エネルギー",
   "effect.createaddition.shocking": "感電",
-  "effect.createaddition.shocking.description": "移動速度が大幅に低下します"
+  "effect.createaddition.shocking.description": "移動速度が大幅に低下します",
+  "item.createaddition.copper_spool.tooltip.condition1": "二つの接続端子を右クリックすると",
+  "item.createaddition.copper_spool.tooltip.behaviour1": "端子の間に電線を張り、_空のスプール_を返します。",
+  "item.createaddition.gold_spool.tooltip.condition1": "二つの接続端子を右クリックすると",
+  "item.createaddition.gold_spool.tooltip.behaviour1": "端子の間に電線を張り、_空のスプール_を返します。",
+  "item.createaddition.festive_spool.tooltip.condition1": "二つの接続端子を右クリックすると",
+  "item.createaddition.festive_spool.tooltip.behaviour1": "端子の間に電線を張り、_空のスプール_を返します。",
+  "block.createaddition.connector.tooltip.condition1": "右クリックすると",
+  "block.createaddition.connector.tooltip.behaviour1": "_銅のスプール_か_金のスプール_を持つと、二つの_接続端子_の間に_電線_を張れます。",
+  "block.createaddition.connector.tooltip.condition2": "レンチで右クリックすると",
+  "block.createaddition.connector.tooltip.behaviour2": "_送り出し_、_受け取り_、_受動_、_なし_のモードを切り替えます。",
+  "block.createaddition.connector_copper.tooltip.condition1": "右クリックすると",
+  "block.createaddition.connector_copper.tooltip.behaviour1": "_銅のスプール_を持つと、二つの_接続端子_の間に_電線_を張れます。",
+  "block.createaddition.connector_gold.tooltip.condition1": "右クリックすると",
+  "block.createaddition.connector_gold.tooltip.behaviour1": "_金のスプール_を持つと、二つの_接続端子_の間に_電線_を張れます。"
 }

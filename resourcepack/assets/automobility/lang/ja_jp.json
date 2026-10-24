@@ -1,0 +1,8 @@
+{
+  "tooltip.item.automobility.crowbar": "自動車に使うと取り外せます",
+  "tooltip.block.automobility.allow": "アドベンチャーモードの運転者にも収穫・耕作を許可",
+  "tooltip.automobility.frameLabel": "車体： ",
+  "tooltip.automobility.wheelLabel": "車輪： ",
+  "tooltip.automobility.engineLabel": "エンジン： ",
+  "tooltip.automobility.shiftForStats": "［Shiftで性能を表示］"
+}

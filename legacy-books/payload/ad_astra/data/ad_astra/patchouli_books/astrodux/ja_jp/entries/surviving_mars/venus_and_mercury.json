@@ -1,0 +1,18 @@
+{
+  "name": "金星と水星",
+  "icon": "ad_astra:/textures/sky/venus.png",
+  "sortnum": 5,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "カロライト",
+      "item": "ad_astra:calorite_ingot",
+      "text": "ネザライト宇宙服一式とティア3ロケットの部品に必要なオストラムが集まったら、金星と水星へ向かえます。ネザライト宇宙服や火炎耐性なしで降りると、すぐに命を落とすので注意してください。次に探す素材はカロライトです。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "カロライトは、新たな恒星系へ旅できる究極のロケットの材料になります。"
+    }
+  ]
+}

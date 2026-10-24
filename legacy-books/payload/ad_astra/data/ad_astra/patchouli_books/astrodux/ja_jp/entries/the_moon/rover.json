@@ -1,0 +1,19 @@
+{
+  "name": "探査車",
+  "icon": "ad_astra:tier_1_rover",
+  "sortnum": 3,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "探査車",
+      "item": "ad_astra:tier_1_rover",
+      "text": "月や惑星の険しい地面を走れる車両です。非常に速く、アイテム8個分の所持品と2人分の座席があります。スニークしながらクリックして画面を開き、左の入力スロットに燃料バケツを入れて補給します。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "ad_astra:tier_1_rover",
+      "scale": 0.36
+    }
+  ]
+}

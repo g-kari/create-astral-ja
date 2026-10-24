@@ -1,0 +1,8 @@
+{
+  "trinkets.tooltip.slots.any": "§9どの§r装身具スロットにも装備可能",
+  "trinkets.tooltip.slots.list": "装備できる装身具スロット：",
+  "trinkets.tooltip.slots.single": "装身具スロット%dに装備可能",
+  "trinkets.tooltip.attributes.all": "装備時：",
+  "trinkets.tooltip.attributes.single": "装身具スロット%dの装備時：",
+  "trinkets.tooltip.attributes.slots": "%dスロット"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "液体パイプ",
+  "icon": "ad_astra:ostrum_fluid_pipe",
+  "sortnum": 1,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "液体パイプ",
+      "item": "ad_astra:ostrum_fluid_pipe",
+      "text": "液体パイプはケーブルに似ていますが、エネルギーの代わりに液体を運びます。パイプとレンチを作り、レンチでパイプを右クリックして、「なし」「通常」「挿入」「抽出」の各モードを切り替えます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "text": "「挿入」のパイプはネットワークから液体を受け取り、「抽出」のパイプは液体をネットワークへ送り込みます。",
+      "recipe": "ad_astra:recipes/desh_fluid_pipe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:recipes/ostrum_fluid_pipe",
+      "recipe2": "ad_astra:recipes/wrench"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ケーブル",
+  "icon": "ad_astra:desh_cable",
+  "sortnum": 4,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "ケーブル",
+      "item": "ad_astra:desh_cable",
+      "text": "ケーブルは、離れた場所へエネルギーを送れます。鋼鉄製とデッシュ製があり、デッシュ製の方が転送量に優れます。レンチを使うと、接続する方向や、ネットワークから切り離す接続を設定できます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:recipes/steel_cable",
+      "recipe2": "ad_astra:recipes/desh_cable"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:recipes/wrench"
+    }
+  ]
+}

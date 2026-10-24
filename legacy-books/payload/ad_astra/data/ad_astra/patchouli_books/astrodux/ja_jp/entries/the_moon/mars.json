@@ -1,0 +1,19 @@
+{
+  "name": "火星",
+  "icon": "ad_astra:/textures/sky/mars.png",
+  "sortnum": 6,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "火星",
+      "text": "月を探索してデッシュを扱えるようになったら、赤い惑星へ進みましょう。火星へ行けるティア2ロケットは、鋼鉄の代わりにデッシュを使う点を除き、ティア1と同様に作れます。部品を作り、NASA作業台で組み立て、燃料を入れたら、火星へ出発です！"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "オストラム",
+      "item": "ad_astra:ostrum_ingot",
+      "text": "赤い惑星で次に探す素材は、オストラムです。強力な宇宙防具や優れた機械、そして極端な熱に耐えて高温の惑星へ飛べるロケットの材料になります。"
+    }
+  ]
+}

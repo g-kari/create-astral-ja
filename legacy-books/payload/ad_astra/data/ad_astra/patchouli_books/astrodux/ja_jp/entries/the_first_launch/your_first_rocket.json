@@ -1,0 +1,42 @@
+{
+  "name": "初めてのロケット",
+  "icon": "ad_astra:nasa_workbench",
+  "sortnum": 1,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "NASA作業台",
+      "item": "ad_astra:nasa_workbench",
+      "text": "まずはノーズコーン、板、フィン、タンク、エンジンを集めます。部品がそろったら、ロケット専用のNASA作業台で組み立てましょう。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "NASA作業台",
+      "recipe": "ad_astra:recipes/nasa_workbench"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            " 0 ",
+            "   "
+          ]
+        ],
+        "mapping": {
+          "0": "ad_astra:launch_pad"
+        },
+        "symmetrical": true
+      },
+      "text": "完成したロケットを設置するには、発射台が必要です。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "発射台",
+      "recipe": "ad_astra:recipes/launch_pad",
+      "text": "発射台を組み立てたら、その中央にロケットを設置します。"
+    }
+  ]
+}

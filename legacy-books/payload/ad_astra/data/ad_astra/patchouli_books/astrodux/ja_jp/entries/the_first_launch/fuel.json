@@ -1,0 +1,30 @@
+{
+  "name": "燃料",
+  "icon": "ad_astra:fuel_bucket",
+  "sortnum": 2,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ロケットを設置しても、まだ飛べません。飛行するには、燃料を補給する必要があります。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "燃料の入手",
+      "item": "ad_astra:oil_bucket",
+      "text": "海面には、石油が大量に噴き出している場所があります。石油は再生せず、打ち上げのたびに大量に使うため、できるだけ多く集めましょう。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "燃料の入手",
+      "item": "ad_astra:fuel_bucket",
+      "text": "打ち上げと帰還用に、最低でも石油をバケツ6杯集めたら、燃料に精製します。燃料精製機を作って給電し、左のスロットへ石油を入れると、燃料へ変わります。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "燃料精製機",
+      "recipe": "ad_astra:recipes/fuel_refinery",
+      "text": "スニークしながらロケットをクリックして所持品を開き、燃料バケツ3杯を入力スロットへ入れます。帰りのため、残り3杯はロケットの所持品に積んでおきましょう。"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "宇宙ステーション",
+  "icon": "ad_astra:/textures/gui/space_station_icon.png",
+  "sortnum": 0,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "宇宙ステーション",
+      "text": "必要な材料があれば、惑星選択画面で建設できる、あらかじめ組まれた構造物です。月や惑星の軌道上にあり、その軌道ディメンションでブロックを設置できるようになります。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "宇宙ステーション",
+      "text": "自由に拡張し、月や惑星の上空に理想の基地を作れます。ロケットを打ち上げた座標に出現するため、場所を見失わないよう、座標を覚えておきましょう。"
+    }
+  ]
+}

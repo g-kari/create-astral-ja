@@ -1,0 +1,20 @@
+{
+  "name": "記念品",
+  "icon": "ad_astra:mars_globe",
+  "sortnum": 0,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "惑星儀",
+      "item": "ad_astra:earth_globe",
+      "text": "ダンジョンの最後で報酬として見つかる装飾ブロックです。実用的な機能はありません。右クリックで回転させられ、レッドストーン信号を与えると回り続けます。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "宇宙の絵画",
+      "item": "ad_astra:space_painting",
+      "text": "ダンジョンのチェストで見つかります。通常の絵画と同じ仕組みですが、このMODの絵だけを飾ります。全14種類を探してみましょう。"
+    }
+  ]
+}

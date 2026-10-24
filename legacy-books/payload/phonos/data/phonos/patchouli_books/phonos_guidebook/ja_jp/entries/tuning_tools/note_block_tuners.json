@@ -1,0 +1,28 @@
+{
+  "name": "音符ブロック調整器",
+  "category": "phonos:tuning_tools",
+  "icon": "phonos:note_block_tuner{TunerData:{Mode:0,Note:5}}",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "phonos:note_block_tuner{TunerData:{Mode:0,Note:5}}",
+      "title": "音符ブロック調整器",
+      "link_recipe": true,
+      "text": "大きな音符ブロックの曲を作るのに便利です。空中の右クリック、またはスニーク中の操作でモードを切り替えます。適用モードでは音を試聴し、ブロックに同じ音を設定できます。コピーモードではブロックの音を取り込み、調整モードでは調整器の音を手動で変えます。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "phonos:textures/gui/gallery/note_block_tuner.png"
+      ],
+      "title": "写真",
+      "border": true,
+      "text": "三つのモードと、調整器の使い方の実演です。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "phonos:note_block_tuner"
+    }
+  ]
+}

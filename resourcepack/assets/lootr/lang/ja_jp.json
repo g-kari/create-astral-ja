@@ -1,0 +1,12 @@
+{
+  "lootr.advancements.100loot.description": "プレイヤー別の戦利品容器を100個開け、報酬を手に入れる！",
+  "lootr.advancements.50loot.description": "プレイヤー別の戦利品容器を50個開け、報酬を手に入れる！",
+  "lootr.advancements.25loot.description": "プレイヤー別の戦利品容器を25個開け、報酬を手に入れる！",
+  "lootr.advancements.10loot.description": "プレイヤー別の戦利品容器を10個開け、報酬を手に入れる！",
+  "lootr.advancements.1chest.description": "自分専用の戦利品チェストを初めて開け、報酬を手に入れる！",
+  "lootr.advancements.1barrel.description": "自分専用の戦利品入りの樽を初めて開け、報酬を手に入れる！",
+  "lootr.advancements.1cart.description": "自分専用の戦利品入りトロッコを初めて開け、報酬を手に入れる！",
+  "lootr.advancements.1shulker.description": "自分専用の戦利品入りシュルカーを初めて開け、報酬を手に入れる！",
+  "lootr.advancements.social.description": "ワールド内の、自分専用の戦利品容器を全種類開ける！",
+  "lootr.advancements.root.description": "ワールドに、プレイヤー別の戦利品を。"
+}

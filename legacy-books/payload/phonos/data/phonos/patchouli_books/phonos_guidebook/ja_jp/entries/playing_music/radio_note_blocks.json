@@ -1,0 +1,28 @@
+{
+  "name": "無線音符ブロック",
+  "category": "phonos:playing_music",
+  "icon": "phonos:radio_note_block",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "phonos:radio_note_block",
+      "title": "無線音符ブロック",
+      "link_recipe": true,
+      "text": "レコードだけでは物足りない？丹念に作った音符ブロックの装置を放送してみましょう！無線音符ブロックは、表示部分でチャンネルを変えられる点以外、普通の音符ブロックと同じように使えます。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "phonos:textures/gui/gallery/noteblocks.png"
+      ],
+      "title": "写真",
+      "border": true,
+      "text": "ごく簡単な、無線音符ブロックの装置です。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "phonos:radio_note_block"
+    }
+  ]
+}

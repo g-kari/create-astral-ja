@@ -9,6 +9,8 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - name: Validate language data
         run: node tools/validate.mjs
+      - name: Check translation corruption guards
+        run: node tests/translation-guards.mjs
       - name: Build resource packs
         run: node tools/build.mjs
       - name: Check ZIP integrity
@@ -21,3 +23,10 @@ jobs:
           name: japanese-packs
           path: dist/*
           if-no-files-found: error
+  legacy-installer:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Check legacy book installer on Windows PowerShell
+        shell: powershell
+        run: ./tests/legacy-installer.ps1

@@ -1,0 +1,28 @@
+{
+  "name": "チャンネル調整器",
+  "category": "phonos:tuning_tools",
+  "icon": "phonos:channel_tuner{TunerData:{Channel:16}}",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "phonos:channel_tuner{TunerData:{Channel:16}}",
+      "title": "チャンネル調整器",
+      "link_recipe": true,
+      "text": "無線音符ブロックで曲を作るときなど、一つずつチャンネルを変えるのは大変です。調整器で無線ブロックを右クリックすると、調整器と同じチャンネルにできます。それ以外を右クリックすると調整器のチャンネルが増え、スニーク中は減ります。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "phonos:textures/gui/gallery/channel_tuner.png"
+      ],
+      "title": "写真",
+      "border": true,
+      "text": "調整器で、無線ジュークボックスのチャンネルを合わせています。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "phonos:channel_tuner"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "基本のネットワーク",
+  "icon": "extended_drawers:single_drawer",
+  "category": "extended_drawers:networks",
+  "pages": [
+    "$(l:drawers)引き出し@!を隣り合わせに置くだけで、簡単なネットワークになります。ただし、まだ何も働きません。$(br2)まずは$(l:access_points)アクセスポイント@!を追加しましょう。各引き出しまで歩かずに、適切な場所へアイテムを入れられます。",
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "extended_drawers:single_drawer[facing=west]",
+          "D": "extended_drawers:single_drawer[facing=west]",
+          "A": "extended_drawers:controller"
+        },
+        "pattern": [
+          [
+            "D0A"
+          ]
+        ]
+      },
+      "enable_visualize": false,
+      "text": ""
+    }
+  ]
+}

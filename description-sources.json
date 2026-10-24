@@ -1,0 +1,213 @@
+{
+  "scope": "Additional descriptions only; item names and music credits are excluded",
+  "sources": [
+    {
+      "id": "appleskin",
+      "version": "2.5.1+mc1.18.2",
+      "license": "Unlicense",
+      "notice": "third-party-licenses/appleskin-v040-LICENSE.txt",
+      "source": "https://github.com/squeek502/AppleSkin",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "astraladditions",
+      "version": "1.5.4",
+      "license": "CC0-1.0",
+      "notice": "third-party-licenses/astraladditions-v040-LICENSE.txt",
+      "source": "https://github.com/ethanicuss/AstralAdditions",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "astralgenerators",
+      "version": "2.0.0-alpha5",
+      "license": "MIT",
+      "notice": "third-party-licenses/astralgenerators-v040-LICENSE.txt",
+      "source": "https://github.com/tobynguyen27/astral-generators",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "automobility",
+      "version": "0.3+1.18.2",
+      "license": "MIT",
+      "notice": "third-party-licenses/automobility-v040-LICENSE.txt",
+      "source": null,
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "beautify",
+      "version": "1.1.1+fabric-1.18.2",
+      "license": "CC0-1.0",
+      "notice": "third-party-licenses/beautify-v040-LICENSE.txt",
+      "source": "https://github.com/Suel-ki/Beautify-Refabricated",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "blahaj",
+      "version": "0.3.2",
+      "license": "Unlicense",
+      "notice": "third-party-licenses/blahaj-v040-LICENSE.txt",
+      "source": "https://github.com/DaFuqs/Blahaj",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "createaddition",
+      "version": "20230704a",
+      "license": "MIT",
+      "notice": "third-party-licenses/createaddition-v040-LICENSE.txt",
+      "source": "https://github.com/mrh0/createaddition",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "doodads",
+      "version": "0.1.2-1.18.2",
+      "license": "CC0-1.0",
+      "notice": "third-party-licenses/doodads-v040-LICENSE.txt",
+      "source": "https://github.com/ReillyGregorio/Doodads.git",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "farmersdelight",
+      "version": "1.18.2-1.2.5",
+      "license": "MIT",
+      "notice": "third-party-licenses/farmersdelight-v040-LICENSE.txt",
+      "source": "https://github.com/newhoryzon/farmers-delight-fabric/",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "gearreborn",
+      "version": "1.18.2-0.1.14",
+      "license": "MIT",
+      "notice": "third-party-licenses/gearreborn-v040-LICENSE.txt",
+      "source": "https://github.com/loleq2105/GearReborn",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "lootr",
+      "version": "0.3.28.65",
+      "license": "MIT",
+      "notice": "third-party-licenses/lootr-v040-LICENSE.txt",
+      "source": "https://github.com/noobanidus/Lootr/tree/fabric-1.18",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "midnightlib",
+      "version": "0.4.4",
+      "license": "MIT",
+      "notice": "third-party-licenses/midnightlib-v040-LICENSE.txt",
+      "source": "https://github.com/TeamMidnightDust/MidnightLib",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "morefluidcans",
+      "version": "1.0.2",
+      "license": "MIT",
+      "notice": "third-party-licenses/morefluidcans-v040-LICENSE.txt",
+      "source": "https://github.com/MikoTheBoi/MoreFluidCans",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "packed-inventory",
+      "version": "0.2.2+1.18.2",
+      "license": "MIT",
+      "notice": "third-party-licenses/packed-inventory-v040-LICENSE.txt",
+      "source": "https://github.com/Kir-Antipov/packed-inventory",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "phonos",
+      "version": "0.3+1.18.2",
+      "license": "MIT",
+      "notice": "third-party-licenses/phonos-v040-LICENSE.txt",
+      "source": "https://github.com/FabricMC/fabric-example-mod",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "ping-wheel",
+      "version": "1.8.0",
+      "license": "MIT",
+      "notice": "third-party-licenses/ping-wheel-v040-LICENSE.txt",
+      "source": "https://github.com/LukenSkyne/Minecraft-Ping-Wheel",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "railways",
+      "version": "1.4.8+fabric-mc1.18.2",
+      "license": "MIT",
+      "notice": "third-party-licenses/railways-v040-LICENSE.txt",
+      "source": "https://github.com/Layers-of-Railways/Railway/",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "buildinggadgets",
+      "version": "1.0.22",
+      "license": "MIT",
+      "notice": "third-party-licenses/buildinggadgets-v040-LICENSE.txt",
+      "source": "https://github.com/ProjectET/BuildingGadgets-Fabric",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "trinkets",
+      "version": "3.3.1",
+      "license": "MIT",
+      "notice": "third-party-licenses/trinkets-v040-LICENSE.txt",
+      "source": "https://github.com/emilyploszaj/trinkets",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "trowel",
+      "version": "1.1.0",
+      "license": "MIT",
+      "notice": "third-party-licenses/trowel-v040-LICENSE.txt",
+      "source": "https://modrinth.com/mod/trowel",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "yigd",
+      "version": "1.3.15",
+      "license": "MIT",
+      "notice": "third-party-licenses/yigd-v040-LICENSE.txt",
+      "source": "https://github.com/B1n-ry/Youre-in-grave-danger",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "yttr",
+      "version": "7.626+1.18.2",
+      "license": "MIT",
+      "notice": "third-party-licenses/yttr-v040-LICENSE.txt",
+      "source": "https://git.sleeping.town/unascribed/Yttr",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "ad_astra",
+      "version": "1.0.9",
+      "license": "MIT",
+      "notice": "third-party-licenses/ad_astra-v040-LICENSE.txt",
+      "source": "https://github.com/terrarium-earth/Ad-Astra",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "ae2",
+      "version": "11.7.6",
+      "license": "LGPL-3.0-only",
+      "notice": "third-party-licenses/ae2-v040-LICENSE.txt",
+      "source": "https://github.com/AppliedEnergistics/Applied-Energistics-2/",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "extended_drawers",
+      "version": "1.3.7+mc.1.18.2",
+      "license": "Apache-2.0",
+      "notice": "third-party-licenses/extended_drawers-v040-LICENSE.txt",
+      "source": "https://github.com/MattiDragon/ExtendedDrawers",
+      "translationModified": "2026-10-25"
+    },
+    {
+      "id": "sodium",
+      "version": "0.4.1+replaymod.rev.23e83a1",
+      "license": "LGPL-3.0-only",
+      "notice": "third-party-licenses/sodium-v040-LICENSE.txt",
+      "source": "https://github.com/CaffeineMC/sodium-fabric",
+      "translationModified": "2026-10-25"
+    }
+  ]
+}

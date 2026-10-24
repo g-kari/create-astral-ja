@@ -1,0 +1,9 @@
+{
+  "text.autoconfig.astralgenerators.option.acceleratorFactor.@Tooltip": "蒸気Xから生まれる回転速度＝蒸気X×加速係数。",
+  "text.autoconfig.astralgenerators.option.dragCoefficient.@Tooltip": "摩擦による回転速度の損失＝抵抗係数×現在の回転速度。",
+  "text.autoconfig.astralgenerators.option.energyMultiplier.@Tooltip": "発電量＝現在の回転速度×エネルギー倍率。",
+  "text.autoconfig.astralgenerators.option.idealWaterConsumption.@Tooltip": "効率100%に達したときの、水の消費量です。",
+  "text.autoconfig.astralgenerators.option.maxSteamIntake.@Tooltip": "1ティックに消費できる蒸気の量です。",
+  "text.autoconfig.astralgenerators.option.steamExpansionRatio.@Tooltip": "水1から生まれる蒸気の量です。",
+  "text.autoconfig.astralgenerators.option.waterBoilingPoint.@Tooltip": "水の沸点です。摂氏で指定します。"
+}

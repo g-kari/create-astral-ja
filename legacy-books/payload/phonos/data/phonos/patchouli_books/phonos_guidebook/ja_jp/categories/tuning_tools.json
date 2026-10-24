@@ -1,0 +1,5 @@
+{
+  "name": "調整用の道具",
+  "description": "機器を手早く設定・調整する",
+  "icon": "phonos:channel_tuner{TunerData:{Channel:4}}"
+}

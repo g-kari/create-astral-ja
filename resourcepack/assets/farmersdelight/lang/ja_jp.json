@@ -1,4 +1,10 @@
 {
   "item.farmersdelight.iron_knife": "錫のナイフ",
-  "item.farmersdelight.vegetable_noodles": "グルジャラバラ"
+  "item.farmersdelight.vegetable_noodles": "グルジャラバラ",
+  "farmersdelight.advancement.place_organic_compost.desc": "有機堆肥を置く。日光、水、キノコがあると、堆肥化が進みやすくなる！",
+  "farmersdelight.advancement.get_fd_seed.desc": "さまざまな気候の野生の土地で、新しい4種類の作物を探そう……どこかのチェストにもあるかもしれない。",
+  "farmersdelight.advancement.harvest_ropelogged_tomato.desc": "トマトの上にロープを吊り、さらに高く育てる。",
+  "farmersdelight.advancement.hit_raider_with_rotten_tomato.desc": "厄介な襲撃者に、腐ったトマトを投げつける！",
+  "farmersdelight.rei.info.knife": "ナイフは軽い近接武器です。草から藁を採取でき、動物から追加のドロップを確実に得られます。",
+  "farmersdelight.rei.info.ham": "ブタやホグリンの脚から取れる大きな肉です。切り出すには、剣より軽い道具が必要でしょう……。"
 }

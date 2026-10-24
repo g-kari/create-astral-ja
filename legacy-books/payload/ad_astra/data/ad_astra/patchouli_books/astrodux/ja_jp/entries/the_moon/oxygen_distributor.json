@@ -1,0 +1,40 @@
+{
+  "name": "酸素供給機",
+  "icon": "ad_astra:oxygen_distributor",
+  "sortnum": 2,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "酸素供給機",
+      "item": "ad_astra:oxygen_distributor",
+      "text": "密閉した部屋に酸素を行き渡らせ、中の生き物を生かせる機械です。酸素充填機と同じようにタンクへ水を入れますが、酸素を容器へ渡す代わりに、空間へ供給します。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "水ポンプ",
+      "item": "ad_astra:water_pump",
+      "text": "酸素を供給し続けるには、水ポンプが欠かせません。無限水源の水ブロックの上にポンプを設置し、その隣に酸素供給機を置きます。両方へ十分な電力を供給してください。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "供給機とポンプ",
+      "recipe": "ad_astra:recipes/oxygen_distributor",
+      "recipe2": "ad_astra:recipes/water_pump"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "酸素供給機の使い方",
+      "text": "無限水源、十分な電力、完全に密閉した部屋を用意すると、酸素が供給されます。画面の「show」を押して確認しましょう。泡が漂っていれば、その部屋に酸素が届いています。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "建物の穴から酸素が漏れると、供給機の画面に警告が出ます。無駄な電力と酸素の消費を防ぐため、穴を塞ぎましょう。正しく供給できれば、宇宙服を脱いでも生き延びられます。1台で最大2,000ブロックを扱えるため、中規模の宇宙基地を作れます。さらに広げるには、供給機を増やしてください。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "換気",
+      "text": "酸素のある建物でも、ドアを閉めたときに酸素が遮られないよう、換気経路が必要です。壁の間に1ブロックの隙間を作るか、通気口ブロックを使って、酸素が流れるようにしましょう。"
+    }
+  ]
+}

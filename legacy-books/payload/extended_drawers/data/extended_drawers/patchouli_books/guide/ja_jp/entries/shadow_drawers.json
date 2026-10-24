@@ -1,0 +1,12 @@
+{
+  "name": "シャドウ引き出し",
+  "icon": "extended_drawers:shadow_drawer",
+  "category": "extended_drawers:blocks",
+  "pages": [
+    "$(item)シャドウ引き出し/$は$(l:access_points)アクセスポイント/$に似ていますが、1種類のアイテムだけを扱います。プレイヤーが取り出せ、個数も表示します。$(br2)$(l:lock)ロック済み@!のように動作しますが、スニークしながらクリックすると種類の指定を消せます。",
+    {
+      "type": "patchouli:crafting",
+      "recipe": "extended_drawers:shadow_drawer"
+    }
+  ]
+}

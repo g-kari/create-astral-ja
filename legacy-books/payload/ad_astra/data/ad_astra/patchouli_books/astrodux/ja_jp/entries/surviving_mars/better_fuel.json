@@ -1,0 +1,28 @@
+{
+  "name": "より優れた燃料",
+  "icon": "ad_astra:cryo_freezer",
+  "sortnum": 3,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "低温冷却装置",
+      "item": "ad_astra:cryo_freezer",
+      "text": "燃料を得るには、海へ出て石油の噴出場所を探す必要があります。低温冷却装置なら、より高性能な低温燃料を作れます。精製燃料より効率がよく、バケツ1杯でロケットを打ち上げられます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "寒い惑星の地下にある鉱石から氷のかけらを集め、低温冷却装置へ入れると、1個から低温燃料25mBを作れます。氷、氷塊、青氷も燃料にできます。往路用と帰路用に、最低でもバケツ2杯を用意し、ロケットの燃料スロットへ入れましょう。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:recipes/cryo_freezer"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "低温燃料",
+      "item": "ad_astra:cryo_fuel_bucket",
+      "text": "優れた燃料であるほか、設置すると溶岩のように中の生き物へダメージを与えます。また、水を凍らせるため、氷を無限に作れます。"
+    }
+  ]
+}

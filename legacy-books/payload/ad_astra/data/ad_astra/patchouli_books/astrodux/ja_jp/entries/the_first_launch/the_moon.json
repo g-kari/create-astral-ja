@@ -1,0 +1,19 @@
+{
+  "name": "月",
+  "icon": "ad_astra:/textures/sky/moon.png",
+  "sortnum": 5,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "月",
+      "item": "ad_astra:desh_ingot",
+      "text": "月への到着、おめでとうございます！見渡す限り灰色の荒野ですが、地下には次の重要な素材、デッシュがあります。高性能な機械、宇宙ステーション、ティア2ロケットを作るために使います。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "地球への帰還",
+      "text": "地球へ帰るには、スニークしながら着陸船を右クリックして開き、ロケット、燃料、発射台を取り出します。着陸船自体は殴ると回収できます。発射台とロケットを設置して燃料を入れ、$(k:jump)を押して地球へ帰りましょう。"
+    }
+  ]
+}

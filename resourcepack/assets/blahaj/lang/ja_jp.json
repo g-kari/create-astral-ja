@@ -1,5 +1,7 @@
 {
   "block.blahaj.gray_shark": "なじみの友人",
   "block.blahaj.gray_shark.tooltip": "別名オーケイン",
-  "block.blahaj.bread": "B0bボット"
+  "block.blahaj.bread": "B0bボット",
+  "block.blahaj.blue_shark.tooltip": "別名、ブローハイ",
+  "tooltip.blahaj.owner.craft": "製作者：%s"
 }

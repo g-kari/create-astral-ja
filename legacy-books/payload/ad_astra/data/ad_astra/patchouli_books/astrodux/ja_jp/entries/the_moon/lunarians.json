@@ -1,0 +1,36 @@
+{
+  "name": "月の住民",
+  "icon": "ad_astra:moon_stone_bricks",
+  "sortnum": 5,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "月の住民",
+      "item": "ad_astra:moon_stone_bricks",
+      "text": "月の地下には、大きな有人の村があります。地球の村人に似ていますが、住民は月の民を名乗ります。地球の村人と違い、酸素を必要とせず、月の厳しい寒さの中でも暮らせます。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "ad_astra:lunarian",
+      "default_rotation": 45
+    },
+    {
+      "type": "patchouli:text",
+      "text": "取引も地球の村人とは異なり、惑星固有の素材、宇宙服、酸素装備などを扱います。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "行商人",
+      "item": "ad_astra:lunarian_wandering_trader_spawn_egg",
+      "text": "月の民の行商人は、どの月や惑星にも現れます。発射台、酸素、燃料、魂の松明、水など、命を救うロケット関連の品を取引できます。代金のエメラルドは、月や惑星のさまざまな構造物でよく見つかります。"
+    },
+    {
+      "type": "patchouli:entity",
+      "name": "行商人",
+      "entity": "ad_astra:lunarian_wandering_trader",
+      "default_rotation": 45,
+      "scale": 0.8
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "太陽光パネル",
+  "icon": "ad_astra:solar_panel",
+  "sortnum": 1,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "太陽光パネル",
+      "item": "ad_astra:solar_panel",
+      "text": "石炭発電機より高性能で、燃料なしで多くのエネルギーを生み出します。発電量は惑星と太陽の距離や、霧の影響を受けるため、太陽に近い場所ほど効率的です。軌道上には光を遮る大気がないので、さらに多く発電できます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "太陽光パネル",
+      "text": "そのワールドでの発電量は、パネルのツールチップや画面で確認できます。",
+      "recipe": "ad_astra:recipes/solar_panel"
+    }
+  ]
+}

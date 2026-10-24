@@ -1,0 +1,12 @@
+{
+  "name": "接続用ブロック",
+  "icon": "extended_drawers:connector",
+  "category": "extended_drawers:blocks",
+  "pages": [
+    "@item@接続用ブロック@!を使うと、$(l:drawers)引き出し@!を無駄に作らずに、離れた$(l:simple_networks)ネットワーク@!同士をつなげられます。@p@データを保存しないので、処理の負荷も小さくなります。",
+    {
+      "type": "patchouli:crafting",
+      "recipe": "extended_drawers:connector"
+    }
+  ]
+}

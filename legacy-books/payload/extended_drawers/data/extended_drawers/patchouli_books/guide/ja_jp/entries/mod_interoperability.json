@@ -1,0 +1,9 @@
+{
+  "name": "ほかのMODとの連携",
+  "icon": "minecraft:hopper",
+  "category": "extended_drawers:networks",
+  "pages": [
+    "$(l:simple_networks)ネットワーク@!は、@thing@Fabric Transfer API@!を使うMODやホッパーから操作できます。@p@個別の$(l:drawers)引き出し@!は、各スロットへの挿入と取り出しに対応します。@p@$(l:access_points)アクセスポイント@!と$(l:shadow_drawers)シャドウ引き出し@!は全体へ接続でき、後者は絞り込みも行います。",
+    "組み合わせれば、さまざまな複雑な装置を作れます。$(br2)例えば：$(br)$(li)AE2のMEシステムをアクセスポイントへ接続し、画面から中身を扱う。$(li)接続用ブロックを長くつなぎ、シャドウ引き出しを使って、途中のチャンクを読み込まずに遠方へ即座にアイテムを運ぶ。"
+  ]
+}

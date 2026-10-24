@@ -1,0 +1,16 @@
+{
+  "text.autoconfig.appleskin.option.showFoodValuesInTooltip": "ツールチップに食料の値を表示",
+  "text.autoconfig.appleskin.option.showFoodValuesInTooltip.@Tooltip": "有効にすると、Shiftを押している間、食料の満腹度と隠し満腹度をツールチップに表示します。",
+  "text.autoconfig.appleskin.option.showFoodValuesInTooltipAlways": "食料の値を常に表示",
+  "text.autoconfig.appleskin.option.showFoodValuesInTooltipAlways.@Tooltip": "有効にすると、Shiftを押さなくても、食料の満腹度と隠し満腹度を表示します。",
+  "text.autoconfig.appleskin.option.showFoodValuesHudOverlay.@Tooltip": "手に持つ食料で回復する満腹度を表示します。showSaturationHudOverlayも有効なら、隠し満腹度も表示します。",
+  "text.autoconfig.appleskin.option.showFoodValuesHudOverlayWhenOffhand.@Tooltip": "オフハンドの食料についても、満腹度・隠し満腹度・体力の回復量を表示します。",
+  "text.autoconfig.appleskin.option.showFoodHealthHudOverlay.@Tooltip": "食料で回復する体力の推定値を、体力ゲージに表示します。",
+  "text.autoconfig.appleskin.option.showFoodExhaustionHudUnderlay.@Tooltip": "満腹度ゲージの背後に、消耗値を示すバーを表示します。",
+  "text.autoconfig.appleskin.option.showSaturationHudOverlay.@Tooltip": "現在の隠し満腹度を、満腹度ゲージに重ねて表示します。",
+  "text.autoconfig.appleskin.option.showFoodDebugInfo": "デバッグ画面に食料の値を表示",
+  "text.autoconfig.appleskin.option.showFoodDebugInfo.@Tooltip": "デバッグ画面に、満腹度・隠し満腹度・消耗値を表示します。",
+  "text.autoconfig.appleskin.option.showVanillaAnimationsOverlay.@Tooltip": "体力や満腹度の表示を、Minecraft標準のアイコンの動きに合わせて揺らします。",
+  "text.autoconfig.appleskin.option.maxHudOverlayFlashAlpha.@Tooltip": "点滅するアイコンが最も明るいときの不透明度です。1.0は完全な不透明、0.0は完全な透明です。",
+  "modmenu.descriptionTranslation.appleskin": "食料に関する、さまざまな画面表示を改善します。"
+}

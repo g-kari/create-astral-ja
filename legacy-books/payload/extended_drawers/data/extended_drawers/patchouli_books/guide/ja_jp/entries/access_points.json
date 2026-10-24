@@ -1,0 +1,12 @@
+{
+  "name": "アクセスポイント",
+  "icon": "extended_drawers:controller",
+  "category": "extended_drawers:blocks",
+  "pages": [
+    "@item@アクセスポイント@!は、$(l:simple_networks)ネットワーク@!全体の適切な引き出しへ、自動でアイテムを入れます。優先順位は$(l:insertion_order)こちら@!を参照してください。@p@ほかのMODからネットワークに接続する窓口にもなります。詳しくは$(l:mod_interoperability)こちら@!へ。",
+    {
+      "type": "patchouli:crafting",
+      "recipe": "extended_drawers:controller"
+    }
+  ]
+}
