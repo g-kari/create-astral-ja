@@ -1,0 +1,10 @@
+{
+  "title": "部品作成台の作り方",
+  "recipe": "tconstruct:tables/part_builder",
+  "grid_size": "small",
+  "description": [
+    {
+      "text": "木型を用意したら、部品作成台を作り、道具作りを始めましょう。"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "職人のチェストの作り方",
+  "recipe": "tconstruct:tables/tinkers_chest",
+  "description": [
+    {
+      "text": "作ったチェストは、好きな色に染められます。"
+    }
+  ]
+}

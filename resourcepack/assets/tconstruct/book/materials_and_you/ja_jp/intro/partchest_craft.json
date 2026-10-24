@@ -1,0 +1,9 @@
+{
+  "title": "部品チェストの作り方",
+  "recipe": "tconstruct:tables/part_chest",
+  "description": [
+    {
+      "text": "余った部品も、いつかまた必要になるかもしれません。"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "部品作成台",
+  "image": {
+    "file": "tconstruct:book/images/partbuilder.png",
+    "width": 170,
+    "height": 64
+  },
+  "text": [
+    {
+      "text": "部品を作るには、空の木型を木型スロットに入れます。作りたい部品を選び、手で加工できる柔らかい素材を入れ、完成した部品を取り出しましょう。以前作った柔らかい部品を、別の形に作り直すこともできます。",
+      "paragraph": true
+    }
+  ]
+}

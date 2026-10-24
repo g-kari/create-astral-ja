@@ -1,0 +1,49 @@
+{
+  "title": "修理",
+  "grid_size": "small",
+  "grid": [
+    [
+      {
+        "type": "forge:nbt",
+        "item": "tconstruct:pickaxe",
+        "nbt": {
+          "tic_broken": false,
+          "tic_display": true,
+          "Damage": 70,
+          "tic_materials": [
+            "tconstruct:ui_render#head",
+            "tconstruct:ui_render#handle",
+            "tconstruct:ui_render#extra"
+          ],
+          "tic_stats": {
+            "tconstruct:durability": 100
+          }
+        }
+      },
+      "tconstruct:repair_kit"
+    ]
+  ],
+  "result": {
+    "type": "forge:nbt",
+    "item": "tconstruct:pickaxe",
+    "nbt": {
+      "tic_broken": false,
+      "tic_display": true,
+      "Damage": 10,
+      "tic_materials": [
+        "tconstruct:ui_render#head",
+        "tconstruct:ui_render#handle",
+        "tconstruct:ui_render#extra"
+      ],
+      "tic_stats": {
+        "tconstruct:durability": 100
+      }
+    }
+  },
+  "description": [
+    {
+      "text": "道具を壊したくないなら、修理は大切です。道具組立台や道具用の金床に、道具と、その頭部や装甲板に使われている素材を入れると修理できます。修理キットなら、作業台でも使えます！",
+      "paragraph": true
+    }
+  ]
+}

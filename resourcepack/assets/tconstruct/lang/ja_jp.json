@@ -32,5 +32,13 @@
   "advancements.tconstruct.world.clay_island.title": "きらめく島",
   "advancements.tconstruct.world.clay_island.description": "空の粘土の島は、謎の新物質、シマーに覆われました……",
   "advancements.tconstruct.world.slime_sling.description": "4種類のスライムスリングを十分に使う（サバイバルでは達成不可！ このパックではスライムスリングとスカイスライムスリングが無効です）",
-  "death.attack.fusion": "%1$sは光輝を体験した"
+  "death.attack.fusion": "%1$sは光輝を体験した",
+  "item.tconstruct.materials_and_you": "素材とあなた",
+  "item.tconstruct.materials_and_you.tooltip": "道具と素材の入門書\nSelena著",
+  "item.tconstruct.flint_and_brick": "火打石とレンガ",
+  "item.tconstruct.pickadze": "ピックアッズ",
+  "item.tconstruct.travelers_boots": "旅人のブーツ",
+  "item.tconstruct.travelers_chestplate": "旅人のベスト",
+  "item.tconstruct.travelers_helmet": "旅人のゴーグル",
+  "item.tconstruct.travelers_leggings": "旅人のズボン"
 }

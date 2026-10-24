@@ -1,0 +1,10 @@
+{
+  "title": "Nemea著：Fantastic Foundry",
+  "recipe": "tconstruct:common/fantastic_foundry",
+  "grid_size": "small",
+  "description": [
+    {
+      "text": "溶融金属を扱う最新の熱い技術。乾式精錬炉を飛ばして、鋳造炉から始めましょう！詳しくはNemea著の§oFantastic Foundry§rで。"
+    }
+  ]
+}

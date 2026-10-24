@@ -1,0 +1,14 @@
+{
+  "title": "道具のリサイクル",
+  "image": {
+    "file": "tconstruct:book/images/recycling.png",
+    "width": 170,
+    "height": 64
+  },
+  "text": [
+    {
+      "text": "別の道具にしたくなったら、部品作成台で分解して部品を1個回収できます。もう1個回収できる場合もあり、修理してある道具ほど、その確率が高くなります。",
+      "paragraph": true
+    }
+  ]
+}

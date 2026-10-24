@@ -1,0 +1,1639 @@
+{
+  "book": "tconstruct:materials_and_you",
+  "title": "Materials and You",
+  "mod": "Hephaestus",
+  "modVersion": "1.18.2-3.5.2.312",
+  "modSha256": "d133b87b588615227d459108721c6b320fdb192680d6b2140157037781b8d200",
+  "source": "https://github.com/Alpha-s-Stuff/TinkersConstruct",
+  "resourcePath": "assets/tconstruct/book/materials_and_you/ja_jp",
+  "sourcePath": "assets/tconstruct/book/materials_and_you/en_us",
+  "license": "MIT",
+  "coverTranslated": false,
+  "files": [
+    {
+      "path": "armor/boots.json",
+      "sourceHash": "6412f7bce4b502f20b842b367c5ea746a8df554b5c46448ea552efd1c0de815c",
+      "structureHash": "fe9f870983e010b6bb9182c397eae11626a15f2232a8e4512ed55eb122eeab31",
+      "fields": [
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "2d14a19d6f43016e7f121143d4c65cd28b3d75b0f6978b922f544d8d50baaf88",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/1/text",
+          "sourceHash": "fe4b9a40af48d308e851d7b4edd3f98942c92bbcc097fb114f0ab7a796a1ea94",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/0",
+          "sourceHash": "146aa217fa8b463cfab083394ab59faf4869554d07628e3204c16171a4a19b22",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/1",
+          "sourceHash": "3306501429e2c42fa96aaf0d597928b64b2033ff3181d6c1e26a8bd233065727",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/2",
+          "sourceHash": "adea5abc523bde69f68f7233618db287234e138bae2838d7f8abdfc6351d8886",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/3",
+          "sourceHash": "a32fd0ca172734a802d52bc7baa037f7e3562413f37372bee2fdfa73352071f7",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/4",
+          "sourceHash": "652e9b7f62c7d4e34cecfa4b5b585cb93df007add72daa829878aeeb74a24fa3",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/5",
+          "sourceHash": "96106035c7b48be6bccf66ea8948c1f10586e20cade6c9933e3cc9aea4416b05",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "armor/goggles.json",
+      "sourceHash": "4326db7d1f3ae01636acc529586a7a11c455df9fee9132325721051a05a2e67d",
+      "structureHash": "ec845da2d9a14e5c2e5b0b64330b9e1abee04e47c8c5fb69955912a66c7ca79a",
+      "fields": [
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "f2088181d71e44ae0e53355a2c51ef124d225e007b452e0661e457b048d1f41a",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/1/text",
+          "sourceHash": "161d0c9ae646bd7a2daafb7f9af5b6891f0faf5866ec7e060717cd83bbfc3c0a",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/0",
+          "sourceHash": "146aa217fa8b463cfab083394ab59faf4869554d07628e3204c16171a4a19b22",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/1",
+          "sourceHash": "3306501429e2c42fa96aaf0d597928b64b2033ff3181d6c1e26a8bd233065727",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/2",
+          "sourceHash": "adea5abc523bde69f68f7233618db287234e138bae2838d7f8abdfc6351d8886",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/3",
+          "sourceHash": "a32fd0ca172734a802d52bc7baa037f7e3562413f37372bee2fdfa73352071f7",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/4",
+          "sourceHash": "652e9b7f62c7d4e34cecfa4b5b585cb93df007add72daa829878aeeb74a24fa3",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/5",
+          "sourceHash": "96106035c7b48be6bccf66ea8948c1f10586e20cade6c9933e3cc9aea4416b05",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "armor/pants.json",
+      "sourceHash": "09057472aa776112e29102c408f0f1d57513eb46e8d6a2ba9b41e3fd14dfb7d3",
+      "structureHash": "49b2bb5cf9bcfc4aa9ba70330d53d9a729a111ef377793ff86d79d7de5ae50a5",
+      "fields": [
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "dcf55dbdfd13cdf63b07b81766c079d1bd4bb8cf61876cdb806c51155cc158cc",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/1/text",
+          "sourceHash": "f6d9a8de12ed4886ea5ead00dd187ebff7fec5ee05368428f76083eea8a455ae",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/0",
+          "sourceHash": "146aa217fa8b463cfab083394ab59faf4869554d07628e3204c16171a4a19b22",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/1",
+          "sourceHash": "3306501429e2c42fa96aaf0d597928b64b2033ff3181d6c1e26a8bd233065727",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/2",
+          "sourceHash": "adea5abc523bde69f68f7233618db287234e138bae2838d7f8abdfc6351d8886",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/3",
+          "sourceHash": "a32fd0ca172734a802d52bc7baa037f7e3562413f37372bee2fdfa73352071f7",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/4",
+          "sourceHash": "652e9b7f62c7d4e34cecfa4b5b585cb93df007add72daa829878aeeb74a24fa3",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/5",
+          "sourceHash": "96106035c7b48be6bccf66ea8948c1f10586e20cade6c9933e3cc9aea4416b05",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "armor/vest.json",
+      "sourceHash": "436d59233e82f48785e587aa2d74f5575a284445a0353bfe1af0b87d226c5216",
+      "structureHash": "2e7b0d7ebcb23455b412b6bdb690eff0be6d7d0774c36db51b6c00c1c2355e4b",
+      "fields": [
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "7cbaae2fd3a2d7f60049137761b61db7c748fa7f02488b4068b6dc863ea30806",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/1/text",
+          "sourceHash": "4153dcd00645a995b53bc1ab9f3090823ddf90b466a92d1f3f9d33855d08d289",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/0",
+          "sourceHash": "146aa217fa8b463cfab083394ab59faf4869554d07628e3204c16171a4a19b22",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/1",
+          "sourceHash": "3306501429e2c42fa96aaf0d597928b64b2033ff3181d6c1e26a8bd233065727",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/2",
+          "sourceHash": "adea5abc523bde69f68f7233618db287234e138bae2838d7f8abdfc6351d8886",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/3",
+          "sourceHash": "a32fd0ca172734a802d52bc7baa037f7e3562413f37372bee2fdfa73352071f7",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/4",
+          "sourceHash": "652e9b7f62c7d4e34cecfa4b5b585cb93df007add72daa829878aeeb74a24fa3",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/5",
+          "sourceHash": "96106035c7b48be6bccf66ea8948c1f10586e20cade6c9933e3cc9aea4416b05",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "furtherreading/fantastic_foundry_craft.json",
+      "sourceHash": "69408740a4c239f705231682e96a87c1168b49b03227ed380253e9b01f2f0e86",
+      "structureHash": "e2580c18098c9d93dada42ec6f76c0b91417e5508a28087fba2411173a70d133",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "c2b2e9a46da0357c21d543b4c0e713b0f72b56a0359eaf8cf0e083ffdaaa5ba9",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/description/0/text",
+          "sourceHash": "8220cda478aff02a71eea9ce8d2ba1bc0171bbef42445c3adfec00d176a1cf38",
+          "signature": {
+            "formats": [],
+            "colors": [
+              "§o",
+              "§r"
+            ],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "furtherreading/furtherreading.json",
+      "sourceHash": "6330f8421a3abb25d2f52119b123e9e58ad67082632f74b275628eede3ad6cbb",
+      "structureHash": "41e7cbb69f9e292f08509ab68c0985951b9f265abaa8ffa5ef15e7b55549e281",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "bd2e42f237b39fc195116b8e1606b7af14daf25b36e918b2341817bf4ddf2fd2",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "4f296a06a541a91d5ca6c4d15f9dc7e4f943bfef2adc924037c4036565e3f562",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/1/text",
+          "sourceHash": "3faa0e1ba147d71f4226c35b58a926b4c42af8def0835f4347af0223bf8420e1",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "furtherreading/gadget_craft.json",
+      "sourceHash": "4ca77bb38912bba15709d392452b714856577d0d557e117221ce2313c18d1c40",
+      "structureHash": "13df5f20a0d12a8d15eaf7fc7bb28f4aee983f3c5e7a99b1d463e6a34a4d091e",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "e951149626a480475a34f9a1a09845b956e928ed74161940b2e582f1e4945120",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/description/0/text",
+          "sourceHash": "b811e8e802838defb56b63f7e6ee56ba597a329c7d9292df27b0a8b545fd97fa",
+          "signature": {
+            "formats": [],
+            "colors": [
+              "§o",
+              "§o",
+              "§r"
+            ],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "furtherreading/puny_craft.json",
+      "sourceHash": "b8eb7e81c0e8daf36681ed72bfaae48e41d627f0025ad4f3a5371951894b9f05",
+      "structureHash": "58d8a1d1bb8dc926b074e974c6a7f724da543e12ffbb6d4ecdfdf476ed40aab7",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "80611b139b046e157938b92066b717507d113f3dee72228f7ddd80b43764212d",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/description/0/text",
+          "sourceHash": "b35c79d9d00bf7c117a7fe6c205a4565f161e07a5dd78cc7bfcf130ff03d2785",
+          "signature": {
+            "formats": [],
+            "colors": [
+              "§l",
+              "§r",
+              "§o",
+              "§r",
+              "§o",
+              "§r"
+            ],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "intro/partbuilder_craft.json",
+      "sourceHash": "cea898c20e73981e86e228be6cd131cc9869cc02212277ab1afe124268c8f3a0",
+      "structureHash": "27957470c2311714dbd94e2379123cca094056281a92f8fc90e99f8550fde96c",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "a4220656d3116de2d8bb4c669674b4f988787d7aebdcb09fcd1eb565b35d5d30",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/description/0/text",
+          "sourceHash": "5f7c432b9af1bfadd996894fe47fb14426a7c1cefbcf106f73f81e85a67615ab",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "intro/partbuilder.json",
+      "sourceHash": "6385c96e27aef42a01641f2e6b72a510ca1ce8043594562fcd845eaaa310f163",
+      "structureHash": "f7fd3ff268fa45f1f5396c169a3d735f65d5c2b26811c58b8b793a6fb5480e9d",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "26fe0e643cd20294009fff026c8d94804356d3920010cfa6a9b9d301929596c4",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "e66e40588b67b979c1f3264f60f0c2ede97b7856bbf11d9387c8b184694b828c",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "intro/partchest_craft.json",
+      "sourceHash": "b483018ea36dc676bdcac2a446b48baffaff2c4e49b992aedc5552ae2e1dab0d",
+      "structureHash": "13f3e4338c944b917406c93362ee3c80093de0fff3e2a8b47cd4ab47667fe21e",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "d27e52e3b2a40e4151629a9a5ebc382c3cc10c18980939558315fc62f5439aaf",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/description/0/text",
+          "sourceHash": "b5504b26c8ac1d8c607f2a21d08b2bb96ef634b43044ccdd7998b628acacda69",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "intro/pattern_craft.json",
+      "sourceHash": "6f30c2f22dd94c2e16cf6e21d572924bc1f5b4f2fba6b8146f6a24a660aac560",
+      "structureHash": "24fa8a3ad335e88a1efd5dbd919c970beaf9c3a05bbb8da0aa6afac45b7c4265",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "ad99f9f34df83b020bf8fc0deedcf38cef0fb15feffcf3eeacdcdbb6833e2a1b",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/description/0/text",
+          "sourceHash": "e681aeb3c7990d9dda935399e887ee5054bfbe40b75aca70159276c11d64ef1e",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "intro/recycling.json",
+      "sourceHash": "57f92d01e736838f8cc852864da2da6bd5ad06805e151701764237ed71dc32c5",
+      "structureHash": "06020c81cbcc6550814d8c34d0494bbf8e7cbb7fb0d03e46aea0c0d2962765b6",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "57c14c7790c42f6cf46635e437b1a590074ddaf8a369bb8f10cb71de93164986",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "0d21cdbda9d371a6d1d23a2708756c36da673fc981535af4bbf22e42fb353393",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "intro/storage.json",
+      "sourceHash": "f597317e1487c31bafd58cea46cb3bdea20b98aa3dd89fdc2ebd60adce8bbcf7",
+      "structureHash": "eb1f1311dd6f39237bf447a5ffcd6cad4dc86b6487a920ebababde300b4f3c46",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "240b033c221bf212a82d9a516568e1fc280ecc3e342174df177d55e4d053d143",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "a1dc9831a3d3e8d9bb4afb3159849289e1d9e363e4bb69425a5e04b4829636b6",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/1/text",
+          "sourceHash": "26563f8e0274aedfe344bcdd4a71c38b3925f19b0cc384adc1078259aa951b4a",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/2/text",
+          "sourceHash": "ca7affba7c808f3af2160af8ae9a03a17c5074f03021f5b6e5e6d1edd64aba9e",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "intro/tinkerschest_craft.json",
+      "sourceHash": "db7565ee890e4a211db746fe60980cb9dac2781ac899fed3e2deb25628f1de4a",
+      "structureHash": "d3fa4634bf2813106f220dff302b7a1d15d69482b52cda98b95afbb3aa43a20e",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "43ce563da420611f0256b16ba603d78ae2c324dbd2b177caead9173c0c197490",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/description/0/text",
+          "sourceHash": "ed89282405ffb83ed6132006ffe52a6bca58f69abb63ea47b8c1a22fa2a731f8",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "intro/tinkerstation_craft.json",
+      "sourceHash": "3d15635e6f74c72cb96a135f039dd912b13209d0109112026d09ae2e81a8a193",
+      "structureHash": "05cd069bee1275348a1d208075976e11412277b99980ec243adcb2c57b51905a",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "581bda641c2183ffe954d1067e341a599f0e538864e70d6a614955d684102a0d",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/description/0/text",
+          "sourceHash": "a00b0f47caaa52501ec0e144f85ced829e3a5cb87088779c402c6847cd872f69",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "intro/tinkerstation.json",
+      "sourceHash": "0073fee2d5403e1e43b8e0bef8448dace048140b838fad85fd1c7982dba82716",
+      "structureHash": "3569b28d75276ab81396fc70e949e44f636c8d5baa2f3def95b0187497f76767",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "03c4ffea20d7382bcd2c6bc7bc0fa787cb69afe4fd405ba818f6df2ce5d61bc7",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "4ba2feab8582176ad8f4a091d505e204bd5a1d5ad1e034bf48f0d3375a14f4bd",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "intro/tinkerstation2.json",
+      "sourceHash": "140984d6230a79bac5789c0e5ac45079ee4a7a5cd19a9d6bcb3766352e62f530",
+      "structureHash": "eb1f1311dd6f39237bf447a5ffcd6cad4dc86b6487a920ebababde300b4f3c46",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "03c4ffea20d7382bcd2c6bc7bc0fa787cb69afe4fd405ba818f6df2ce5d61bc7",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "4514298d0c8f11bbaa8161b5356cbd6cb6992dce6eedf2f84732a6bf5a8a0aa2",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/1/text",
+          "sourceHash": "f1f1fe4d4d56d86a8840479953bfe91ccc2f20611183dd175aef674d30e4f7ed",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/2/text",
+          "sourceHash": "dff3a5a7b4660d981feda6b22e5d9b028d75202c13ff689b5ca775677c01edf3",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "intro/welcome.json",
+      "sourceHash": "6af4ef9047cd080e92e127518c73a2172cd5b7bb8bd9aae81828c548627b8392",
+      "structureHash": "eb1f1311dd6f39237bf447a5ffcd6cad4dc86b6487a920ebababde300b4f3c46",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "e20fef6b1258cc88965fcac9e03120a68828a32b6c99d413a5cb640ae63e0ac2",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "a2240ccdf75e4abd78d66c77f98b77f1ae45e568d151238ffeab52d7bc1fca47",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/1/text",
+          "sourceHash": "540050ca54a6665050b12482ff2936932e113018565557dc65d037db3a8d8665",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/2/text",
+          "sourceHash": "9a2f6930be20893728adf52ad1d277a0becf22c6895ffd9490da223b2c0a0a86",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "modifiers/abilities.json",
+      "sourceHash": "2129c49d8958456fc8b9b5ef144ff7f8a2d0ca031cac5a33b4558cc4320170f8",
+      "structureHash": "eb1f1311dd6f39237bf447a5ffcd6cad4dc86b6487a920ebababde300b4f3c46",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "81932b99d9d932d998aaa17ae2359f7c6e868af4479be078e0115927c4edd738",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "3c9f4bb6c1861a68285abde9b04bc8c9f13a3440a2088e793af607ba3ffe08dc",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/1/text",
+          "sourceHash": "d32fe7a3b46a9df6d787e00f3c1f2156b207f7e9bcc9ec1c570ffa459b62f10d",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/2/text",
+          "sourceHash": "c6408e558e33b9340628fc82e1377a733ab224ff6cc90c849fd23eba2c133c1b",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "modifiers/defense.json",
+      "sourceHash": "54b8ba01880fb72b1fde284b2d6f5faec26be03d45bb37c837ebc8c56b19582c",
+      "structureHash": "eb1f1311dd6f39237bf447a5ffcd6cad4dc86b6487a920ebababde300b4f3c46",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "eb10a69974a19a8e5fcc52eb02fd627bb7978a1789fd93a95a709e9eea11beb9",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "6e0982ad5ad729148972b213d793b2ac8983100e5a6632ca68ac63e545757723",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/1/text",
+          "sourceHash": "23f7aa49fa5ab3ef995fad4dad254fcd82c98d07f87960615d8e462916fa7e1e",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/2/text",
+          "sourceHash": "07357579a1c5acbd4a29fab90c6a1875bd5fa46bd151ba51f72fadfb5b14e02f",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "modifiers/index.json",
+      "sourceHash": "f9f293cacdd31740560cc3ce19f3164e2605e5c52f5d8d07149a76c352a217f3",
+      "structureHash": "1931abe80ea35f004fce9bd83fbe0915514efd7309aa0fd10878817187633a93",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "072da57facdcc631f41c5d886717e71197314fb5518d7c4b51033dbe11f7ffff",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/subText",
+          "sourceHash": "19a1a67b0fd3154c7e046fdf03eb368ca46026c1d8818e9447b031657187002a",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "modifiers/slotless.json",
+      "sourceHash": "1bd791b317fc2811fbaf9b0df34256053e250935b672d3b8208ca5929982fd7e",
+      "structureHash": "eb1f1311dd6f39237bf447a5ffcd6cad4dc86b6487a920ebababde300b4f3c46",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "948c9422299006b0b6084984661102f1cfa74cf2cdf00280d5cb4ceaaa338030",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "add20b04ba1e49cfe9dbe007a9eb8122cdfa25f4aadfe510f6120ea0ca1350c4",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/1/text",
+          "sourceHash": "99a731defe1d3436a4bd163de6fc2f6ba82e0ab89e8259f99a971e51e4872094",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/2/text",
+          "sourceHash": "ed426059e97a22dd23a0fbfd1888743a0d17e5bd760bb30ca5f964e64baf3365",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "modifiers/traits.json",
+      "sourceHash": "0b2251bc9334670d19221e886c5f0ab42382086409d292381dbb2aefcf572cd7",
+      "structureHash": "eb1f1311dd6f39237bf447a5ffcd6cad4dc86b6487a920ebababde300b4f3c46",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "e0ab4adb01b26f9826cee772123af832c93981e47a14189c514fbd40212a3ce5",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "bd5608c8028ee225bf3178353b23271d30edc3cc2d00ae47cfc9c6286596517a",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/1/text",
+          "sourceHash": "355704ad38bd3a9c3e328c031d9078e3c7b8f869faf15b08146a09746c7d637d",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/2/text",
+          "sourceHash": "fb3368f8f94d96a161a352924b61aeed49f8463153f7bb58416b3c7b227a1a6c",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "modifiers/upgrades.json",
+      "sourceHash": "10d22a15eb7b5ea6647c1f6654c09d8506514182918c963d52156125b2154142",
+      "structureHash": "eb1f1311dd6f39237bf447a5ffcd6cad4dc86b6487a920ebababde300b4f3c46",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "e02a5941602a57c3c2f17eafe2bf11c64bba85755ace8983c10ed23f1d4b286f",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "75d396498969a56b7cc931b253bd1016bd8364a993662d234ef76b0f84c60180",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/1/text",
+          "sourceHash": "d4c1940ebf311586bb87af07dbc45a9c5af0db84017baaf15385a8e440ea2c1e",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/2/text",
+          "sourceHash": "b946d63ba0afb656684bc9651b46a59c4a81c7913f8cd34377d803da5543db7d",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "tools/axe.json",
+      "sourceHash": "043f533fb023190424aee530e8383389ac2817fa3e505a6f15be9874e8d08d02",
+      "structureHash": "b47c41673edc7d180b4a4e7b525db930e34547ddf962526bdffd0a1d89629511",
+      "fields": [
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "45666882b38524831d935dd4005d4f49c6e13a140f6be64bd44d0b3e93059cdf",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/0",
+          "sourceHash": "6eb09eb22475c4f06f646a916830290f5a947f0ff986b7a3ed07ec88b1251a06",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/1",
+          "sourceHash": "5b3edc20da99082072c3e05ab8cf6e2bf6fb457c6127d6ebbb2539379e9b51ae",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/2",
+          "sourceHash": "fc4f15d57b6ffcda98e02a0b9c399e12f6fa63e8165754acd1c78e6c59ab4936",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/3",
+          "sourceHash": "b32bbe26237f1b51ea5e874dc25c62362c5b0799b9123f11c3cb9dace33361c9",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "tools/dagger.json",
+      "sourceHash": "70e1007cd6226eb809d59cf572479e21d80216e6e048605f6f806f5719788615",
+      "structureHash": "3b8c71f125851ae222dddba0ea357df74a5113df55c7f9a26b4f7b8df417822a",
+      "fields": [
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "43274e6c0d188d57e99364816805d8dc4dba4291035d9c1cd3376e93e14bbb4d",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/0",
+          "sourceHash": "343270c3b6805025f8b9144e6f0b673d1396ebcddad9f7307244d0e5d6fe2e2c",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/1",
+          "sourceHash": "725c9dbd48187457456fc5f76319220ba98c233e1722b6f326085fcc860042ec",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/2",
+          "sourceHash": "6c330bd8fffc4798df133793fffcb7c4a6118fdede4685d36ee8ed78abcc1ff5",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "tools/flint_and_brick.json",
+      "sourceHash": "7ad6ed7868f46dae339e34f8ca367530c9fe35413c88840a56aa84d8532713aa",
+      "structureHash": "5ec1b0587f992feb5413bd183d4a970450ce944ae37378d0516c0efa67b505e4",
+      "fields": [
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "4f061d0be03d925e3212b76f64cbf4f830cbb3d32f659bdfa4ad316f962ab340",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/2/text",
+          "sourceHash": "d7552a43cd3a09e44146c025e4d8a511bf6d59f04ae3a7228b50b6f7333d725a",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/0",
+          "sourceHash": "e70257aa2be026ba93a5adede876a36a645d238121b36e48ce49a8627e92698e",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/1",
+          "sourceHash": "9ae3d64b73936f7b7bae6c49e6d4d463fc40be8ea9547fc7515a1f5438156988",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/2",
+          "sourceHash": "007cf61bf6cc771be2de36f3009b1378c49837c631681e51f052f6617c09d8a2",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "tools/kama.json",
+      "sourceHash": "5011d98e2e465e60efa592e567a50bd06dc352731a2532b851f4e54f570f974f",
+      "structureHash": "45e24a4d8798a23896b33d8e48a0dae79e678f130f8d05d69ccfe814e81284a6",
+      "fields": [
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "102b371bc00a619e4173c7c5e11ed6941e61fe8caeb84cee8fc82e65fe86f6b1",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/0",
+          "sourceHash": "fda6bd518554b10e7d9498adae8916e23b2134df8e84860c6731d3c1f3b93219",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/1",
+          "sourceHash": "e5c753015b130f96e24bd50822cb30f6fdc5f1511b2356b9ab951250424b7b60",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/2",
+          "sourceHash": "cdc3aa1ecf55351ccf6d857a106cbfa66296ff70e2d36fe29ca3f45497c7c893",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/3",
+          "sourceHash": "89825250c65d34d1707b8a03267f2e6a973fb505415ead53d491829125b9032b",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "tools/mattock.json",
+      "sourceHash": "1db68a4ca47f504c4c1209a476d1f35fa37bf75889256441943a772d25308594",
+      "structureHash": "8579e1fc7d3f18cfa89544755705b556fc1babe5f57b94660f0cbf9a440f266e",
+      "fields": [
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "7e75f0ca012fd1eb70f49060c84cd1e1c322ce5bfe906ca36327267a8597adbe",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/2/text",
+          "sourceHash": "3e572b7bf77b3783131f177dc763582d1dce899e23852bc9a1e1f972b3155c15",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/0",
+          "sourceHash": "c49a58c532e8d304ddd789859deb80a1fddcd381adf781e298269ede807fe37b",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/1",
+          "sourceHash": "42f46b54727db534375835ac73b8360675f3b24f14ebd0b62e19d9dfc38abde1",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/2",
+          "sourceHash": "f7f11d5fa88540e9cdaa469c215b02f1cad399d5d3a83f25b1786a10fceac5d2",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "tools/part_swapping.json",
+      "sourceHash": "2c066cb47aa375794b92d704d06cbd0e4021c89a809746c88c137ed16938027f",
+      "structureHash": "9ef861c93de93215a7bb15c1b0296c8a1a6b9a0c58fe3aabdaa01705a3a701e8",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "a53ccedc8bb2ca2ccc22de1199d83373d9ab868d1edc72271c90546c09e85667",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "bb22842e8c889ad921b591d603b7f3f91fd79255f03eb43a79532cf87174a08b",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "tools/pickadze.json",
+      "sourceHash": "c5d9fc4c5ecce89febe5b1d6e12032c912e6b7fe7444a515f2ff6f7d65c3ffa8",
+      "structureHash": "7e5caf1c2ed15aac9841e9acf9fde84a48442308e6efebf93827913a1e27b4dc",
+      "fields": [
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "6577fffc4cd812e29b5f109741a811053d293c2c142873298fcec3409a6d9a67",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/2/text",
+          "sourceHash": "1c84df64fc8721d64c8083b23664ec1a5e28c0dfd563c8aba667d6264cedb71c",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/0",
+          "sourceHash": "7fa5f10501e1269c0fbdff09cc33fd6641e8113b992034f955728de59ab3e69e",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/1",
+          "sourceHash": "669e88b892901ad07af86803938f48b46c808de453bb61ffca043e89ac350306",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/2",
+          "sourceHash": "ac42c989777e0d59a852e87e003d57a8254018d46736ef993130aa9837040c63",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/3",
+          "sourceHash": "7aca406a2c9ba8440712a6cd3e2dc107bfab465e4d664dacf3b2f9ba76cbf9fc",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "tools/pickaxe.json",
+      "sourceHash": "600acf3258de4acc7a9c7833854578e51f70de4d75fc2b24481d3b7bf9dfeaa6",
+      "structureHash": "9c792d925a20ea4e7f8e05666aaa4b77e7b21a126b24d54546649674f60d12f4",
+      "fields": [
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "a52b8cad33298466a4fa5f05d107fdd59541fe737aaa7e3738cbdf8687d48342",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/text/2/text",
+          "sourceHash": "5cbe4c8aaa99e6fbf9e11b374e203e2494ec8e3620d4d665b35520f6c07397ed",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/0",
+          "sourceHash": "6eb09eb22475c4f06f646a916830290f5a947f0ff986b7a3ed07ec88b1251a06",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/1",
+          "sourceHash": "decedbe87628fb2b683010f859e84570a7aa441240664c829ed2816d4821f225",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/2",
+          "sourceHash": "669e88b892901ad07af86803938f48b46c808de453bb61ffca043e89ac350306",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/3",
+          "sourceHash": "57a97ad7ba6f2d8c3c95fab6df2d6099cdd68e084fe5e9ba186109a90411582c",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "tools/repairing.json",
+      "sourceHash": "3fd0469f4914ca92bbd49a3484356e1f40714a5588092a5302fa12f9d4d7a16b",
+      "structureHash": "40564e642bdc00f0bf55d3254db0908d2b29c0f6ecbc4e186bb38e91a46cde03",
+      "fields": [
+        {
+          "pointer": "/title",
+          "sourceHash": "e2c5201c1822c05e20c31a03798e6d58e80f4e121e5a69fd8afeba9d594db2c6",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/description/0/text",
+          "sourceHash": "d8832607c3e90d86abf1619f5970ea3cade5e263fb30e360a6b1a6e8f1f38342",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "tools/sword.json",
+      "sourceHash": "f00e78ce7610ed47acb9a206a96c46601d600cd2496aeab8ac410bdc278ba13f",
+      "structureHash": "5876022b31396adfc3e8bcc28fe10f7ff091730716d5fbfcac5fd547a4b0303d",
+      "fields": [
+        {
+          "pointer": "/text/0/text",
+          "sourceHash": "a95265c6cea95310d8ddd7c654f34f77ef645d4ea179102f84e6daee92436160",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/0",
+          "sourceHash": "94e083acedbb04c76b1cfc6bed39ee300aa54671507571e585cbabd971d966b6",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "pointer": "/properties/1",
+          "sourceHash": "546bb790d750f299b64a63f27a6e6995091cc379817b377c2b3ceda612cd9e57",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    },
+    {
+      "path": "language.lang",
+      "sourceHash": "df120e514a4bdd296aaaa245537e85da48074fae1ecfdff0b44a4b0bed199011",
+      "fields": [
+        {
+          "key": "intro",
+          "sourceHash": "b605350bc00209520b7cd8f546322663356ba630708f71bbf30aead6b3dd608e",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "key": "materials",
+          "sourceHash": "b9e5f904d87a7c974bd1819be5beec91097e899aeba5f32da4ada95d94435962",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "key": "materials.subtext",
+          "sourceHash": "021c5ffe34f4076449c2fc745a7f4656d61b23c91070dc15c8a7725d8d20badf",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "key": "tools",
+          "sourceHash": "ea93d6a262ecb87a9fa4d09edbd7654c046597936a8e235fc3949eb01775ff99",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "key": "armor",
+          "sourceHash": "848c4c7de2af2c35c2bca6a806a28dff65834e13cb57e1e35a96a0d87b8d0543",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "key": "armor.subtext",
+          "sourceHash": "6859bc2556d2554596b075afc6659ac5b4ff9ab236702753ccee032ea28e1d54",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "key": "modifiers",
+          "sourceHash": "072da57facdcc631f41c5d886717e71197314fb5518d7c4b51033dbe11f7ffff",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        },
+        {
+          "key": "further_reading",
+          "sourceHash": "bd2e42f237b39fc195116b8e1606b7af14daf25b36e918b2341817bf4ddf2fd2",
+          "signature": {
+            "formats": [],
+            "colors": [],
+            "urls": []
+          }
+        }
+      ]
+    }
+  ],
+  "languageEntries": [
+    {
+      "namespace": "tconstruct",
+      "key": "item.tconstruct.materials_and_you",
+      "sourceHash": "c8ec458925ad995e80a7c904bbdece5b243260ff0792094cc6a4bb7a1c3c6092",
+      "signature": {
+        "formats": [],
+        "colors": [],
+        "urls": []
+      }
+    },
+    {
+      "namespace": "tconstruct",
+      "key": "item.tconstruct.materials_and_you.tooltip",
+      "sourceHash": "c1a462233d1914cbd4f2e3e8b46f9ed2ff7a79e82b3a96914a6d92e81a5f0f66",
+      "signature": {
+        "formats": [],
+        "colors": [],
+        "urls": []
+      }
+    },
+    {
+      "namespace": "tconstruct",
+      "key": "item.tconstruct.flint_and_brick",
+      "sourceHash": "b96a6d24d4db0e5f42c16463948c19f5fa312230efd8c6dd8bbb48adda78cbb4",
+      "signature": {
+        "formats": [],
+        "colors": [],
+        "urls": []
+      }
+    },
+    {
+      "namespace": "tconstruct",
+      "key": "item.tconstruct.pickadze",
+      "sourceHash": "cea68f3169f5b7ea639982c2acdba3d73ed0ac6d9120d7c63c1cfc2dabdbf2fd",
+      "signature": {
+        "formats": [],
+        "colors": [],
+        "urls": []
+      }
+    },
+    {
+      "namespace": "tconstruct",
+      "key": "item.tconstruct.travelers_boots",
+      "sourceHash": "e65afb29779f5bafa9bc4985f565dc98e82ae2e8f9e6e7b101c2f55b986cc294",
+      "signature": {
+        "formats": [],
+        "colors": [],
+        "urls": []
+      }
+    },
+    {
+      "namespace": "tconstruct",
+      "key": "item.tconstruct.travelers_chestplate",
+      "sourceHash": "d75d7e352c94f3ee8117b2e624d311f05e3d4e839d60cfe46cf36ba89a61d9ca",
+      "signature": {
+        "formats": [],
+        "colors": [],
+        "urls": []
+      }
+    },
+    {
+      "namespace": "tconstruct",
+      "key": "item.tconstruct.travelers_helmet",
+      "sourceHash": "44af5d0fa6381b12e04d3c48a43768f5f9bb8428f08e5a9593ccdab4c8b46b28",
+      "signature": {
+        "formats": [],
+        "colors": [],
+        "urls": []
+      }
+    },
+    {
+      "namespace": "tconstruct",
+      "key": "item.tconstruct.travelers_leggings",
+      "sourceHash": "f6c855d0ae9c5ba1d89c491505f80754ad4c527b4d1d875033620bdd66308295",
+      "signature": {
+        "formats": [],
+        "colors": [],
+        "urls": []
+      }
+    }
+  ]
+}

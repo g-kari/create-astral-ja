@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
+import {validateBook} from './validate-book.mjs';
 export const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const stable=a=>JSON.stringify([...a].sort());
@@ -11,8 +12,9 @@ export function signature(s){return {
   urls:s.match(/https?:\/\/[^\s&]+/g)||[],
   references:s.match(/\$[a-z_]+(?::[a-z_]+)?(?:\/[a-z_]+)*|#[a-z_]+:[a-z_]+/g)||[],
 };}
-export function validate(sourceRoot){
+export function validate(sourceRoot,bookSourceRoot){
  const index=read(path.join(root,'translation-index.json')),meta=read(path.join(root,'pack-source.json'));
+ const bookMeta=read(path.join(root,'book-index.json'));
  const assets=path.join(root,'resourcepack/assets'),values=new Map();
  for(const ns of fs.readdirSync(assets)){
   if(!/^[a-z0-9_]+$/.test(ns))throw Error('Invalid namespace '+ns);
@@ -22,7 +24,9 @@ export function validate(sourceRoot){
  }
  const menu=fs.readFileSync(path.join(root,'client-overlay/config/fancymenu/custom_locals/astralmenu/ja_jp.local'),'utf8');
  for(const line of menu.split(/\r?\n/)){const m=line.match(/^([^=]+?)\s*=\s?(.*)$/);if(m){const k='astralmenu:'+m[1].trim();if(values.has(k))throw Error('Duplicate menu key');values.set(k,m[2]);}}
- if(values.size!==meta.sourceEntries+(meta.additionalEntries||0)||index.length!==values.size)throw Error('Translation coverage differs from source index');
+ const extras=bookMeta.languageEntries.map(row=>row.namespace+':'+row.key);
+ if(new Set(extras).size!==extras.length||index.some(row=>extras.includes(row.namespace+':'+row.key)))throw Error('Duplicate book/base language entry');
+ if(values.size!==meta.sourceEntries+(meta.additionalEntries||0)+extras.length||index.length+extras.length!==values.size)throw Error('Translation coverage differs from source index');
  const seen=new Set(),english={};
  for(const row of index){const id=row.namespace+':'+row.key;if(seen.has(id))throw Error('Duplicate index key');seen.add(id);if(!values.has(id))throw Error('Missing '+id);const text=values.get(id);
   for(const [kind,tokens]of Object.entries(row.signature))if(stable(signature(text)[kind])!==stable(tokens))throw Error('Changed '+kind+': '+id);
@@ -35,7 +39,8 @@ export function validate(sourceRoot){
   }
  }
  if(read(path.join(root,'resourcepack/pack.mcmeta')).pack.pack_format!==8)throw Error('Expected 1.18 resource format 8');
- const result={status:'PASS',total:values.size,resourceStrings:meta.resourceEntries,menuStrings:meta.menuEntries,namespaces:fs.readdirSync(assets).length,checks:['UTF-8 JSON/menu syntax','complete source-index coverage','format arguments','formatting codes','URLs and tag/search references','source fingerprints'+(sourceRoot?' checked against local upstream files':' retained in index')],inGameVerified:false};
+ const book=validateBook(root,values,bookSourceRoot);
+ const result={status:'PASS',total:values.size+book.strings,resourceStrings:meta.resourceEntries,menuStrings:meta.menuEntries,book,namespaces:fs.readdirSync(assets).length,checks:['UTF-8 JSON/menu syntax','complete source-index coverage','format arguments','formatting codes','URLs and tag/search references','book recipe/item/NBT/layout structure','complete book JSON and section labels','source fingerprints'+(sourceRoot?' checked against local upstream files':' retained in index')],inGameVerified:false};
  return result;
 }
-if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))console.log(JSON.stringify(validate(process.argv[2]),null,2));
+if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))console.log(JSON.stringify(validate(process.argv[2],process.argv[3]),null,2));

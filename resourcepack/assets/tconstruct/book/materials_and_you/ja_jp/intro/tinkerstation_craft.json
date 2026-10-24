@@ -1,0 +1,9 @@
+{
+  "title": "道具組立台の作り方",
+  "recipe": "tconstruct:tables/tinker_station",
+  "description": [
+    {
+      "text": "木型はまだ残っていますか？なくなっていても、また作れば大丈夫です。"
+    }
+  ]
+}

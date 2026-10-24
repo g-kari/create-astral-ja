@@ -1,0 +1,10 @@
+{
+  "title": "木型の作り方",
+  "recipe": "tconstruct:tables/pattern",
+  "grid_size": "small",
+  "description": [
+    {
+      "text": "木型は道具の部品や作業台を作るために必要です。道具作りでは、たくさん使います。"
+    }
+  ]
+}
