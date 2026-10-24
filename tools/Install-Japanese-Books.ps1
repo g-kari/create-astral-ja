@@ -6,6 +6,7 @@ param(
 )
 $ErrorActionPreference='Stop'
 Add-Type -AssemblyName System.IO.Compression.FileSystem
+Add-Type -AssemblyName System.IO.Compression
 if(Test-Path -LiteralPath (Join-Path $PSScriptRoot 'legacy-book-index.json')){
     $packageRoot=$PSScriptRoot
 }else{

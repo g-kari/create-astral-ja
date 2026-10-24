@@ -1,5 +1,6 @@
 $ErrorActionPreference='Stop'
 Add-Type -AssemblyName System.IO.Compression.FileSystem
+Add-Type -AssemblyName System.IO.Compression
 $repo=Split-Path $PSScriptRoot -Parent
 $fixtureRoot=Join-Path ([IO.Path]::GetTempPath()) ('create-astral-ja-test-'+[guid]::NewGuid().ToString('N'))
 [IO.Directory]::CreateDirectory($fixtureRoot)|Out-Null
