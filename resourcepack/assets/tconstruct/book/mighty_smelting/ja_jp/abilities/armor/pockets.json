@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tconstruct:pockets",
+  "text": [
+    {
+      "text": "あとは、ポケットの数をきちんと数えられるようにポケット計算機が必要です。"
+    }
+  ],
+  "effects": [
+    "Adds more inventory space",
+    "Access with shift plus leggings interact",
+    "Multiple levels, each level gives +18 slots",
+    "Requires 1 ability slot"
+  ]
+}

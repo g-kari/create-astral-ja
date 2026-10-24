@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:fire_protection",
+  "text": [
+    {
+      "text": "溶岩やブレイズなどの炎によるダメージへの耐性が8%増えます。防具一式での上限は80%、または合計10レベルです。"
+    },
+    {
+      "text": "炎上時間を(15×レベル)%減少させます。ここでのレベルは合計ではなく部位の中での最高レベルです。",
+      "paragraph": true
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Can apply levels incrementally",
+    "Requires 1 defense slot"
+  ]
+}

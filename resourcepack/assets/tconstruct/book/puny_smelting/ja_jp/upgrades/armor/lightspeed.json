@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:lightspeed_armor",
+  "text": [
+    {
+      "text": "光がブーツを通して流れてくることで、より速く走れるようになります。"
+    }
+  ],
+  "effects": [
+    "Run faster in well lit areas",
+    "Multiple levels, increases speed further with each level",
+    "Requires 1 Upgrade Slot per level"
+  ]
+}

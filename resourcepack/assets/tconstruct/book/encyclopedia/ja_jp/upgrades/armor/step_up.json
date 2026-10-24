@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:step_up",
+  "text": [
+    {
+      "text": "プレイヤーがジャンプせずに登れる高さが(0.5×レベル)ブロック分増加します。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Maximum of 2 levels",
+    "Requires 1 upgrade slot per level"
+  ]
+}

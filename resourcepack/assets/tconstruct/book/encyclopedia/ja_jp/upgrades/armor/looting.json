@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tconstruct:looting",
+  "text": [
+    {
+      "text": "素手で倒したモンスターからのドロップが増えます。レベルごとにレシピが異なり、順番に適用する必要があります。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Maximum of 3 levels",
+    "Requires 1 upgrade slot per level",
+    "Requires unarmed"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:dyed",
+  "text": [
+    {
+      "text": "旅人の装備の、革でできた部分の色を変えます。"
+    },
+    {
+      "text": "複数の染料を混ぜたり、以前の防具の色と染料を混ぜたりもできます。",
+      "paragraph": true
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Multi-use",
+    "Slotless"
+  ]
+}

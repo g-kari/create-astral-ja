@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:silky",
+  "text": [
+    {
+      "text": "素敵で心地よい改造。"
+    }
+  ],
+  "effects": [
+    "Mined blocks drop themselves",
+    "Single Level",
+    "Requires 1 Ability Slot"
+  ]
+}

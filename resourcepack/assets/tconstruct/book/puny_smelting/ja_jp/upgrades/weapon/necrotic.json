@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:necrotic",
+  "text": [
+    {
+      "text": "長生きするために、敵の命を刈り取ろう。"
+    }
+  ],
+  "effects": [
+    "Critical hits steal life from your enemies to heal you",
+    "Multiple levels, increases chance of life steal per level",
+    "Requires 1 Upgrade Slot per level"
+  ]
+}

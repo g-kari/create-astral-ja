@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tconstruct:shiny",
+  "text": [
+    {
+      "text": "この伝説の改造は、伝説のエンチャントされた金のリンゴの伝説的な力を持っています。そしてそれには「§dピカピカ§r」という伝説的な名前も付与されます。何か間違っていますか？これは間違いなく伝説になります。"
+    }
+  ],
+  "effects": [
+    "It makes your tool glimmer",
+    "That's literally it",
+    "Legendary",
+    "Darkosto is §4§lNOT§r legendarily legendary."
+  ]
+}

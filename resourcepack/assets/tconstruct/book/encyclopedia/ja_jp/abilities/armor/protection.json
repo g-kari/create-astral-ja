@@ -1,0 +1,12 @@
+{
+  "modifier_id": "tconstruct:protection",
+  "text": [
+    {
+      "text": "あらゆるダメージへの耐性を、最初のレベルで6%、以降は1レベルにつき4%増やします。ほかの保護も含め、防具一式での上限は80%です。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Requires 1 ability slot per level"
+  ]
+}

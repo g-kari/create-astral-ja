@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:severing",
+  "text": [
+    {
+      "text": "1レベルにつき5%（さらに幸運1レベルにつき5%）の確率で、モブが頭などの体の一部を落とします。ボスなどの珍しいモブでは、確率が2倍になります。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Maximum of 5 levels",
+    "Requires 1 upgrade slot per level"
+  ]
+}

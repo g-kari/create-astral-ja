@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:exchanging",
+  "text": [
+    {
+      "text": "これを使うと、物事をうまく交換できないので、巨石との追いかけっこが始まるとか始まらないとか。"
+    }
+  ],
+  "effects": [
+    "Blocks broken are replaced by blocks in the offhand",
+    "Single Level",
+    "Requires 1 Ability Slot"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:ricochet",
+  "text": [
+    {
+      "text": "大胆な逃走をする時です。"
+    }
+  ],
+  "effects": [
+    "Increases knockback you receive",
+    "Multiple levels, each level further increases knockback",
+    "Requires 1 upgrade slot per level"
+  ]
+}

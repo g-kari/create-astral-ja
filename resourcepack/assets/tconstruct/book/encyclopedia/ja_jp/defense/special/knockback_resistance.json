@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:knockback_resistance",
+  "text": [
+    {
+      "text": "ノックバック距離が10%減少します。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Maximum of 1 level per piece",
+    "Requires 1 defense slot"
+  ]
+}

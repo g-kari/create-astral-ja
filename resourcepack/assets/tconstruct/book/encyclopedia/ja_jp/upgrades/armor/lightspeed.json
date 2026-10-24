@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tconstruct:lightspeed_armor",
+  "text": [
+    {
+      "text": "明るい場所では、移動速度が1レベルにつき5%増えます。それほど明るくない場所でも、効果は小さくなりますが速度は上がります。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Can apply levels incrementally",
+    "Maximum of 3 levels",
+    "Requires 1 upgrade slot per level"
+  ]
+}

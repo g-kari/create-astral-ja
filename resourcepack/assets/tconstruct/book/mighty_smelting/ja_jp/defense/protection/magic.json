@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:magic_protection",
+  "text": [
+    {
+      "text": "こんなものを使わないといけないなんて、ハリーは魔法使いに向いていないね。もっと偏向呪文を使って。"
+    }
+  ],
+  "effects": [
+    "Decreases magic damage",
+    "Multiple levels, each level further decreases magic damage",
+    "Requires 1 defense slot"
+  ]
+}

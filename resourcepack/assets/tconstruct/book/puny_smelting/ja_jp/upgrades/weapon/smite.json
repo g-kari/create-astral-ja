@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:smite",
+  "text": [
+    {
+      "text": "アンデッドよ、私を恐れなさい…。"
+    },
+    {
+      "text": "私は金をまとったスイカの力を使っているのだ！もしかしたら、金のスイカの鎧を着れば奴らは私に近づけないだろう。",
+      "paragraph": true
+    }
+  ],
+  "effects": [
+    "Increases damage to the undead",
+    "Multiple levels, each level further increases damage",
+    "Requires 1 Upgrade Slot per level"
+  ]
+}

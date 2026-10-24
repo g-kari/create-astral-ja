@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:cooling",
+  "text": [
+    {
+      "text": "ネザーの火に打ち勝つ一番の方法は、それを凍らせて永遠の炎を消し去ることです。"
+    }
+  ],
+  "effects": [
+    "Increases damage to fire based creatures",
+    "Multiple levels, each level increases damage further",
+    "Requires 1 Upgrade Slot per level"
+  ]
+}

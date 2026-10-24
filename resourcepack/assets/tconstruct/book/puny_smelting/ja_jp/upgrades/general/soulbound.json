@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:soulbound",
+  "text": [
+    {
+      "text": "物に魂を込めるなんて、健康によくなさそうです。でも、とても便利！"
+    }
+  ],
+  "effects": [
+    "Tool will remain with you upon an untimely demise",
+    "Single Level",
+    "Requires 1 Upgrade Slot"
+  ]
+}

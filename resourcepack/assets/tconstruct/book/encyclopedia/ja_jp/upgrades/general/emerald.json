@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:emerald",
+  "text": [
+    {
+      "text": "耐久度が50%、ノックバック耐性が5%増えます。採掘レベルを鉄まで引き上げ、条件付きの攻撃力と採掘速度を25%強化します。"
+    },
+    {
+      "text": "道具と防具は、それぞれが持つ能力のステータスアップのみ受けます。例えば、道具に適用してもノックバック耐性は得られません。",
+      "paragraph": true
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Maximum of 1 level",
+    "Requires 1 upgrade slot"
+  ]
+}

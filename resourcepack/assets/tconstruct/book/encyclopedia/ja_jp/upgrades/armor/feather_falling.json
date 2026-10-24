@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tconstruct:feather_falling",
+  "text": [
+    {
+      "text": "落下ダメージへの耐性が1レベルにつき12%増え、5レベルで最大48%になります。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Can apply levels incrementally",
+    "Maximum of 4 levels",
+    "Requires 1 upgrade slot per level"
+  ]
+}

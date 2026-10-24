@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:experienced",
+  "text": [
+    {
+      "text": "ベルトの下に仕込んだ経験値のお陰で、ちょっと賢くなったように感じます。"
+    }
+  ],
+  "effects": [
+    "Increases XP gain from blocks and mobs",
+    "Multiple levels, increases experience gained with each level",
+    "Requires 1 Upgrade Slot per level"
+  ]
+}

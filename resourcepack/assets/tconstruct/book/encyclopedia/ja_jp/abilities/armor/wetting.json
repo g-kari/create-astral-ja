@@ -1,0 +1,18 @@
+{
+  "modifier_id": "tconstruct:wetting",
+  "text": [
+    {
+      "text": "被弾時に少量の液体（通常10～50mB）を消費し、炎、回復、ステータス効果の解除などの効果を発動します。"
+    },
+    {
+      "text": "レギンスを持ち、タンクや排液口に使用すると、中に液体を入れられます。",
+      "paragraph": true
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Maximum of 1 level",
+    "Requires 1 ability slot",
+    "Fill by using tool on a fluid tank"
+  ]
+}

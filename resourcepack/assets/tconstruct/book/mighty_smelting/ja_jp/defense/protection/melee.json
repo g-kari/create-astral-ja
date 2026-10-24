@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:melee_protection",
+  "text": [
+    {
+      "text": "携帯用サンドバック。"
+    }
+  ],
+  "effects": [
+    "Decreases damage from swords, unarmed attacks, and more",
+    "Multiple levels, each level further decreases damage.",
+    "Requires 1 defense slot"
+  ]
+}

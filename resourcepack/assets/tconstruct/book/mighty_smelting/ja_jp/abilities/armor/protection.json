@@ -1,0 +1,12 @@
+{
+  "modifier_id": "tconstruct:protection",
+  "text": [
+    {
+      "text": "これまで様々なことがあったが、やっと全て揃った。"
+    }
+  ],
+  "effects": [
+    "Increases protection against all damage sources",
+    "Requires 1 ability slot per level"
+  ]
+}

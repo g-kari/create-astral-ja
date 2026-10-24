@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tconstruct:springy",
+  "text": [
+    {
+      "text": "(25×レベル)%の確率で、攻撃してきた相手に最大2ブロック分のノックバックを与えます。最もレベルが高い部位のものだけが適用されます。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Can apply levels incrementally",
+    "Maximum of 3 levels",
+    "Requires 1 upgrade slot per level"
+  ]
+}

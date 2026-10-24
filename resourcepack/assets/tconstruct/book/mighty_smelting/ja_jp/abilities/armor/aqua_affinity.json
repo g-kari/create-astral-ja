@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:aqua_affinity",
+  "text": [
+    {
+      "text": "水域との魅惑的な同調により、大気中における苦悩を反活性化します。"
+    }
+  ],
+  "effects": [
+    "Increases underwater mining speed",
+    "Single level",
+    "Requires 1 ability slot"
+  ]
+}

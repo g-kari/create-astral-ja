@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tconstruct:melting",
+  "text": [
+    {
+      "text": "鋳造炉は携帯性が悪い？あなたの道具を携帯鋳造炉に変えてみてください。Thruulは賢いので、もしかしたら価値のあるものを作ってくれるかもしれません。"
+    }
+  ],
+  "effects": [
+    "Melts attacked mobs into the tool's tank",
+    "Dropped items also are melted if possible",
+    "Tool can be emptied into a tank or a smeltery",
+    "Requires 1 Ability Slot, single use"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:haste",
+  "text": [
+    {
+      "text": "道具にレッドストーンを追加すると、速度が上がるようです。採掘速度の向上は、元の速度が遅い道具ほど強力になります。"
+    },
+    {
+      "text": "レッドストーン、クレイジーなヤツだろう？",
+      "paragraph": true
+    }
+  ],
+  "effects": [
+    "Increases mining speed",
+    "Multiple levels, each level increases speed a bit more",
+    "Requires 1 Upgrade Slot per level"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "鋳造炉",
+  "image": {
+    "file": "tconstruct:book/images/blaze_smeltery.png",
+    "width": 128,
+    "height": 73
+  },
+  "text": [
+    {
+      "text": "真の熟練職人なら、鋳造炉をブレイズの所へ運ぶものです。燃料を入れるだけで、連中が気付く前に吸い込んでくれます。劣った乾式精錬炉でもできるのでしょうが、誰がそちらを使いたがるでしょう。",
+      "paragraph": true
+    }
+  ]
+}

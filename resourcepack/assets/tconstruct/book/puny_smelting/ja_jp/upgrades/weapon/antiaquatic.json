@@ -1,0 +1,16 @@
+{
+  "modifier_id": "tconstruct:antiaquatic",
+  "text": [
+    {
+      "text": "海の敵は、この能力を持つ武器を使うものを恐れおののくでしょう。"
+    },
+    {
+      "text": "注意：魚、カメ、イルカなど、平和な海の生き物にこれを使う人は、ひどい人です。"
+    }
+  ],
+  "effects": [
+    "Increases damage to sea creatures",
+    "Multiple levels, each level increases damage further",
+    "Requires 1 Upgrade Slot per level"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:stripping",
+  "text": [
+    {
+      "text": "ちょっと待って、そっちの「ストリップ」じゃないんですか？ガッカリです。"
+    }
+  ],
+  "effects": [
+    "Allows you to strip wood with your tools",
+    "Single Level",
+    "Requires 1 Ability Slot"
+  ]
+}

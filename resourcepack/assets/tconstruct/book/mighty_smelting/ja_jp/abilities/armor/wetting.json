@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:wetting",
+  "text": [
+    {
+      "text": "怪我をすると少し濡れますが、大丈夫です。ちょっと待って、この改造をズボンに適用しなかったのですか？"
+    },
+    {
+      "text": "レギンスをタンクに使用すると、液体を入れられます。",
+      "paragraph": true
+    }
+  ],
+  "effects": [
+    "Applies fluid effects when damaged",
+    "Single level",
+    "Requires 1 ability slot"
+  ]
+}

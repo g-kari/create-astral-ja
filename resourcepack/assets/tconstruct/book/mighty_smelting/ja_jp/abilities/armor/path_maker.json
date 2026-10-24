@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tconstruct:path_maker",
+  "text": [
+    {
+      "text": "帰り道を忘れてうんざりしたことはありませんか？常に地面に痕跡を残しておきませんか？大地を踏みしめながら歩けば、自分がどこにいたか決して忘れません。"
+    }
+  ],
+  "effects": [
+    "Creates paths as you walk",
+    "Area boosted by expanded",
+    "Maximum of 1 level",
+    "Requires 1 ability slot"
+  ]
+}

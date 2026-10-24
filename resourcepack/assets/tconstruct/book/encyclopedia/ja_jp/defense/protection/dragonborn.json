@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:dragonborn",
+  "text": [
+    {
+      "text": "空中にいる間、ダメージへの耐性が10%増えます。防具一式での上限は80%、または合計10レベルです。"
+    },
+    {
+      "text": "空中での攻撃力が、この改造のレベルが最も高い装備の1レベルにつき10%増えます。",
+      "paragraph": true
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Can apply levels incrementally",
+    "Requires 1 defense slot"
+  ]
+}

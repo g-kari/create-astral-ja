@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:hydraulic",
+  "text": [
+    {
+      "text": "ポンプと液体の魔力を使えば、簡単にものを動かすことができます。つまり、これはあなただけではできません。"
+    }
+  ],
+  "effects": [
+    "Mines faster underwater or in the rain",
+    "Multiple levels, increases speed further with each level",
+    "Requires 1 Upgrade Slot per level"
+  ]
+}

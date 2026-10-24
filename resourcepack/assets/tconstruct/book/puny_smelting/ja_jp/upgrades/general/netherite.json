@@ -1,0 +1,18 @@
+{
+  "modifier_id": "tconstruct:netherite",
+  "text": [
+    {
+      "text": "ネザーの力があなたの道具に激しく流れています。"
+    },
+    {
+      "text": "だから、溶岩のような外部ダメージによって道具がなくなることはないでしょう。",
+      "paragraph": true
+    }
+  ],
+  "effects": [
+    "Boosts durability, attack damage, mining speed, toughness, and knockback resistance",
+    "Requires Diamond or Emerald to be applied",
+    "Single Level",
+    "Requires 1 Upgrade Slot"
+  ]
+}

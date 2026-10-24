@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:embellishment",
+  "text": [
+    {
+      "text": "板金防具とスライムスーツの見た目を変えられます。"
+    },
+    {
+      "text": "板金防具の装飾には金属インゴットを、スライムスーツには凝固スライムブロックを使います。",
+      "paragraph": true
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Multi-use",
+    "Slotless"
+  ]
+}

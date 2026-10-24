@@ -4,16 +4,16 @@ Minecraft Java 1.18.2 / Create: Astral **2.1.5b**向けの非公式日本語化�
 
 クエストの説明、独自アイテム名、ツールチップ、思案の説明、加工カテゴリを収録しています。MOD本体・レシピ・クエストの条件や報酬・ワールドには変更を加えません。各MOD自身が提供する日本語訳は、そのまま併用します。
 
-**v0.2.0では、Hephaestusの入門書「Materials and You（素材とあなた）」を追加しました。** 目次・本文142項目（JSON 35ファイル＋章名の言語ファイル1本）と、関連する本・装備名など8項目です。パッチ全体は4,025項目になりました。本を持って右クリックし、日本語の本文・目次を表示できます。ほかの説明書は今回の対象に含めません。表紙の英字は元MODの画像なので、そのまま残ります。
+**v0.3.0では、Hephaestusの全6冊と、Create・REI・Tech Rebornなどの残っていた表示を追加しました。** 2,103項目増え、全体は6,128項目です。表紙の英字は画像なので残ります。[対応範囲と残り](COVERAGE.md)を公開しています。
 
 ## ダウンロード
 
-[v0.2.0 リリース](https://github.com/g-kari/create-astral-ja/releases/tag/v0.2.0)
+[v0.3.0 リリース](https://github.com/g-kari/create-astral-ja/releases/tag/v0.3.0)
 
 | ファイル | 用途 |
 | --- | --- |
-| `Create-Astral-2.1.5b-Japanese-v0.2.0.zip` | クエストとMaterials and Youなどの日本語化。サーバーから配信可能 |
-| `Create-Astral-2.1.5b-Japanese-Menu-v0.2.0.zip` | タイトルメニューの日本語化。クライアント用 |
+| `Create-Astral-2.1.5b-Japanese-v0.3.0.zip` | クエスト・Hephaestusの本6冊・追加のMOD表示。サーバーから配信可能 |
+| `Create-Astral-2.1.5b-Japanese-Menu-v0.3.0.zip` | タイトルメニューの日本語化。クライアント用 |
 | `server-resource-pack.properties` | サーバー配信用のURL・SHA-1設定例 |
 | `*.sha1` / `*.sha256` | 配布ZIPのハッシュ |
 
@@ -23,7 +23,7 @@ Minecraft Java 1.18.2 / Create: Astral **2.1.5b**向けの非公式日本語化�
 2. 「設定 → リソースパック」で有効化し、一覧の上側へ移します。
 3. 「設定 → 言語」で「日本語」を選択します。
 
-v0.1.0から更新する場合は旧ZIPを無効化して、新ZIPを有効化してください。本を閉じてから入れ替え、リソースの再読み込みが終わってから開き直します。
+旧版から更新する場合は旧ZIPを無効化して、新ZIPを有効化してください。本を閉じてから入れ替え、リソースの再読み込みが終わってから開き直します。
 
 メニューも日本語化する場合は、ゲームを終了してからMenu版ZIPを展開し、中の `config` をそのインスタンスのフォルダーへコピーします。追加するのは `ja_jp.local` だけです。既存のワールドや設定一式を置き換える必要はありません。戻す場合は追加したファイルだけを削除します。
 
@@ -34,7 +34,7 @@ v0.1.0から更新する場合は旧ZIPを無効化して、新ZIPを有効化�
 リリースにある `server-resource-pack.properties` の各項目を、サーバーの `server.properties` に反映し、都合のよいときに再起動してください。この設定例を `server.properties` 全体に上書きしないでください。
 
 ```properties
-resource-pack=https://github.com/g-kari/create-astral-ja/releases/download/v0.2.0/Create-Astral-2.1.5b-Japanese-v0.2.0.zip
+resource-pack=https://github.com/g-kari/create-astral-ja/releases/download/v0.3.0/Create-Astral-2.1.5b-Japanese-v0.3.0.zip
 resource-pack-sha1=配布したZIPのSHA-1
 require-resource-pack=false
 ```
@@ -43,7 +43,7 @@ require-resource-pack=false
 
 すでに別のサーバーリソースパックを配信している場合、1.18.2のこの設定欄は1本です。既存のパックに言語ファイルを統合し、統合後のZIPのハッシュを使ってください。タイトルメニューはサーバー参加前に表示されるため、Menu版はこの方法で配信できません。
 
-Materials and Youの翻訳も通常版ZIPに含まれ、同じ配信で受け取れます。サーバーパックは接続・退出時に適用状態が切り替わるため、リソースの読み直しが発生します。待ち時間を避けたい人は、通常版ZIPをローカルで常時有効化し、そのサーバーの編集画面で「サーバーリソースパック」を無効化してください。この方法は、サーバー側がパックを必須にしていない場合に使えます。他の参加者への配信には影響しません。
+Hephaestusの本6冊の翻訳も通常版ZIPに含まれ、同じ配信で受け取れます。サーバーパックは接続・退出時に適用状態が切り替わるため、リソースの読み直しが発生します。待ち時間を避けたい人は、通常版ZIPをローカルで常時有効化し、そのサーバーの編集画面で「サーバーリソースパック」を無効化してください。この方法は、サーバー側がパックを必須にしていない場合に使えます。他の参加者への配信には影響しません。
 
 このプロジェクトが稼働中のサーバー設定を書き換えたり、再起動したりすることはありません。
 
@@ -52,10 +52,10 @@ Materials and Youの翻訳も通常版ZIPに含まれ、同じ配信で受け取
 - JSON・メニューのUTF-8構文、全項目の収録、重複キー、`%s`などの差し込み、色・装飾コード、URL、タグや検索用の参照を検査します。
 - 上流の英語テキストは、公開インデックスに保存したSHA-256と照合できます。英語コーパス全体は同梱しません。
 - クエスト定義の2,662種類の翻訳参照を調べ、英語ファイルにも欠けていた燃料タスクの表示キーを補いました。
-- Materials and Youは、翻訳元JARの35個のJSONと章名ファイルを照合し、翻訳以外の構造・レシピ参照・アイテムID・NBT・図の参照・数値を保持しているか検査します。Mantle 1.9.156の実装が選択言語の本データをリソースマネージャーから読むことも確認しました。
-- **v0.2.0の説明書のゲーム内表示は未検証です。** 日本語が長くなることによる見切れや、MOD間のリソース優先順位は、実プレイで確認が必要です。
+- Hephaestusの全6冊・416ファイルで、翻訳以外の構造・レシピ参照・アイテムID・NBT・図の参照・数値を保持しているか検査します。Mantle 1.9.156が選択言語の本をリソースマネージャーから読むことも確認しました。
+- **v0.3.0の追加画面・説明書のゲーム内表示は未検証です。** 日本語が長くなることによる見切れや、MOD間のリソース優先順位は、実プレイで確認が必要です。
 - 原作のクエスト定義に英語で直接固定されている少数の見出し・確認ボタン（例：`Got it!`、`Wow thanks!`）は、言語ファイルだけでは変更できません。クエスト定義の上書きや進行データの変更は行っていません。
-- 当パッチは、既存MODの全UI・全アイテムを独自に翻訳するものではありません。原作のオーバーライド言語ファイルを対象にしています。
+- パック独自の言語ファイルに加え、5 MODの未翻訳表示とHephaestusの本に対応します。すべてのMODの全UI・全アイテムを翻訳するものではありません。[残りの一覧](COVERAGE.md)を確認してください。
 
 表記上、原文の引き出し容量の括弧内にあった計算不整合は省き、記載された個数を保持しています。架空の装置・物質・効果や、作者からのメッセージは原作の内容です。
 
@@ -80,8 +80,14 @@ node tools/validate.mjs /path/to/overrides
 node tools/validate.mjs /path/to/overrides /path/to/hephaestus-extracted
 ```
 
+追加MODの原文も照合する場合は、`mod-language-index.json` の `sourceFile` と同じ相対配置で展開したJAR群の親ディレクトリを第3引数に渡します。
+
+```sh
+node tools/validate.mjs /path/to/overrides /path/to/hephaestus-extracted /path/to/extracted-mods
+```
+
 ## ライセンス・クレジット
 
-[自作ツールはMIT](LICENSE)。Create: Astral由来の翻訳データには原作の権利留保・条件を保持し、**MITは適用しません**。Hephaestusの本と関連する8個の言語キーは、同MODのMITライセンスを継承します。[詳しい適用範囲](LICENSING.md)、[原作ライセンス](UPSTREAM-LICENSE.md)、[Hephaestusの権利表示](HEPHAESTUS-LICENSE.txt)を確認してください。
+[自作ツールはMIT](LICENSE)。Create: Astral由来の翻訳データには原作の権利留保・条件を保持し、**MITは適用しません**。Hephaestusの本と関連する8個の言語キー、および `mod-language-index.json` の追加言語キーは、それぞれのMODのMITに従い、権利表示を同梱します。[追加分の権利表示](third-party-licenses/)も確認してください。[詳しい適用範囲](LICENSING.md)、[原作ライセンス](UPSTREAM-LICENSE.md)、[Hephaestusの権利表示](HEPHAESTUS-LICENSE.txt)を確認してください。
 
 原作はLaskyyyおよびCreate: Astralの各貢献者によるものです。公式配布：<https://github.com/Laskyyy/Create-Astral/releases/tag/v2.1.5b>。本プロジェクトは非公式で、原作者からの公認を表すものではありません。

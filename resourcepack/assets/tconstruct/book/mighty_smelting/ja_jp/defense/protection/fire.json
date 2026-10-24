@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:fire_protection",
+  "text": [
+    {
+      "text": "火と炎をくぐり抜けて。"
+    }
+  ],
+  "effects": [
+    "Decreases fire damage and burn time",
+    "Multiple levels, each level further decreases damage and burn time.",
+    "Requires 1 defense slot"
+  ]
+}

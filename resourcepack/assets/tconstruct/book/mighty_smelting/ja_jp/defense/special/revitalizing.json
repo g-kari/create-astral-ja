@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tconstruct:revitalizing",
+  "text": [
+    {
+      "text": "きらめくリンゴ、なんて懐かしい。"
+    }
+  ],
+  "effects": [
+    "Can apply levels incrementally",
+    "Maximum of 2 levels on helmets or boots",
+    "Maximum of 3 levels on chestplates or leggings",
+    "Requires 1 defense slot"
+  ]
+}

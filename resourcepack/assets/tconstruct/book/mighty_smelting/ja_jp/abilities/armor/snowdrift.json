@@ -1,0 +1,15 @@
+{
+  "modifier_id": "tconstruct:snowdrift",
+  "text": [
+    {
+      "text": "スノウゴーレムを見て。雪の跡を残していく姿はクールだと思いませんか？あなたも雪の跡を残してみたいと思いませんか？"
+    }
+  ],
+  "effects": [
+    "Creates snow as you walk",
+    "Does not work in warm biomes",
+    "Area boosted by expanded",
+    "Maximum of 1 level",
+    "Requires 1 ability slot"
+  ]
+}

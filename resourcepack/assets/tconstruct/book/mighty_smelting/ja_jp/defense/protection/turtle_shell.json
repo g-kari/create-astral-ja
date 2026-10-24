@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:turtle_shell",
+  "text": [
+    {
+      "text": "緑、赤、青の甲羅からは守ってくれません。"
+    }
+  ],
+  "effects": [
+    "Decreases damage underwater and increases swim speed",
+    "Multiple levels, each level further increases protection and swim speed",
+    "Requires 1 defense slot"
+  ]
+}

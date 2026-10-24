@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:reach",
+  "text": [
+    {
+      "text": "星に手を伸ばそう！或いは一番上の棚に…。背の低い人は中くらいの高さの棚に…。"
+    }
+  ],
+  "effects": [
+    "Increases reach distance for blocks, mining, and attacking",
+    "Multiple levels, each level allows you to reach further",
+    "Requires 1 Ability Slot per level"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tconstruct:tool_belt",
+  "text": [
+    {
+      "text": "レギンスのアクションボタンを押すことで交換できる4個のホットバースロットが追加されます。レベルが上がると1ずつ増え、6レベルで最大の9個になります。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "First level requires 1 ability slot",
+    "Max 6 levels",
+    "Different recipe each level"
+  ]
+}

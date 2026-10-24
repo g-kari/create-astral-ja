@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tconstruct:sweeping_edge",
+  "text": [
+    {
+      "text": "剣のなぎ払いダメージを増やします。メイン攻撃に対して、1レベルで50%、2レベルで67%、3レベルで75%、4レベルで80%のダメージを与えます。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Can apply levels incrementally",
+    "Maximum of 4 levels",
+    "Requires 1 upgrade slot per level"
+  ]
+}

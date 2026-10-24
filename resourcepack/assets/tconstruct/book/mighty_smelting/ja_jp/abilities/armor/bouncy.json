@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:bouncy",
+  "text": [
+    {
+      "text": "世界はあなたのトランポリン。"
+    }
+  ],
+  "effects": [
+    "Bounce on landing",
+    "Single level",
+    "Requires 1 ability slot"
+  ]
+}

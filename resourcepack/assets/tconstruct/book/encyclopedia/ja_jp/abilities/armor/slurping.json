@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:slurping",
+  "text": [
+    {
+      "text": "ヘルメットのアクションキーを押すと、ヘルメットの中の液体を飲んでその効果を得られます。例えば自分に火が付く、ステータスをクリアする、満腹度を回復させる、などです。"
+    },
+    {
+      "text": "ヘルメットを持ち、タンクや排液口に使用すると、中に液体を入れられます。",
+      "paragraph": true
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Requires 1 ability slot",
+    "Fill by using tool on a fluid tank"
+  ]
+}

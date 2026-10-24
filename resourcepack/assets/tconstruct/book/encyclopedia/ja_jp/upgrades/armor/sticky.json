@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:sticky",
+  "text": [
+    {
+      "text": "1レベルにつき25%の確率で、攻撃してきた相手に最大1.5秒＋1レベルにつき1秒の移動速度低下を与えます。効果が最も強い装備のものが適用されます。"
+    },
+    {
+      "text": "武器では、攻撃した相手に効果が付きます。",
+      "paragraph": true
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Maximum of 3 levels",
+    "Requires 1 upgrade slot per level"
+  ]
+}

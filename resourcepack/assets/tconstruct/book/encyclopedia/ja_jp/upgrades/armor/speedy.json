@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tconstruct:speedy",
+  "text": [
+    {
+      "text": "レベルごとに、移動速度が10%ずつ増加していきます。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Can apply levels incrementally",
+    "Maximum of 3 levels",
+    "Requires 1 upgrade slot per level"
+  ]
+}

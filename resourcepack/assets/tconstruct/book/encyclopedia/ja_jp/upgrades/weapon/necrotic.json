@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:necrotic",
+  "text": [
+    {
+      "text": "クリティカル攻撃時、与えたダメージの一部を回復します。1レベルで25%、2レベルで45%、3レベルで60%、4レベルで70%、5レベルで75%です。道具は1レベルにつき耐久度を追加で1消費します。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Maximum of 5 levels",
+    "Requires 1 upgrade slot per level"
+  ]
+}

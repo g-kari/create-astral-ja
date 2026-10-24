@@ -1,0 +1,18 @@
+{
+  "modifier_id": "tconstruct:netherite",
+  "text": [
+    {
+      "text": "耐久度と攻撃力が20%、採掘速度が25%、ノックバック耐性が5%、防具強度が1増えます。採掘レベルをネザライトまで引き上げ、落とした道具が壊れなくなります。"
+    },
+    {
+      "text": "道具と防具は、それぞれが持つ能力のステータスアップのみ受けます。",
+      "paragraph": true
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Maximum of 1 level",
+    "Requires Diamond or Emerald to be applied",
+    "Requires 1 upgrade slot"
+  ]
+}

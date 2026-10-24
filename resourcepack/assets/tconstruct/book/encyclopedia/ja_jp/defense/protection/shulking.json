@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:shulking",
+  "text": [
+    {
+      "text": "スニーク中、ダメージへの耐性が8%増えます。防具一式での上限は80%、または合計10レベルです。"
+    },
+    {
+      "text": "スニーク中の攻撃力が(10×レベル)%減少します。ここでのレベルは合計ではなく部位の中での最高レベルです。",
+      "paragraph": true
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Can apply levels incrementally",
+    "Requires 1 defense slot"
+  ]
+}

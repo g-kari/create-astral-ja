@@ -1,0 +1,18 @@
+{
+  "modifier_id": "tconstruct:melting",
+  "text": [
+    {
+      "text": "乾式精錬炉は携帯性が悪いですよね？あなたの道具を携帯用乾式精錬炉にしてみませんか？"
+    },
+    {
+      "text": "道具を持ってタンクを右クリックすると中身を移せます。",
+      "paragraph": true
+    }
+  ],
+  "effects": [
+    "Melts attacked mobs into the tool's tank",
+    "Dropped items also are melted if possible",
+    "Tool can be emptied into a tank or a smeltery drain",
+    "Requires 1 Ability Slot, single level"
+  ]
+}

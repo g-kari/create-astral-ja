@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tconstruct:flamewake",
+  "text": [
+    {
+      "text": "火打石とレンガをブーツに組み合わせるなんて、誰が考えたんだろう。もう、どこにも安全に足を運べません！"
+    }
+  ],
+  "effects": [
+    "Leaves fires where you walk",
+    "Area boosted by expanded",
+    "Maximum of 1 level",
+    "Requires 1 ability slot"
+  ]
+}

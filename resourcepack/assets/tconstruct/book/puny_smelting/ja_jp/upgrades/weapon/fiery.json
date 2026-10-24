@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:fiery",
+  "text": [
+    {
+      "text": "ネザーの炎は敵を戒める。"
+    }
+  ],
+  "effects": [
+    "Burns targets on hit",
+    "Multiple levels, higher levels increase burn duration",
+    "Requires 1 Upgrade Slot per level"
+  ]
+}

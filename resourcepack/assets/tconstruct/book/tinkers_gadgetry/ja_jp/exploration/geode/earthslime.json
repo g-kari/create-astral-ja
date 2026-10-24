@@ -1,0 +1,13 @@
+{
+  "title": "アーススライムのジオード",
+  "image": {
+    "file": "tconstruct:book/images/geodes/earthslime.png",
+    "width": 180,
+    "height": 90
+  },
+  "text": [
+    {
+      "text": "アーススライムの晶洞は地下深くにあり、私が見た中でも最大級の大きさになることがあります。周囲の花崗岩が目印になることが多く、中には粘土も大量にあります。"
+    }
+  ]
+}

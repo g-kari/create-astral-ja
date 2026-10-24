@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tconstruct:tank",
+  "text": [
+    {
+      "text": "この相棒は120mmの大砲を持っていて、機械を搭載…ちょっと待って、そっちの「タンク」ではない？むしろ私が車を持っているほうがガッカリです。"
+    }
+  ],
+  "effects": [
+    "Increases the tank size of the tool",
+    "Tool becomes a portable fluid container",
+    "Multiple levels, each level increases tank size further",
+    "Requires 1 Upgrade Slot per level"
+  ]
+}

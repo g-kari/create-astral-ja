@@ -1,0 +1,18 @@
+{
+  "modifier_id": "tconstruct:slurping",
+  "text": [
+    {
+      "text": "彼はナンバー1だった！"
+    },
+    {
+      "text": "ヘルメットを持ってタンクを右クリックすると、液体を入れられます。",
+      "paragraph": true
+    }
+  ],
+  "effects": [
+    "Drink fluids stored in the helmet",
+    "Keybind is used to drink",
+    "Single level",
+    "Requires 1 ability slot"
+  ]
+}

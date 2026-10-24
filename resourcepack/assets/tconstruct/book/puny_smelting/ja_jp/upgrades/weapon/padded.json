@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:padded",
+  "text": [
+    {
+      "text": "少しくらいのフワフワ攻撃なら誰も傷つかないでしょう。"
+    }
+  ],
+  "effects": [
+    "Reduces knockback of tool",
+    "Multiple levels, each level decreases knockback further",
+    "Requires 1 Upgrade Slot per level"
+  ]
+}

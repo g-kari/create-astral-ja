@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:spilling",
+  "text": [
+    {
+      "text": "少量の液体（通常10～50mB）を消費し、攻撃や反撃に炎、追加ダメージ、ポーション効果などを加えます。"
+    },
+    {
+      "text": "道具を手に持ってタンクやドレンに使うことで、液体を補充できます。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Maximum of 1 level",
+    "Requires 1 ability slot",
+    "Fill by using tool on a fluid tank"
+  ]
+}

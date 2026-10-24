@@ -1,0 +1,14 @@
+{
+  "modifier_id": "tconstruct:reinforced",
+  "text": [
+    {
+      "text": "道具の耐久度が減る確率が下がります。レベル1で75%、レベル2で55%、レベル3で40%、レベル4で30%、レベル5で25%の確率で耐久度が減ります。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Can apply levels incrementally",
+    "Maximum of 5 levels",
+    "Requires 1 upgrade slot per level"
+  ]
+}

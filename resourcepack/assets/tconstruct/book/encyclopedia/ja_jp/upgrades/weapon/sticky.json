@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:sticky",
+  "text": [
+    {
+      "text": "攻撃してきた相手に、最大1.5秒＋1レベルにつき1秒の移動速度低下を与えます。"
+    },
+    {
+      "text": "胸当てでは、素手の改造がある場合に効果を発揮します。ほかの防具では、別の効果になります。",
+      "paragraph": true
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Maximum of 3 levels",
+    "Requires 1 upgrade slot per level"
+  ]
+}

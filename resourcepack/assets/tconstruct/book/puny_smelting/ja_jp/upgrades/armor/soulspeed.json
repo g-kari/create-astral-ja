@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:soulspeed",
+  "text": [
+    {
+      "text": "どうやら、魂は速く走るために最高のものです。これは倫理的に大丈夫？"
+    }
+  ],
+  "effects": [
+    "Increases movement speed on soul sand",
+    "Multiple levels, each level further increases speed",
+    "Requires 1 Upgrade Slot per level"
+  ]
+}

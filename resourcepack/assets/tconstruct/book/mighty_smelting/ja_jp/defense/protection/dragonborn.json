@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:dragonborn",
+  "text": [
+    {
+      "text": "Dovah ko krif dilos ahrk qah.（竜の言葉）"
+    },
+    {
+      "text": "職人なのに竜の言葉が読めない？まったく、最近は何を教えているのですか。「空を飛ぶドラゴンは危険で、守りも堅い」と書いてあります。",
+      "paragraph": true
+    }
+  ],
+  "effects": [
+    "Increases protection and attack damage when airborn",
+    "Multiple levels, each level further increases protection and damage",
+    "Requires 1 defense slot"
+  ]
+}

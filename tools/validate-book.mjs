@@ -45,8 +45,7 @@ function safeRelative(name) {
   if (!name || name.includes('\\') || name.split('/').some(part => !part || part === '.' || part === '..') || path.isAbsolute(name)) throw Error('Invalid book path');
   return name;
 }
-export function validateBook(root, languageValues, sourceRoot) {
-  const meta = readJSON(path.join(root, 'book-index.json'));
+function validateOneBook(root, languageValues, sourceRoot, meta) {
   const directory = path.join(root, 'resourcepack', safeRelative(meta.resourcePath));
   const expected = meta.files.map(file => safeRelative(file.path));
   if (new Set(expected).size !== expected.length || !isDeepStrictEqual(sorted(walk(directory)), sorted(expected))) throw Error('Book file coverage differs from index');
@@ -83,7 +82,7 @@ export function validateBook(root, languageValues, sourceRoot) {
     strings += file.fields.length;
   }
   const seenLanguage = new Set();
-  for (const row of meta.languageEntries) {
+  for (const row of meta.languageEntries || []) {
     const id = row.namespace + ':' + row.key;
     if (seenLanguage.has(id)) throw Error('Duplicate book item language key');
     seenLanguage.add(id);
@@ -94,4 +93,9 @@ export function validateBook(root, languageValues, sourceRoot) {
     }
   }
   return {id: meta.book, files: expected.length, strings, languageStrings: seenLanguage.size, sourceVerified: Boolean(sourceRoot), coverTranslated: meta.coverTranslated};
+}
+export function validateBook(root, languageValues, sourceRoot) {
+  const meta = readJSON(path.join(root, 'book-index.json'));
+  const books = [meta, ...(meta.additionalBooks || [])].map(book => validateOneBook(root, languageValues, sourceRoot, book));
+  return {count: books.length, files: books.reduce((n, book) => n + book.files, 0), strings: books.reduce((n, book) => n + book.strings, 0), languageStrings: books.reduce((n, book) => n + book.languageStrings, 0), sourceVerified: Boolean(sourceRoot), books};
 }

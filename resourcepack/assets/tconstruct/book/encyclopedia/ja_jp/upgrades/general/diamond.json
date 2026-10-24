@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:diamond",
+  "text": [
+    {
+      "text": "耐久度が500（防具では250）、攻撃力が0.5、採掘速度が2、防御力が1増えます。さらに、道具の採掘レベルをダイヤモンドまで引き上げます。"
+    },
+    {
+      "text": "道具と防具は、それぞれが持つ能力のステータスアップのみ受けます。例えば、道具に適用しても防御が+1されることはありません。",
+      "paragraph": true
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Maximum of 1 level",
+    "Requires 1 upgrade slot"
+  ]
+}

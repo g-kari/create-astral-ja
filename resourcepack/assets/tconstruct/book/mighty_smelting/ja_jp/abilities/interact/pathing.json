@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:pathing",
+  "text": [
+    {
+      "text": "もし黄金のレンガ道が見つからないなら、自分自身で土から道を作りましょう。"
+    }
+  ],
+  "effects": [
+    "Allows you to make paths with your tools",
+    "Single Level",
+    "Requires 1 Ability Slot"
+  ]
+}

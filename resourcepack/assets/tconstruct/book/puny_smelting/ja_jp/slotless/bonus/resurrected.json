@@ -1,0 +1,12 @@
+{
+  "modifier_id": "tconstruct:resurrected",
+  "text": [
+    {
+      "text": "あなたの道具の中にはドラゴンの命が流れています。さて、あなたがこれを使うとそれを召喚できるでしょう。代わりにあなたはそれを道具に使ってみました。"
+    }
+  ],
+  "effects": [
+    "Adds an upgrade slot",
+    "Single Use"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:turtle_shell",
+  "text": [
+    {
+      "text": "水中にいる間、ダメージへの耐性が8%増えます。防具一式での上限は80%、または合計10レベルです。"
+    },
+    {
+      "text": "水泳速度を(5×レベル)%上昇させます。",
+      "paragraph": true
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Can apply levels incrementally",
+    "Requires 1 defense slot"
+  ]
+}

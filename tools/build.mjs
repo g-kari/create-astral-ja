@@ -16,7 +16,7 @@ function zip(name,entries){let offset=0;const blocks=[],central=[];for(const [fi
  }const directory=Buffer.concat(central),end=Buffer.alloc(22);end.writeUInt32LE(0x06054b50);end.writeUInt16LE(entries.length,8);end.writeUInt16LE(entries.length,10);end.writeUInt32LE(directory.length,12);end.writeUInt32LE(offset,16);const data=Buffer.concat([...blocks,directory,end]);fs.writeFileSync(path.join(out,name),data);
  for(const alg of ['sha1','sha256'])fs.writeFileSync(path.join(out,name+'.'+alg),crypto.createHash(alg).update(data).digest('hex')+'  '+name+'\n');return {name,bytes:data.length,sha1:crypto.createHash('sha1').update(data).digest('hex')};
 }
-const notices=['LICENSING.md','UPSTREAM-LICENSE.md','HEPHAESTUS-LICENSE.txt'].map(n=>[n,fs.readFileSync(path.join(root,n))]);
+const notices=[...['LICENSING.md','UPSTREAM-LICENSE.md','HEPHAESTUS-LICENSE.txt'].map(n=>[n,fs.readFileSync(path.join(root,n))]),...walk(path.join(root,'third-party-licenses'),'third-party-licenses/')];
 const pack=zip(`Create-Astral-2.1.5b-Japanese-v${version}.zip`,[...walk(path.join(root,'resourcepack')),...notices]);
 zip(`Create-Astral-2.1.5b-Japanese-Menu-v${version}.zip`,[...walk(path.join(root,'client-overlay')),...notices]);
 const url=`https://github.com/g-kari/create-astral-ja/releases/download/v${version}/`+pack.name;
