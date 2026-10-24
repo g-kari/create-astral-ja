@@ -1,0 +1,13 @@
+{
+  "modpack": "Create: Astral",
+  "version": "2.1.5b",
+  "minecraft": "1.18.2",
+  "release": "https://github.com/Laskyyy/Create-Astral/releases/tag/v2.1.5b",
+  "clientZip": "https://github.com/Laskyyy/Create-Astral/releases/download/v2.1.5b/Create-Astral-CurseForge-v2.1.5b.zip",
+  "clientSha256": "1e08738fc3a388c8bfbdadb703f0f6577c5b69185fffb63bad2875e812abdc16",
+  "sourceEntries": 3874,
+  "resourceEntries": 3828,
+  "menuEntries": 46,
+  "resourceFormat": 8,
+  "additionalEntries": 1
+}

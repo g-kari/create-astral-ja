@@ -1,0 +1,11 @@
+{
+  "name": "create-astral-ja-tools",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node tools/validate.mjs",
+    "build": "node tools/build.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

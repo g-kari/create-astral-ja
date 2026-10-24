@@ -1,0 +1,13 @@
+{
+  "fluid.astraladditions.sputum": "痰",
+  "item.yttr.raw_gadolinite": "イットリウムの原鉱",
+  "item.yttr.ultrapure_wolfram": "超高純度の残骸",
+  "block.yttr.gadolinite": "イットリウム",
+  "block.yttr.raw_gadolinite_block": "イットリウムの原鉱ブロック",
+  "block.yttr.deepslate_gadolinite": "深層岩のイットリウム鉱石",
+  "block.yttr.continuous_platform": "構造を持つプリズム結晶",
+  "block.yttr.centrifuge": "イットリウム遠心分離機",
+  "advancements.yttr.obtain_xl_iron_ingot.desc": "イットリウムの原鉱を精錬し、大きな鉄を得る",
+  "advancements.yttr.obtain_yttrium_ingot.desc": "イットリウムの原鉱を溶鉱炉で精錬し、イットリウムインゴットを得る",
+  "fluid.yttr.core_lava": "核の溶岩"
+}
